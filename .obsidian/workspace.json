@@ -4,39 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bd792c1b293397b4",
+        "id": "4d477a6ec3745def",
         "type": "tabs",
         "children": [
           {
-            "id": "42fc2a5966f2d957",
+            "id": "be9955eba2aa66fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State Machine Replication.md",
+                "file": "Tips/疲れているときにリラックスする方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State Machine Replication"
-            }
-          }
-        ]
-      },
-      {
-        "id": "7bd9e4024180bc6f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a8991b2d9527c15d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "title": "疲れているときにリラックスする方法"
             }
           }
         ]
@@ -70,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "state machine replication",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,12 +73,11 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 444.5
   },
   "right": {
     "id": "82a665169caa6dda",
@@ -157,22 +138,36 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Tips/疲れているときにリラックスする方法.md"
+              },
               "icon": "lucide-list",
-              "title": "アウトライン"
+              "title": "疲れているときにリラックスする方法のアウトライン"
+            }
+          },
+          {
+            "id": "42fc2a5966f2d957",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 365.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
+      "switcher:クイックスイッチャーを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
@@ -183,35 +178,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42fc2a5966f2d957",
+  "active": "be9955eba2aa66fe",
   "lastOpenFiles": [
-    "index.md",
-    "Quartz",
-    "最小解関数.md",
-    "kekeho.md",
-    "Merkle TreeのP2Pファイルシェアリングにおける応用.md",
-    "Merkle_Tree.md",
-    "リレーショナルデータモデル.md",
-    "Keycloak.md",
-    "日報/2024 04 06.md",
-    "日報/2024-11-09.md",
-    "日報/2024-11-09 1.md",
-    "日報/2024 04 12.md",
-    "日報/2024 04 05.md",
-    "日報/2023 04 25.md",
-    "日報/2023 04 20.md",
-    "日報/日報.md",
-    "2024 03 22.md",
-    "日報/2024 03 27.md",
-    "日報/2024 03 26.md",
-    "日報/2024 03 25.md",
-    "日報/2024 03 24.md",
-    "日報/2024 03 23.md",
-    "日報/2024 03 22.md",
-    "日報/2024 03 21.md",
-    "日報/2024 03 20.md",
-    "日報",
-    "名称未設定フォルダ",
+    "🔐暗号技術/ホワイトボックス暗号.md",
+    "🔐暗号技術/eUICC.md",
+    "🔐暗号技術/Unlinkability.md",
+    "🔐暗号技術/UICC.md",
+    "🔐暗号技術/GlobalPlatform.md",
+    "🪪Digital Identity/GlobalPlatform eID Wallet Task Force.md",
+    "🔐暗号技術/StrongBox Keymaster.md",
+    "🔐暗号技術/Secure Enclave.md",
+    "🔐暗号技術/SPU.md",
+    "🪪Digital Identity/OpenBadge.md",
+    "💻️プログラミング・コンピュータ・アルゴリズム/CryptoKit Security.md",
+    "💻️プログラミング・コンピュータ・アルゴリズム/分離軸判定.md",
+    "💻️プログラミング・コンピュータ・アルゴリズム/WASIX.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Smart Property.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/ThroughputとBandwidthの違い.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Hashcash.md",
+    "💻️プログラミング・コンピュータ・アルゴリズム/3Dオブジェクトの衝突判定.md",
+    "🪪Digital Identity/Proof of Possession.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Making CRDTs Byzantine fault tolerant.md",
+    "Rolling Hash.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Eventual Consistency and the Fundamental Limits of Peer-to-Peer Databases.md",
+    "📊数学・論理学/idempotent.md",
+    "🪪Digital Identity/OpenID Connect Discovery.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Search Tree.md",
+    "🪪Digital Identity/Keycloak VC-Issuer.md",
+    "📊数学・論理学/ロピタルの定理.md",
+    "研究",
+    "その他",
+    "kekeho",
+    "雑学/社会系",
+    "雑学/物理・化学系",
+    "Tips",
+    "インターネット社会",
+    "雑学",
+    "🪪Digital Identity",
+    "📊数学・論理学",
     "assets/FuIo-IyaYAABIci.jpg",
     "assets/64f7a2bd8f035f001c4a0056.png",
     "assets/643a535dd3908b001b17ca94.png",
@@ -221,10 +225,6 @@
     "assets/FuTbXHbagAAD-LO.jpg",
     "assets/6605009e2577410025d7d111.jpeg",
     "assets/663710de3440000026395279.jpg",
-    "assets/Screenshot%202024-08-09%20at%205.35.11%E2%80%AFPM.png",
-    "assets/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F31409%2Fb0091608-d6cb-92e4-e528-8e487f06831f.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=fc9e0daf2c9a8ad777381b9fb232f4e1",
-    "assets/spaces%2F1k3zreXT6Nz41D1g1C6K%2Fuploads%2Fgit-blob-e0bbc151c7bba4836663ed0fa163808a2f06ca14%2FArchitecture-SSIKit-by-waltid.png?alt=media",
-    "assets/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F68018%2F55e8325e-81ce-911c-c731-52b24b0c18aa.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=ad0fee74813019295da9c21ea894d488",
-    "assets"
+    "assets/Screenshot%202024-08-09%20at%205.35.11%E2%80%AFPM.png"
   ]
 }
