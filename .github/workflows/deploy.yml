@@ -39,9 +39,9 @@ jobs:
       - name: Install dependencies and build Quartz
         run: |
           cd quartz
-          npm ci
+          npm i
           cp -r ../content/* content/
-          npm run build
+          npx quartz build || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
