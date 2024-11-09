@@ -1,0 +1,1 @@
+[[Obsidian]]で書いたMarkdownを、いい感じにHTMLにして、Graph Viewまで作ってくれるツール

@@ -1,4 +1,4 @@
-[#CRDT](CRDT.md) [#Logical_Clock](Logical_Clock) [#論理時計](💻️Computer%20Science・プログラミング・アルゴリズム・ツール/🌐Distributed%20Systems・Concurrency・Transaction・DB/Clock/Logical%20Clock.md) [#Monotonicity](Monotonicity)
+[#CRDT](CRDT.md) [#Logical_Clock](Logical_Clock) [#論理時計](Logical%20Clock.md) [#Monotonicity](Monotonicity)
 
 - [https://dl.acm.org/doi/10.1145/3642976.3653034](https://dl.acm.org/doi/10.1145/3642976.3653034)
 - [[PaPoC]] 2024
@@ -32,7 +32,7 @@
 	- $future(e) = \{\check{e} \in \mathbb{E} | e \preceq \check{e}\}$:  因果的未来。不変。
 		- 不変…?(kekeho)
 [[Byzantine Monotonicity]]
-- 従来の[[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock]]([[Lamport Clock]], [[Vector Clock]]等)はmonotone functionだけど、レプリカがイベントに全順序を割り当てるという仮定があるので、[[Byzantine Fault Tolerant]]とはいえない
+- 従来の[[Logical Clock]]([[Lamport Clock]], [[Vector Clock]]等)はmonotone functionだけど、レプリカがイベントに全順序を割り当てるという仮定があるので、[[Byzantine Fault Tolerant]]とはいえない
 	- 協調無しで検証ができない
 - ビザンチンレプリカの攻撃ベクトル
 	- [[Malformation]]

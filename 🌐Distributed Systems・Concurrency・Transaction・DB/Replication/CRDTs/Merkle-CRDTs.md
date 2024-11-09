@@ -10,7 +10,7 @@
 Contributions
 - [[Merkle Clock]]
 	- Merkle DAGベースの論理時計
-	- CRDTで活用されるバージョンベクタ・[[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock]]のかわりに、Merkle Treeが使えることを示すンゴ
+	- CRDTで活用されるバージョンベクタ・[[Logical Clock]]のかわりに、Merkle Treeが使えることを示すンゴ
 - Merkle-CRDTs
 	- CRDTのペイロードのための汎用トランスポート・永続化レイヤ
 
@@ -25,7 +25,7 @@ Merkle Clock
 		- これで[[happend-before]]がわかるね
 	- それ以外: 全然別の不連続なDAGなので、$\alpha, \beta$という2つのノードを子に持つ$\gamma$を作る(マージ)
 		- これで[[並行]]がわかるね
-- ↑より、Merkle Clockは因果関係情報を含んでいるといえる。Merkle DAGがたしかに[[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock]]として使える
+- ↑より、Merkle Clockは因果関係情報を含んでいるといえる。Merkle DAGがたしかに[[Logical Clock]]として使える
 	- Strict Partial Orderなので、全部のイベントについて前後がわかるわけではない、並行も存在することに注意。
 - Merkle Clock DAGは[[G-Set]] CRDTとみなせるので、収束するンゴ
 	- (ちゃんとした証明は元論文にある)

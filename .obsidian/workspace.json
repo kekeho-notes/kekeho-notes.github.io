@@ -8,38 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be9955eba2aa66fe",
+            "id": "a192adc8b02437de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/PolarDB-X.md",
-                "mode": "preview",
+                "file": "日報/2024-11-09.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PolarDB-X"
-            }
-          },
-          {
-            "id": "c1aa82bcc1f36cb7",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "無題のキャンバス.canvas",
-                "viewState": {
-                  "x": 416.953671875,
-                  "y": -1.5218750000000156,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "無題のキャンバス"
+              "title": "2024-11-09"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "無題のキャンバス.canvas",
+                "file": "日報/2024-11-09.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "無題のキャンバスへのバックリンク"
+              "title": "2024-11-09へのバックリンク"
             }
           },
           {
@@ -130,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "無題のキャンバス.canvas",
+                "file": "日報/2024-11-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "無題のキャンバスからのアウトゴーイングリンク"
+              "title": "2024-11-09からのアウトゴーイングリンク"
             }
           },
           {
@@ -157,30 +139,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "無題のキャンバス.canvas"
+                "file": "日報/2024-11-09.md"
               },
               "icon": "lucide-list",
-              "title": "無題のキャンバスのアウトライン"
-            }
-          },
-          {
-            "id": "42fc2a5966f2d957",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "title": "2024-11-09のアウトライン"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 546.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,44 +165,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1aa82bcc1f36cb7",
+  "active": "a192adc8b02437de",
   "lastOpenFiles": [
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
-    "無題のキャンバス.canvas",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Logical Clock.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/DHT.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/ICE.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/LevelDB.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Tree.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Ethereum/Ethereum.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Optimistic Replication.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Leaderless SMR.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/DAG/Swirlds Hashgraph.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Algorand.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/Replicated Growable Arrays.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/TreeDoc.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Communication/Byzantine Reliable Broadcast.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Conflict Serializability.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Follower Reads.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/Merkle-CRDTs.md",
+    "日報/日報.md",
+    "日報/2023 04 25.md",
+    "日報/2024-11-09.md",
+    "Templates/日報テンプレート.md",
+    "ツール系/Quartz 4.md",
+    "ツール系/Obsidian.md",
+    "index.md",
+    "Templates",
+    "📊数学・論理学/Transitive closure.md",
+    "🪪Digital Identity・Trust/OpenID4VC.md",
+    "🪪Digital Identity・Trust/AuthenticationとAuthorization.md",
+    "kekeho/ほしいものリスト.md",
+    "研究/論文の書き方.md",
     "研究/ジャーナル・カンファレンス/CACM.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/Omid.md",
+    "kekeho.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Tree.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/広域ファイル共有システム/IPFS.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/PolarDB-X.md",
+    "無題のキャンバス.canvas",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
+    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Logical Clock.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/DHT.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/ICE.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/LevelDB.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Ethereum/Ethereum.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Optimistic Replication.md",
     "研究/ジャーナル・カンファレンス",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/PolarDB-X.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Program correctness.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/トランザクション分離レベル.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Nonrepeatable read.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/DAG",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Overlay Network",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Replication",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Bitcoin",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/DAG",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Overlay Network",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication",
     "💻️プログラミング・コンピュータ・アルゴリズム/無題のファイル.canvas",
     "assets/FuIo-IyaYAABIci.jpg",
     "assets/64f7a2bd8f035f001c4a0056.png",

@@ -9,7 +9,7 @@
 概要
 - State-based [[CRDT]]の状態を[[Merkle Search Tree]]([[MST]])で表現すると、キーの順序を維持しながら分散イベントストアを作れる
 	- 普通の2分木の[[Merkle Tree]]では、木がうまくバランスするようにする再構築の過程で順序が破壊されるので、うまくいかない
-	- [[Vector Clock]]([[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock]])を使う方法では、線形に増えていってしまうので厳しい
+	- [[Vector Clock]]([[Logical Clock]])を使う方法では、線形に増えていってしまうので厳しい
 MSTのデータ構造
 ![[assets/656996c7786dd100247ba746.png]]
 

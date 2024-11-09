@@ -1,4 +1,4 @@
-[#Timestamp](Timestamp) [#論理時計](💻️Computer%20Science・プログラミング・アルゴリズム・ツール/🌐Distributed%20Systems・Concurrency・Transaction・DB/Clock/Logical%20Clock.md) [#TaaS](TaaS) [#Logical_Clock](Logical_Clock)
+[#Timestamp](Timestamp) [#論理時計](Logical%20Clock.md) [#TaaS](TaaS) [#Logical_Clock](Logical_Clock)
 - [[VLDB]] 2024
 - [https://dl.acm.org/doi/10.14778/3641204.3641210](https://dl.acm.org/doi/10.14778/3641204.3641210)
 - [https://www.vldb.org/pvldb/vol17/p994-li.pdf](https://www.vldb.org/pvldb/vol17/p994-li.pdf)
@@ -11,7 +11,7 @@
 	- リーダーレスという特徴がある
 
 背景
-- [[分散DB]]の分野では、[[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock]]が使われる。
+- [[分散DB]]の分野では、[[Logical Clock]]が使われる。
 	- [[Timestamp Oracle]]が使われているが、[[単一障害点]]になりがち
 	- [[Lamport Clock]]、[[Vector Clock]]は使いづらいので、分散DBではあまり使われていない。
 	- 既存のCFTな[[Timestamp Oracle]]([[TSO]])は、PrimaryをRaftで選挙して…みたいなものだったが、選挙中ダウンタイムが長くなってしまって性能が悪化していた

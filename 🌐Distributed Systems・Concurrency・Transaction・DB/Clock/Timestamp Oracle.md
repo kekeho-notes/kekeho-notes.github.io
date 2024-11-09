@@ -1,4 +1,4 @@
-[#分散DB](分散DB) [#論理時計](💻️Computer%20Science・プログラミング・アルゴリズム・ツール/🌐Distributed%20Systems・Concurrency・Transaction・DB/Clock/Logical%20Clock.md)
+[#分散DB](分散DB) [#論理時計](Logical%20Clock.md)
 - [[Percolator]] Transaction Modelで使われる
 - インクリメンタルなタイムスタンプ(クロック値)を提供するサーバー
 

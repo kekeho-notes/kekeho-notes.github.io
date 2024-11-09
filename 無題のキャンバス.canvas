@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"6ba38ea48f5ddd80","x":140,"y":-264,"width":225,"height":182,"type":"text","text":"なんか試しに書いてみる\nああ\nあああ"},
-		{"id":"c6f8cc239c0a36bf","x":-320,"y":-264,"width":400,"height":400,"type":"file","file":"💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md"},
+		{"id":"c6f8cc239c0a36bf","x":-320,"y":-264,"width":400,"height":400,"type":"file","file":"🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md"},
 		{"id":"4e3e698d8e37bc5d","x":140,"y":-50,"width":800,"height":373,"type":"link","url":"https://www.kekeho.net"}
 	],
 	"edges":[
