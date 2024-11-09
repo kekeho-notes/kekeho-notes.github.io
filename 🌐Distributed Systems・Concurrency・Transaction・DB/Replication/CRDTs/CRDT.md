@@ -17,7 +17,8 @@
 - [[CvRDT]] ([[State-Based CRDT]])
 ![[assets/656c3fec54b4760025e7a319.png]]
 
-	- 全体は$(S, M, Q)$のトリプルから構成される
+
+- 全体は$(S, M, Q)$のトリプルから構成される
 		- $S$: [[Join Semilattice]]なステート
 		- $M$: [[Mutator]]の集合。Mutator $m \in M$は、状態$X \in S$を受け取り、新しい状態$X' = m(X)$を返す
 			- Mutatorは[インフレーション](https://chat.openai.com/share/80bf2192-01c4-4f0e-8a18-42db83bdfe0d)するように定義される。$X \sqsubseteq m(X)$が成立する

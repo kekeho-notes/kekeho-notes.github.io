@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4d477a6ec3745def",
+        "id": "901abf70d1d42bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "a192adc8b02437de",
+            "id": "fc59b67cc7def5b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ツール系/Quartz 4.md",
+                "file": "プログラミング言語・環境/Flutter・Dart/Flutter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quartz 4"
+              "title": "Flutter"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ツール系/Quartz 4.md",
+                "file": "プログラミング言語・環境/Flutter・Dart/Flutter.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Quartz 4へのバックリンク"
+              "title": "Flutterへのバックリンク"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ツール系/Quartz 4.md",
+                "file": "プログラミング言語・環境/Flutter・Dart/Flutter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Quartz 4からのアウトゴーイングリンク"
+              "title": "Flutterからのアウトゴーイングリンク"
             }
           },
           {
@@ -139,13 +139,51 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ツール系/Quartz 4.md"
+                "file": "プログラミング言語・環境/Flutter・Dart/Flutter.md"
               },
               "icon": "lucide-list",
-              "title": "Quartz 4のアウトライン"
+              "title": "Flutterのアウトライン"
+            }
+          },
+          {
+            "id": "933ba3686dc49718",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "プログラミング言語・環境/Flutter・Dart/Flutter.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5923096255807576,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Flutterのグラフ"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -162,38 +200,41 @@
       "markdown-importer:Markdownインポーターを開く": false,
       "audio-recorder:録音の開始/停止": false,
       "random-note:ランダムノートを開く": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "publish:パブリッシュによる変更の公開": false
     }
   },
-  "active": "a192adc8b02437de",
+  "active": "fc59b67cc7def5b5",
   "lastOpenFiles": [
-    "ツール系/mdbook.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/Merkle Search Tree.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Making CRDTs Byzantine fault tolerant.md",
-    "日報/2024 03 20.md",
-    "日報/2024 03 21.md",
-    "📊数学・論理学/Commutative.md",
-    "📊数学・論理学/ACI.md",
-    "可換.md",
-    "📊数学・論理学/Associative.md",
+    "Multiprocessor_Programming.md",
+    "ISO.md",
+    "arb.md",
+    "プログラミング言語・環境/Flutter・Dart/Riverpod.md",
+    "プログラミング言語・環境/Flutter・Dart/Flutterで実行中のプラットフォームを知る.md",
+    "人工海浜.md",
+    "ゆっくり土建図鑑.md",
     "日報/2024-11-09.md",
-    "日報/日報.md",
-    "日報/2023 04 25.md",
-    "Templates/日報テンプレート.md",
-    "ツール系/Quartz 4.md",
-    "ツール系/Obsidian.md",
-    "index.md",
-    "Templates",
-    "📊数学・論理学/Transitive closure.md",
+    "🪪Digital Identity・Trust/did web.md",
+    "🪪Digital Identity・Trust/walt.id SSI Kit.md",
+    "🪪Digital Identity・Trust/OpenID4VC High Assurance Interoperability Profile with SD-JWT VC.md",
     "🪪Digital Identity・Trust/OpenID4VC.md",
-    "🪪Digital Identity・Trust/AuthenticationとAuthorization.md",
-    "kekeho/ほしいものリスト.md",
+    "ツール系/Obsidian.md",
+    "ツール系/Quartz 4.md",
+    "プログラミング言語・環境/C言語/文字列の先頭から、数字に変換可能な部分だけを変換し、元文字列から消すテクニック(C言語).md",
     "研究/論文の書き方.md",
+    "インターネット社会/メタクソ化.md",
     "研究/ジャーナル・カンファレンス/CACM.md",
-    "kekeho.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Tree.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/広域ファイル共有システム/IPFS.md",
+    "DTN/RFC4838.md",
+    "インターネット/ドメイン名/eTLD.md",
+    "インターネット/ドメイン名/eTLD+1.md",
+    "Templates/日報テンプレート.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/DTN.md",
+    "δ-CRDT.md",
+    "📊数学・論理学/可換.md",
+    "Excalidraw/Drawing 2024-11-10 00.53.57.excalidraw.md",
+    "Excalidraw",
+    "Templates",
     "無題のキャンバス.canvas",
     "研究/ジャーナル・カンファレンス",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
@@ -203,7 +244,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication",
     "💻️プログラミング・コンピュータ・アルゴリズム/無題のファイル.canvas",
     "assets/FuIo-IyaYAABIci.jpg",
     "assets/64f7a2bd8f035f001c4a0056.png",
