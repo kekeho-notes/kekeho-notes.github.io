@@ -1,6 +1,6 @@
 - [[Conflict-free Replicated Data Type]]とも
 - コンフリクトせず、複製可能なデータ
-- 分散環境において[[CAP]]の[[Availability]]と[[Pertition Tolerance]]の両立を実現する
+- 分散環境において[[CAP定理]]の[[Availability]]と[[Partition-tolerance]]の両立を実現する
 	- Cは[[Strong Eventual Consistency]](結果整合性)しかない
 
 - ネットワーク上に異なるバージョンのデータ(レプリカ)を存在させる
@@ -54,7 +54,7 @@
 - [https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html](https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html)
 	- ![](https://www.youtube.com/watch?v=x7drE24geUw)
 - [https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
-	- [[RGA]]の解説
+	- [[Replicated Growable Arrays]]の解説
 		- [https://www.bartoszsypytkowski.com/operation-based-crdts-arrays-1/](https://www.bartoszsypytkowski.com/operation-based-crdts-arrays-1/)
 		- [https://www.bartoszsypytkowski.com/operation-based-crdts-arrays-2/](https://www.bartoszsypytkowski.com/operation-based-crdts-arrays-2/)
 

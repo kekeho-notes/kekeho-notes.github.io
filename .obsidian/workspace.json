@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-09.md",
+                "file": "ツール系/Quartz 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-09"
+              "title": "Quartz 4"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日報/2024-11-09.md",
+                "file": "ツール系/Quartz 4.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2024-11-09へのバックリンク"
+              "title": "Quartz 4へのバックリンク"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日報/2024-11-09.md",
+                "file": "ツール系/Quartz 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-11-09からのアウトゴーイングリンク"
+              "title": "Quartz 4からのアウトゴーイングリンク"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日報/2024-11-09.md"
+                "file": "ツール系/Quartz 4.md"
               },
               "icon": "lucide-list",
-              "title": "2024-11-09のアウトライン"
+              "title": "Quartz 4のアウトライン"
             }
           }
         ]
@@ -167,9 +167,19 @@
   },
   "active": "a192adc8b02437de",
   "lastOpenFiles": [
+    "ツール系/mdbook.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/Merkle Search Tree.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Making CRDTs Byzantine fault tolerant.md",
+    "日報/2024 03 20.md",
+    "日報/2024 03 21.md",
+    "📊数学・論理学/Commutative.md",
+    "📊数学・論理学/ACI.md",
+    "可換.md",
+    "📊数学・論理学/Associative.md",
+    "日報/2024-11-09.md",
     "日報/日報.md",
     "日報/2023 04 25.md",
-    "日報/2024-11-09.md",
     "Templates/日報テンプレート.md",
     "ツール系/Quartz 4.md",
     "ツール系/Obsidian.md",
@@ -184,17 +194,7 @@
     "kekeho.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Tree.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/広域ファイル共有システム/IPFS.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/PolarDB-X.md",
     "無題のキャンバス.canvas",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Logical Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/DHT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/ICE.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/LevelDB.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Ethereum/Ethereum.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Optimistic Replication.md",
     "研究/ジャーナル・カンファレンス",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/DAG",
