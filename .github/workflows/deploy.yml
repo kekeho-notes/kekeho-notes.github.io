@@ -36,6 +36,10 @@ jobs:
         with:
           node-version: 20.9.0
 
+      - name: Copy config files
+        run: |
+          cp -r content/.quartz_config/* quartz/
+
       - name: Install dependencies and build Quartz
         run: |
           cd quartz
