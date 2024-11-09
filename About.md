@@ -1,6 +1,7 @@
-- [[kekeho]]のパブリックなメモ帳(kekeho)
-- 適当になぐり書きする．書きかけのメモ扱いなのでまとまってはいない．
-	- 間違っている記述がそこそこあるかもしれない
-		- [何らかの通信手段](https://www.kekeho.net#links)でご指摘いただけると幸いです
-	- きちんとまとめたものはブログ [https://blog.kekeho.net](https://blog.kekeho.net) に書く
-		- 全然書いてない(kekeho)
+[[kekeho]]のパブリックなメモ帳(kekeho)
+適当になぐり書きする．書きかけのメモ扱いなのでまとまってはいない．
+## 注意
+- 間違っている記述がそこそこあるかもしれない
+	- [何らかの通信手段](https://www.kekeho.net#links)でご指摘いただけると幸いです
+- きちんとまとめたものはブログ [https://blog.kekeho.net](https://blog.kekeho.net) に書く
+	- 全然書いてない(kekeho)
