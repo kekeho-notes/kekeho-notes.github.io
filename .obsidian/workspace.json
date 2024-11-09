@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "State Machine Replication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "State Machine Replication"
             }
           }
         ]
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "about",
+                "query": "state machine replication",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,9 +185,8 @@
   },
   "active": "42fc2a5966f2d957",
   "lastOpenFiles": [
+    "index.md",
     "Quartz",
-    "index.md",
-    "index.md",
     "最小解関数.md",
     "kekeho.md",
     "Merkle TreeのP2Pファイルシェアリングにおける応用.md",
