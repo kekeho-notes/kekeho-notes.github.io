@@ -1,0 +1,3 @@
+- [[デッドロック]]
+- デッドロックに陥らないことは[[safety]]。ややこしいが、deadlockからいつか開放されることは[[liveness]]。
+	- 参考: [https://ja.wikipedia.org/wiki/ライブネス](https://ja.wikipedia.org/wiki/ライブネス)

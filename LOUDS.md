@@ -1,0 +1,3 @@
+- [[簡潔データ構造]]の一つ
+- Treeの簡潔データ構造
+- 超丁寧な解説: [https://takeda25.hatenablog.jp/entry/20120421/1335019644](https://takeda25.hatenablog.jp/entry/20120421/1335019644)

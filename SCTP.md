@@ -1,0 +1,5 @@
+- トランスポート層のプロトコル
+- [https://e-words.jp/w/SCTP.html#:~:text=SCTP%20%E3%80%90Stream%20Control%20Transmission%20Protocol,機能を併せ持っている%E3%80%82](https://e-words.jp/w/SCTP.html#:~:text=SCTP%20%E3%80%90Stream%20Control%20Transmission%20Protocol,機能を併せ持っている%E3%80%82)
+- TCPのように輻輳制御をやる
+- TCPはストリーム指向だが，SCTPはUDPのようなメッセージ指向．
+- [RFC9260](https://datatracker.ietf.org/doc/html/rfc9260)

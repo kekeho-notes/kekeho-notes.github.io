@@ -1,0 +1,17 @@
+- [[React]] Flamework
+- 資料
+	- React知らなくてもOKなチュートリアル: [https://nextjs.org/learn/foundations](https://nextjs.org/learn/foundations)
+	- Reactのステート管理: [https://react.dev/learn/managing-state](https://react.dev/learn/managing-state)
+	- Data Fetch
+		- Static Generation
+			- [Data Fetching: getStaticProps | Next.js](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props)
+		- Server Side Rendering
+			- [Data Fetching: getServerSideProps | Next.js](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props)
+		- Client Side
+			- [Data Fetching: Client-side Fetching | Next.js](https://nextjs.org/docs/pages/building-your-application/data-fetching/client-side)
+	- Routing
+		- [Routing: Dynamic Routes | Next.js](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes)
+	- Typescript
+		- [https://nextjs.org/learn/excel/typescript/nextjs-types](https://nextjs.org/learn/excel/typescript/nextjs-types)
+	- Electron
+		- [https://github.com/vercel/next.js/tree/40569943049aa597fc90d0e69daf3398241cbd4c/examples/with-electron-typescript](https://github.com/vercel/next.js/tree/40569943049aa597fc90d0e69daf3398241cbd4c/examples/with-electron-typescript)

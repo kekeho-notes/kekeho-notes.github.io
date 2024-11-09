@@ -1,0 +1,4 @@
+- [[Lockout-freedom]]とも
+- [[Liveness]]の一つ
+- どのプロセスも必要なリソースを永久に待ち続けることがない状態
+- [[Deadlock]]でも引き起こされるので、[[Starvation-freedom]]は[[Deadlock-freedom]]を内包している、ともいわれる

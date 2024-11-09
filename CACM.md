@@ -1,0 +1,2 @@
+- [[Communications of the ACM]]
+- Research and Advancesは査読付き

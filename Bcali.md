@@ -1,0 +1,3 @@
+- [https://bcali.org](https://bcali.org)
+- [[kekeho]]が所属していたKG(kekeho)
+	- 2023年秋から、[[Delight]]に統合されました

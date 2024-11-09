@@ -1,0 +1,3 @@
+- [[MemCpy Optimization]]
+- [https://llvm.org/docs/Passes.html#memcpyopt-memcpy-optimization](https://llvm.org/docs/Passes.html#memcpyopt-memcpy-optimization)
+- [[memcpy]], [[memset]]ではワード単位でコピーする保証はないので、そこは[[Atomic]]ではない

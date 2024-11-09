@@ -1,0 +1,1 @@
+- [[Network partition]]に耐えるぞ

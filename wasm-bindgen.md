@@ -1,0 +1,2 @@
+- [[Rust]]を[[Wasm]]バイナリに吐き出す
+- [https://rustwasm.github.io/wasm-bindgen/](https://rustwasm.github.io/wasm-bindgen/)

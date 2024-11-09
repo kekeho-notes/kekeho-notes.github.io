@@ -1,0 +1,3 @@
+- [https://github.com/google/trillian/](https://github.com/google/trillian/)
+- [[Verifiable Data Structures]]の実装
+- [[Certificate Transparency]]で使われる

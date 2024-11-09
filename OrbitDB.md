@@ -1,0 +1,5 @@
+- KVS over [[IPFS]]
+- [https://github.com/orbitdb/orbitdb](https://github.com/orbitdb/orbitdb)
+- Documentも保存できるらしい
+	- [https://github.com/orbitdb/orbitdb/blob/main/src/databases/documents.js](https://github.com/orbitdb/orbitdb/blob/main/src/databases/documents.js)を読んだ感じ、一つ一つのドキュメントにクエリ関数を当てていくだけっぽい。ドキュメントDBのように洗練されたデータ構造を使っているとかではないっぽい。(kekeho)
+- [[Merkle-CRDTs]]が活用されている

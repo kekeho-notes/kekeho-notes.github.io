@@ -1,0 +1,3 @@
+[#Consistency](Consistency)
+
+- いつ収束するか、の保証はない

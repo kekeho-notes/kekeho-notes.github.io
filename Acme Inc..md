@@ -1,0 +1,2 @@
+- [https://ja.wikipedia.org/wiki/アクメ%E3%83%BBコーポレーション](https://ja.wikipedia.org/wiki/アクメ%E3%83%BBコーポレーション)
+- 架空の企業を指す

@@ -1,0 +1,26 @@
+- ハンズオンとしていい資料: [大規模ソフトウェアを手探る](https://doss.eidos.ic.i.u-tokyo.ac.jp/)
+- gdb-pedaという拡張がいい
+	- [GitHub - longld/peda: PEDA - Python Exploit Development Assistance for GDB](https://github.com/longld/peda)
+
+使い方
+- 起動
+	- `$ gdb <実行バイナリ> <引数...>`
+	- `$ gdb -p プロセス番号`
+- break point
+	- 関数名を指定: `b <関数名>`
+	- ファイル名・行番号を指定: `b <ファイル名>:<行番号>`
+		- ファイル名は省略可能
+	- breakpointの一覧: `info breakpoints`
+	- break pointの削除: `delete <番号>`
+		- 全削除: `delete`
+- プログラムの実行
+	- `r`
+	- `r <引数1> <引数2>...`
+- 実行
+	- `n`
+	- ステップin: `s`
+	- 関数から抜ける: `fin`
+	- 次のbreak pointまで続ける: `c`
+- 変数
+	- 表示: `p <変数名>`
+	- 代入: `p <変数名>=<値>`

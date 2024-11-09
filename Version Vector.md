@@ -1,0 +1,2 @@
+- 解説: [https://hazm.at/mox/distributed-system/algorithm/consistency/version-vector/index.html](https://hazm.at/mox/distributed-system/algorithm/consistency/version-vector/index.html)
+- [https://haslab.wordpress.com/2011/07/08/version-vectors-are-not-vector-clocks/](https://haslab.wordpress.com/2011/07/08/version-vectors-are-not-vector-clocks/)

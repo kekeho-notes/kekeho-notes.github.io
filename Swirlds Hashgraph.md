@@ -1,0 +1,2 @@
+- Whitepaper: [https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf)
+- [[Permissioned]]。ノード数nが固定なようにみえる(kekeho)

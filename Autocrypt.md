@@ -1,0 +1,6 @@
+- メールに自動的に鍵を付けて送る
+- [[Email]]のヘッダに`autocrypt`がある
+- [https://autocrypt.org/level1.html](https://autocrypt.org/level1.html)
+- ゆるーく[[E2EE]]していこう、というノリ
+- [[Man-in-the-Middle]]を防ぐことができない
+	- 中間者はヘンな鍵に書き換えちゃえばいいし…

@@ -1,0 +1,10 @@
+- [Musings of a Trust Architect: Progressive Trust - Blockchain Commons](https://www.blockchaincommons.com/musings/musings-progressive-trust/)
+- トラストを二元的なモデル(Trust Framework・Authentication…/Zero Trust)で捉えるのではなく，相互作用を通じてお互いのことをダイナミックに学んでいくプロセスとするモデル
+		- 現実世界もそう
+		- 以下の技術を用いて実現していく
+			- Data Minimization
+			- Elision/Redaction
+			- Escrowed Encryption
+			- [[Selective Disclosure]]
+	- モデルとしては面白いなぁと思った(kekeho)
+	- [[Gordian Envelopes]]のElisionがProgressive Trustを可能にする

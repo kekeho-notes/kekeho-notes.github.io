@@ -1,0 +1,4 @@
+- [[DID Method]]の一つ
+- [[Verifiable Data Registry]]に[[IPFS]]・[[Ethereum]]を活用
+	- CAS([[Content-Addressed Storage System]])にIPFSを使用
+	- Ethereumスマコン: did -> CAS上のDID Documentのマッピングを保持

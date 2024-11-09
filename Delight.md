@@ -1,0 +1,2 @@
+- [[kekeho]]が所属しているKG(kekeho)
+- Decentralized + Light

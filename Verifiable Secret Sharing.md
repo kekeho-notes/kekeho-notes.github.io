@@ -1,0 +1,4 @@
+- [[検証可能秘密分散法]], [[VSS]]とも
+- ディーラーが悪意を持っていたとしても、復元するプレーヤーの組によらず、必ず同じ秘密情報が復元されることを保証する
+- [https://link.springer.com/referenceworkentry/10.1007/0-387-23483-7_452](https://link.springer.com/referenceworkentry/10.1007/0-387-23483-7_452)
+- [https://ja.wikipedia.org/wiki/検証可能秘密分散法](https://ja.wikipedia.org/wiki/検証可能秘密分散法)

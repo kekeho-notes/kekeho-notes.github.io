@@ -1,0 +1,1 @@
+- [[Commutative law]]: 交換法則, [[可換]]

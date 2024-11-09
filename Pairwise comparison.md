@@ -1,0 +1,3 @@
+- [[コンドルセ]]
+- [https://president.jp/articles/-/51168?page=4](https://president.jp/articles/-/51168?page=4)
+- [https://www2.math.upenn.edu/~kazdan/210/LectureNotes/CEU-Voting02.html](https://www2.math.upenn.edu/~kazdan/210/LectureNotes/CEU-Voting02.html)

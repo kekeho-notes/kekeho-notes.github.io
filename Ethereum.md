@@ -1,0 +1,1 @@
+- [https://ethereum.org/ja/whitepaper/](https://ethereum.org/ja/whitepaper/)

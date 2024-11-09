@@ -1,0 +1,2 @@
+- [https://github.com/google/trillian/blob/master/docs/papers/VerifiableDataStructures.pdf](https://github.com/google/trillian/blob/master/docs/papers/VerifiableDataStructures.pdf)
+- [[Merkle Tree]]を使ったappend-onlyなlog

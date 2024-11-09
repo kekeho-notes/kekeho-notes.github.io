@@ -1,0 +1,4 @@
+- Concise Binary Object Representation
+- [RFC 8949](https://datatracker.ietf.org/doc/html/rfc8949)
+- [CBOR — Concise Binary Object Representation | Overview](https://cbor.io/)
+- JSONに基づいたバイナリのデータフォーマット

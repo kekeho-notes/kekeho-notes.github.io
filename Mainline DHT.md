@@ -1,0 +1,2 @@
+- [[BitTorrent]]で用いられる[[DHT]]
+- [[Kademlia]]ベース

@@ -1,0 +1,7 @@
+- [[Keycloak]]のプラグイン
+- [[OID4VCI]]に則ってVCを発行する
+	- Pre-Authorized Code Flow
+	- Credential Offer Endpoint
+	- Token Endpoint
+	- Credential Endpoint
+	- Credential Issuer Metadata

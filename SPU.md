@@ -1,0 +1,2 @@
+- [[Secure Processing Unit]]とも
+- Qualcommの[[セキュアエレメント]]

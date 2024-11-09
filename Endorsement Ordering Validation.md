@@ -1,0 +1,2 @@
+- [[Hyperledger Fablic]]で使われている[[consensus algorithm]]
+- [https://gakumura.hatenablog.com/entry/2018/11/25/011810](https://gakumura.hatenablog.com/entry/2018/11/25/011810)

@@ -1,0 +1,6 @@
+- [https://pub.dev/packages/provider](https://pub.dev/packages/provider)
+- 参考
+	- [https://docs.flutter.dev/data-and-backend/state-mgmt/simple](https://docs.flutter.dev/data-and-backend/state-mgmt/simple)
+	- サンプルコード: [https://github.com/flutter/samples/blob/main/provider_counter/lib/main.dart](https://github.com/flutter/samples/blob/main/provider_counter/lib/main.dart)
+- AppStateをChangeNotifierを継承したクラスで表現して、ChangeNotifierProvider/MultiProviderで渡してあげる
+- 値を使うところをConsumerで包んであげる

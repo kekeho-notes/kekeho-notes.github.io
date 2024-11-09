@@ -1,0 +1,2 @@
+- Googleの[[KVS]]
+- [[String Sorted Table]](SST)が使われている 

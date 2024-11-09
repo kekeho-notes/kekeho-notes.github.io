@@ -1,0 +1,2 @@
+[#Digital_Identity](Digital_Identity) [#Identity](Identity)
+[Musings of a Trust Architect: Edge Identifiers & Cliques - Blockchain Commons](https://www.blockchaincommons.com/musings/musings-cliques-1/)

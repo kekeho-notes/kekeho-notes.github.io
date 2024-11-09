@@ -1,0 +1,3 @@
+- [[CDN]]
+- アーキテクチャ
+	- [Whitepaper](https://info.cloudflare.com/rs/713-XSC-918/images/Whitepaper_Cloudflare-CDN-Reference-Architecture_Japanese_20220411.pdf)

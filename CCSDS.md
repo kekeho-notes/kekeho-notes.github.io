@@ -1,0 +1,4 @@
+- Consultative Committee for Space Data Systems
+- 各国の宇宙機関により設立された、宇宙データ通信システムに関わる国際標準化団体
+- [[ISO]]の宇宙データ通信分野の分科会の役割を担っている
+- [https://stage.tksc.jaxa.jp/ccsds/ccsds/CCSDS_overview.html](https://stage.tksc.jaxa.jp/ccsds/ccsds/CCSDS_overview.html)

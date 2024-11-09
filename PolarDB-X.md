@@ -1,0 +1,4 @@
+- [[Alibaba Cloud]]で提供されている[[分散DB]]
+- [PolarDB-Xの主な機能 - PolarDB - Alibaba Cloud ドキュメントセンター](https://www.alibabacloud.com/help/ja/polardb/polardb-for-xscale/features-3)
+	- 分散トランザクションに[[Timestamp Oracle]]が使われている?
+		- [元論文](https://ieeexplore.ieee.org/abstract/document/9835438)では使ってなさそうだけど?

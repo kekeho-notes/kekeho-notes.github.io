@@ -1,0 +1,1 @@
+- Conformance Test: [https://openid.net/certification/conformance-testing-for-openid-for-verifiable-presentations/](https://openid.net/certification/conformance-testing-for-openid-for-verifiable-presentations/)

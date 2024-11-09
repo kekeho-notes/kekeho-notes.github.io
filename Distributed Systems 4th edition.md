@@ -1,0 +1,5 @@
+- [[分散システム]]の教科書
+- [[Maarten Van Steen]]と[[Andrew S. Tanenbaum]]著
+- [https://www.distributed-systems.net/index.php/books/ds4/](https://www.distributed-systems.net/index.php/books/ds4/)
+	- 無料でPDFもらえる
+- 2024年3月に、[[SFC]]の学生3人で輪読(kekeho)

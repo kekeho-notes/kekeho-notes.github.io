@@ -1,0 +1,8 @@
+- [https://jprs.jp/pubcert/about/ACME/](https://jprs.jp/pubcert/about/ACME/)
+- 証明書管理を自動化するプロトコル
+	- 鍵ペアの作成
+	- CSRの作成・認証局への送信
+	- ドメイン名利用権の検証
+	- 証明書の設定・更新
+- Let’s Encryptも対応
+	- [https://letsencrypt.org/ja/docs/client-options/](https://letsencrypt.org/ja/docs/client-options/)

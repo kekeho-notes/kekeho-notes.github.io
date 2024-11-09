@@ -1,0 +1,3 @@
+- [[Partially Ordered Set]]のこと
+- [[半順序集合]]
+- [https://en.wikipedia.org/wiki/Partially_ordered_set](https://en.wikipedia.org/wiki/Partially_ordered_set)

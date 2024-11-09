@@ -1,0 +1,3 @@
+- (常に)悪いことは怒らないよ、という保証
+	- bad things don't happen
+- 関連: [[Liveness]]

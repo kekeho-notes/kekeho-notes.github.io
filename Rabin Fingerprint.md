@@ -1,0 +1,3 @@
+- [[Rolling Hash]]の一種
+- [https://en.wikipedia.org/wiki/Rabin_fingerprint](https://en.wikipedia.org/wiki/Rabin_fingerprint)
+- なんかよくわからん(kekeho)
