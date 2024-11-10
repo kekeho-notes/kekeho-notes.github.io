@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
           "大事にしたいお言葉",
           "日報/"
         ];
-        return pinned.includes(node.file.path);
+        return pinned.includes(node.frontmatter?.title);
       },
     }),
     Component.RecentNotes({
