@@ -29,11 +29,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "Pinned",
       filterFn: (node) => {
+        if (node.file === null) {
+          // Dir
+          const pinned = [
+            "日報"
+          ];
+          return pinned.includes(node.name);
+        }
+
         const pinned = [
           "大事にしたいお言葉",
-          "日報/"
         ];
-        return pinned.includes(node.frontmatter?.title);
+        return pinned.includes(node.name);
       },
     }),
     Component.RecentNotes({
