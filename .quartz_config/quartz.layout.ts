@@ -26,6 +26,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.Explorer({
+      title: "Pinned",
+      filterFn: (node) => {
+        const pinned = [
+          "大事にしたいお言葉",
+          "日報/"
+        ];
+        return pinned.includes(node.file.path);
+      },
+    }),
     Component.RecentNotes({
       limit: 5,
     }),
