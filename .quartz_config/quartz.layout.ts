@@ -38,9 +38,15 @@ export const defaultContentPageLayout: PageLayout = {
         }
 
         const pinned = [
+          "日報/",
           "大事にしたいお言葉",
         ];
-        return pinned.includes(node.name);
+        for (let i = 0; i < pinned.length; i++) {
+          const p = pinned[i];
+          const name: String = node.name;
+          if (name.includes(p)) return true;
+        }
+        return false;
       },
     }),
     Component.RecentNotes({
