@@ -26,31 +26,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer({
-      title: "Pinned",
-      filterFn: (node) => {
-        if (node.file === null) {
-          // Dir
-          const pinned = [
-            "日報"
-          ];
-          return pinned.includes(node.name);
-        }
-
-        const pinned = [
-          "日報/",
-          "大事にしたいお言葉",
-        ];
-        for (let i = 0; i < pinned.length; i++) {
-          const p = pinned[i];
-          const name: String = node.name;
-          if (name.includes(p)) return true;
-        }
-        return false;
-      },
-    }),
     Component.RecentNotes({
-      limit: 5,
+      limit: 10,
     }),
   ],
   right: [

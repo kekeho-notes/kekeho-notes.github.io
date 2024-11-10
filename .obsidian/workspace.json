@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "ポエム/Computational Thinking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大事にしたいお言葉"
+              "title": "Computational Thinking"
             }
           }
         ]
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#大事にしたいお言葉",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,8 +62,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "ポエム/Computational Thinking.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +92,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "大事にしたいお言葉へのバックリンク"
+              "title": "Computational Thinkingへのバックリンク"
             }
           },
           {
@@ -102,12 +101,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "ポエム/Computational Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "大事にしたいお言葉からのアウトゴーイングリンク"
+              "title": "Computational Thinkingからのアウトゴーイングリンク"
             }
           },
           {
@@ -129,10 +128,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "その他/大事にしたいお言葉.md"
+                "file": "ポエム/Computational Thinking.md"
               },
               "icon": "lucide-list",
-              "title": "大事にしたいお言葉のアウトライン"
+              "title": "Computational Thinkingのアウトライン"
             }
           },
           {
@@ -141,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "ポエム/Computational Thinking.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -169,7 +168,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "大事にしたいお言葉のグラフ"
+              "title": "Computational Thinkingのグラフ"
             }
           }
         ],
@@ -195,9 +194,10 @@
       "publish:パブリッシュによる変更の公開": false
     }
   },
-  "active": "e2a3afd5de3b9e35",
+  "active": "291142763ee65cc6",
   "lastOpenFiles": [
     "その他/大事にしたいお言葉.md",
+    "ポエム/Computational Thinking.md",
     "データフォーマット/Blob.md",
     "データフォーマット/CBOR.md",
     "プログラミング言語・環境/Flutter・Dart/Flutter.md",
@@ -222,7 +222,6 @@
     "DTN/RFC4838.md",
     "インターネット/ドメイン名/eTLD.md",
     "インターネット/ドメイン名/eTLD+1.md",
-    "Templates/日報テンプレート.md",
     "Excalidraw",
     "Templates",
     "無題のキャンバス.canvas",
