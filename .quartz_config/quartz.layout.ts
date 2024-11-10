@@ -6,9 +6,6 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.MobileOnly(Component.RecentNotes({
-      limit: 10,
-    })),
   ],
   footer: Component.Footer({
     links: {

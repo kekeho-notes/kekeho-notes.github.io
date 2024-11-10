@@ -1,4 +1,4 @@
-[#Multiprocessor_Programming](Multiprocessor_Programming)
+[#Multiprocessor_Programming](Multiprocessor%20Programming%201.md)
 
 - [[Bounded-buffer problem]]とも
 - [[ダイクストラ]]が提起した

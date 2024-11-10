@@ -1,4 +1,4 @@
-[#Multiprocessor_Programming](Multiprocessor_Programming)
+[#Multiprocessor_Programming](Multiprocessor%20Programming%201.md)
 - [[Mutual exclusion]], [[相互排除]], [[相互排他]], [[相互排他制御]]
 - 異なるプロセスが、同時にアクセスすることがない。1度に1プロセスのみ。([[Safety]])
 	- [[Critical section]]を作るのに便利なツール
