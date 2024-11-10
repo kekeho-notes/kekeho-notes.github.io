@@ -164,7 +164,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.2291932160894866,
-                  "close": true
+                  "close": false
                 }
               },
               "icon": "lucide-git-fork",
@@ -194,7 +194,7 @@
       "publish:パブリッシュによる変更の公開": false
     }
   },
-  "active": "291142763ee65cc6",
+  "active": "933ba3686dc49718",
   "lastOpenFiles": [
     "その他/大事にしたいお言葉.md",
     "ポエム/Computational Thinking.md",
