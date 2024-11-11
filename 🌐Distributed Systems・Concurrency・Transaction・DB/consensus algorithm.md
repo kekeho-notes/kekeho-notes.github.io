@@ -1,3 +1,2 @@
+# 関連
 - [[ブロックチェーンのコンセンサスアルゴリズム]]
-	- [https://www.jstage.jst.go.jp/article/bplus/14/1/14_19/_pdf](https://www.jstage.jst.go.jp/article/bplus/14/1/14_19/_pdf)
-		- [[PBFT]], [[Endorsement Ordering Validation]], [[Raft]], [[PoI]], [[PoW]], [[PoS]]などについて概要が説明されている

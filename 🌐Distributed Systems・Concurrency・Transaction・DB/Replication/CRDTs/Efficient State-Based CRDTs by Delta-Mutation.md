@@ -1,7 +1,5 @@
-[#CRDT](CRDT.md)
-
 - [https://doi.org/10.1007/978-3-319-26850-7_5](https://doi.org/10.1007/978-3-319-26850-7_5)
-- [[δ-CRDT]]の提案論文
+- [[State-Based CRDT]] の最適化を図った[[δ-CRDT]]の提案論文
 - ソースコード
 	- [https://github.com/CBaquero/delta-enabled-crdts](https://github.com/CBaquero/delta-enabled-crdts)
 

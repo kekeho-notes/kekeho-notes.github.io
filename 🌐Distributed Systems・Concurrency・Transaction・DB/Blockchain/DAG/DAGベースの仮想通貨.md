@@ -63,7 +63,7 @@ DAGで用いられるアルゴリズム
 - [[Recursive algorithm]]
 	- 各ラウンドのOutputが徐々に安定した値に近づいていくアルゴリズム群
 	- [[Spectre]]の[[Recursive transverse algorithm]], [[Avalanche]]の[[Sampling algorithm]], [[Phantom]]の[[greedy algorithm]]など
-- [[consensus algorithm]]
+- [[Consensus algorithm]]
 	- BFT-style
 		- [[PBFT]], [[PoW]], [[PoS]]
 	- [[Asynchronous Byzantine agreement protocols]], [[Leaderless BFT Protocol]]

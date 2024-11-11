@@ -1,8 +1,8 @@
 [#Broadcast](Broadcast.md) [#Multicast](Multicast.md)
 [[Total Order Multicast]] / [[Atomic Broadcast]] / [[Atomic Multicast]]とも
-- ニュアンス的に、Atomic Broadcastは実時間の話、Total Order Broadcastは[[論理クロック]]の話っぽい? (kekeho)
+- ニュアンス的に、Atomic Broadcastは実時間の話、Total Order Broadcastは[[Logical Clock]]の話っぽい? (kekeho)
 
-- [[Lamport Clock]]を使用すると、メッセージの順序付けをした配送が可能だが、[[故障耐性]]はない
+- [[Lamport Clock]]を使用すると、メッセージの順序付けをした配送が可能だが、[[Fault tolerance]]はない
 - アルゴリズムによってメッセージの[[Omission failure]], [[Timing failure]], [[Byzantine failure]]に耐える
 	- どれも[[flooding]]([[gossip]]等)ベースのBroadcastが基盤となっている
 
@@ -20,7 +20,7 @@ Output
 	- 一定の時間内に配信が終わる、ということなのでしょう(kekeho)
 
 Total Order Broadcast
-- Atomic Broadcastは物理時間に基づく話をしているけど、論理クロックに置き換えたバージョンが一般的。これはTotal Order Broadcastと呼ばれる問題である。
+- Atomic Broadcastは物理時間に基づく話をしているけど、[[Logical Clock]]に置き換えたバージョンが一般的。これはTotal Order Broadcastと呼ばれる問題である。
 
 Input
 - n個のプロセッサが同時にブロードキャストするメッセージのストリーム
@@ -42,7 +42,7 @@ Output
 
 その他
 - [[Distributed Consensus]]([[分散合意]])と等価であることが知られている
-	- [[consensus algorithm]]の代わりに使える
+	- [[Consensus algorithm]]の代わりに使える
 			- [証明した論文](https://doi.org/10.1145/226643.226647)
 	- コンセンサスと同様、[[FLP Theorem]]はTotal order broadcastにも適用される
 

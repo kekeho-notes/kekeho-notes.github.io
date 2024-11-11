@@ -1,4 +1,5 @@
-[#分散システム](分散システム.md) [#consensus_algorithm](consensus_algorithm)
+- [[Consensus algorithm]]
+- [[Leader-followerモデルのコンセンサスアルゴリズム]]
 - 前提条件
 	- [[Partially synchronous model]]
 	- プロセス間のコミュニケーションはunreliable

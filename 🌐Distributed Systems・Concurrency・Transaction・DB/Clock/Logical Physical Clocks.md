@@ -2,7 +2,7 @@
 [https://link.springer.com/chapter/10.1007/978-3-319-14472-6_2](https://link.springer.com/chapter/10.1007/978-3-319-14472-6_2)
 
 - [[HLC]]の提案論文
-- [[Lamport Clock]]と、[[物理時間]]のハイブリッド! かっこいい(kekeho)
+- [[Lamport Clock]]と、[[Physical Time]]のハイブリッド! かっこいい(kekeho)
 - [[MongoDB]], [[CockroachDB]]で使われているらしい
 
 Introduction

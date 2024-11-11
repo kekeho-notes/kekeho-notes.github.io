@@ -4,7 +4,7 @@
 
 - [[Merkle Tree]]に[[CRDT]]オブジェクトを埋め込む
 	- [[Merkle Tree]]: データの解決／発見と自己検証を行うことができる
-	- [[CRDT]]: [[consensus algorithm]]を必要とせずにグローバルな状態収束を可能にする([[Strong Eventual Consistency]])
+	- [[CRDT]]: [[Consensus algorithm]]を必要とせずにグローバルな状態収束を可能にする([[Strong Eventual Consistency]])
 	- Merkle Tree x CRDT: 両者の特性を活かして、DAGを論理的な時計(タイムスタンプ? (kekeho))とすることができる
 
 Contributions

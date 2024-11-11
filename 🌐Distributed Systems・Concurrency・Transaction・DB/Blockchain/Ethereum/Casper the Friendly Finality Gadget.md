@@ -1,5 +1,5 @@
 [[Ethereum]]
-[[consensus algorithm]]
+[[Consensus algorithm]]
 
 - 多分名前を[Casper the Friendly Ghost](https://en.wikipedia.org/wiki/Casper_the_Friendly_Ghost)と掛けてる
 

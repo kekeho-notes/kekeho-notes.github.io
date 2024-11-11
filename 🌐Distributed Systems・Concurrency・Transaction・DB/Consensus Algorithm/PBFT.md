@@ -1,6 +1,6 @@
 [#分散システム](分散システム.md)
 - [[Practical Byzantine Fault Tolerance]]
-	- [[Byzantine Fault Tolerant]]な[[consensus algorithm]]
+	- [[Byzantine Fault Tolerant]]な[[Consensus algorithm]]
 	- [[Nakamoto Consensus]]等と異なり、ノード数Nが頻繁に変動する環境では使えないことに注意
 - 仮定
 	- メッセージの送信者は識別可能(署名等により達成される)
