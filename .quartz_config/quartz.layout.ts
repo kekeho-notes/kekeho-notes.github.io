@@ -32,13 +32,15 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+  afterBody: [
     Component.Graph({
       localGraph: {
         depth: 3,
       },
     }),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
