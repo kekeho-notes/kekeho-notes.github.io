@@ -1,5 +1,8 @@
+# 背景
 - [[Starvation-freedom]]では、[[Lock]]獲得までの時間は保証されていない
-- 理想的には[[first-come-first-served]]であるべき
+- 「フェア」な[[Lock]]アルゴリズムとは?
+# 定義
+- Fairnessの定義: [[first-come-first-served]]
 	- 先着順、ということ。スレッドAがスレッドBより先にロックを呼び出した場合、Aが先にクリティカルセクションに入るべき、ということ
 - [[Starvation-freedom]]よりも強い性質。
 	- [[Deadlock-freedom]]かつ[[first-come-first-served]]なら、[[Starvation-freedom]]でもある
