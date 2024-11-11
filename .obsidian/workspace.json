@@ -202,8 +202,8 @@
       "audio-recorder:録音の開始/停止": false,
       "random-note:ランダムノートを開く": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "publish:パブリッシュによる変更の公開": false
+      "publish:パブリッシュによる変更の公開": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "291142763ee65cc6",

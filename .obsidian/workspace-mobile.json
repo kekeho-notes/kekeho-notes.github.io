@@ -14,23 +14,23 @@
               "type": "markdown",
               "state": {
                 "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
               "title": "CRDT"
             },
-            "group": "e1ab55737d204770"
+            "group": "a45bffb841cb2eda"
           }
         ]
       },
       {
-        "id": "71c12f669617f0e8",
+        "id": "e6a2c00f214942d2",
         "type": "tabs",
         "children": [
           {
-            "id": "ec1906e69e7d6fd2",
+            "id": "00673a29095d00a3",
             "type": "leaf",
             "state": {
               "type": "localgraph",
@@ -53,19 +53,19 @@
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.636842105263158,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.5475413344290339,
+                  "scale": 1.9422282315290658,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
               "title": "Graph view"
             },
-            "group": "e1ab55737d204770"
+            "group": "a45bffb841cb2eda"
           }
         ]
       }
@@ -94,7 +94,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "CRDT",
+            "query": "sfs",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -185,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -194,15 +195,16 @@
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aacc5de3366a3ef3",
+  "active": "00673a29095d00a3",
   "lastOpenFiles": [
+    "その他/SFS.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "日報/2024-11-09.md",
     "日報/日報.md",
     "日報/2024 03 21.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "無題のキャンバス.canvas",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Read committed.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Lost Update.md",
@@ -225,7 +227,6 @@
     "arb.md",
     "人工海浜.md",
     "CG/3Dオブジェクトの衝突判定.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
     "Excalidraw"
   ]
 }
