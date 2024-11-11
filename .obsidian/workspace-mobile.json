@@ -4,38 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d7a5905d96b91235",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7704cff6e58dc64e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
-        "id": "da93b9df18fb609d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "311c26666a65ea26",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
-      },
-      {
         "id": "96accb79780424e4",
         "type": "tabs",
         "children": [
@@ -43,10 +11,15 @@
             "id": "1646ef0b503ee463",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Filter lock.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Filter lock"
             }
           }
         ]
@@ -76,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "sfs",
+            "query": "Filter lock",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -123,6 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Filter lock.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -179,8 +153,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7704cff6e58dc64e",
+  "active": "1646ef0b503ee463",
   "lastOpenFiles": [
+    "Excalidraw/filter-lock-example-n4.excalidraw.md",
+    "Excalidraw/filter-lock-example-n4.excalidraw.svg",
+    "Excalidraw/Drawing 2024-11-11 15.47.40.excalidraw.md",
+    "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
+    "filter-lock-example-n4.excalidraw.md",
+    "Filter lock.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "その他/SFS.md",
     "日報/2024-11-09.md",
@@ -204,10 +184,6 @@
     "OS/Interrupt.md",
     "CG/分離軸判定.md",
     "CG/Bresenham's Line Algorithm.md",
-    "OS/xv6-riscv.md",
-    "arb.md",
-    "人工海浜.md",
-    "CG/3Dオブジェクトの衝突判定.md",
     "Excalidraw"
   ]
 }

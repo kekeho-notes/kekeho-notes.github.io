@@ -1,0 +1,2 @@
+- Strong progress requirement
+- ループのないコードは、bounded wait-free特性を満たしている
