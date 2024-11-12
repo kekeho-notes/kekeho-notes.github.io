@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "🔐暗号技術/Secure Enclave.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "大事にしたいお言葉"
+              "title": "Secure Enclave"
             }
           },
           {
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "🔐暗号技術/Secure Enclave.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "大事にしたいお言葉へのバックリンク"
+              "title": "Secure Enclaveへのバックリンク"
             }
           },
           {
@@ -199,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "その他/大事にしたいお言葉.md",
+                "file": "🔐暗号技術/Secure Enclave.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "大事にしたいお言葉のグラフ"
+              "title": "Secure Enclaveのグラフ"
             }
           }
         ],
@@ -255,8 +255,8 @@
   },
   "active": "e8472e43f81607dc",
   "lastOpenFiles": [
-    "nishio 若き日の小さな勲章が大きな呪いになる.md",
     "その他/大事にしたいお言葉.md",
+    "nishio 若き日の小さな勲章が大きな呪いになる.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "Lamport's Bakery algorithm.md",

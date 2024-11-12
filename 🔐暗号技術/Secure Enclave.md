@@ -6,8 +6,8 @@
 - [[Apple Platform Security]]
 
 サンプル実装
-TPMで秘密鍵管理
 - EntitlementのKeychain Access Groupsに`$(AppIdentifierPrefix)[あなたのBundle Identifierの文字列]`を書いておく必要がある
+- Secure Enclave特有のバグかはわからないが、ApplicationTagが長すぎるとキーは作成できても`SecItemCopyMatching`で取ってこれないことがある
 ```test.swift
 import Foundation
 import CryptoKit
