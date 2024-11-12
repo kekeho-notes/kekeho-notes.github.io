@@ -199,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
+                "file": "その他/大事にしたいお言葉.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -227,10 +227,11 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Strong Eventual Consistencyのグラフ"
+              "title": "大事にしたいお言葉のグラフ"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -254,6 +255,8 @@
   },
   "active": "e8472e43f81607dc",
   "lastOpenFiles": [
+    "nishio 若き日の小さな勲章が大きな呪いになる.md",
+    "その他/大事にしたいお言葉.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "Lamport's Bakery algorithm.md",
@@ -282,8 +285,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/TSO.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus algorithm.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Communication/Total Order Broadcast.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clocks and Monotonicity for Byzantine-Tolerant Replicated Data Types.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Physical Clocks.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/共同編集",
     "無題のキャンバス.canvas",
     "土木",
