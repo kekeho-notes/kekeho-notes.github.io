@@ -1,2 +1,2 @@
-[#Concurrency_Controll](Concurrency_Controll)
+[[Concurrency Control]]の1形態
 - Acquire lock -> DB Access -> Release lock

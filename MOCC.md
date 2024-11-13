@@ -1,0 +1,2 @@
+- Mostly-Optimistic Concurrency Control
+- [[Optimistic Concurrency Control]]の一つ

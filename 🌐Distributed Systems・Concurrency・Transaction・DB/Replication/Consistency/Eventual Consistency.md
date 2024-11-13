@@ -1,3 +1,2 @@
-[#Consistency](Consistency.md)
-
+- 最弱の[[Consistency]]
 - いつ収束するか、の保証はない

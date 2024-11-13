@@ -1,7 +1,7 @@
 - Basically Available
-	- [#Availability](Availability.md)
+	- [[Availability]]
 - Soft State
 - Eventually Consistent
-	- [#Eventual_Consistency](Eventual_Consistency)
+	- [[Eventual Consistency]]
 
 - よく[[ACID]]と比較される
