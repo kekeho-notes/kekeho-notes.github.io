@@ -267,12 +267,55 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+  "floating": {
+    "id": "2eab38bbb5e1c72f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "c4698b3540ee036d",
+        "type": "window",
+        "children": [
+          {
+            "id": "8537d49f03a1510a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0c62cb1a37ac8f9c",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新規タブ"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 768,
+        "y": 264,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "948d12599ae8a953",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.excalidraw",
-    "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
-    "Insertion Sort.md",
+    "🔒️Private/Pasted image 20241113172349.png",
+    "Pasted image 20241113172349.png",
+    "🔒️Private/Pasted image 20241113171851.png",
+    "Pasted image 20241113171851.png",
+    "Pasted image 20241113165807.png",
+    "🔒️Private/Pasted image 20241113165807.png",
     "🔒️Private/2024 Big Data Systemまとめ.md",
+    "Excalidraw/Drawing 2024-11-10 00.53.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-11 15.47.40.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.excalidraw",
+    "Insertion Sort.md",
     "射影.md",
     "Projection operator.md",
     "パスツールの4分類.md",
@@ -295,8 +338,6 @@
     "その他/大事にしたいお言葉.md",
     "nishio 若き日の小さな勲章が大きな呪いになる.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
-    "Lamport's Bakery algorithm.md",
-    "The Art of Multiprocessor Programming.md",
     "Pasted image 20241111172054.png",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
     "Excalidraw/filter-lock-example-n4.excalidraw.svg",
@@ -307,15 +348,9 @@
     "Excalidraw",
     "Templates",
     "研究/ジャーナル・カンファレンス",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
     "💻️プログラミング・コンピュータ・アルゴリズム/無題のファイル.canvas",
     "assets/FuIo-IyaYAABIci.jpg",
     "assets/64f7a2bd8f035f001c4a0056.png",
-    "assets/643a535dd3908b001b17ca94.png",
-    "assets/6636e5d53c0e1a00241df23d.png",
-    "assets/65f561f4f43a6e002371e718.png",
-    "assets/64472aa21df8fd001cda1067.png",
-    "assets/FuTbXHbagAAD-LO.jpg",
-    "assets/6605009e2577410025d7d111.jpeg"
+    "assets/643a535dd3908b001b17ca94.png"
   ]
 }
