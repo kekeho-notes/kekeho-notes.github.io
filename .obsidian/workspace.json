@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📊数学・論理学/二項関係.md",
+                "file": "🔒️Private/2024 Big Data Systemまとめ.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二項関係"
+              "title": "2024 Big Data Systemまとめ"
             }
           },
           {
@@ -213,7 +213,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "📊数学・論理学/二項関係.md",
+                "file": "🔒️Private/2024 Big Data Systemまとめ.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -241,7 +241,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "二項関係のグラフ"
+              "title": "2024 Big Data Systemまとめのグラフ"
             }
           }
         ],
@@ -269,16 +269,18 @@
   },
   "active": "948d12599ae8a953",
   "lastOpenFiles": [
+    "📊数学・論理学/二項関係.md",
+    "🔒️Private/2024 Big Data Systemまとめ.md",
+    "[[Cartesian.md",
+    "🔒️Private",
     "📊数学・論理学/Relation.md",
     "📊数学・論理学/Cartesian product.md",
     "📊数学・論理学/Commutative.md",
     "📊数学・論理学/ACI.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
-    "📊数学・論理学/二項関係.md",
     "📊数学・論理学/同値関係.md",
     "📊数学・論理学/n-ary relation.md",
     "n項関係.md",
-    "[[Cartesian.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md",
     "Bolt-on Causal Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/KVS.md",
@@ -295,7 +297,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fairness.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/TLA+.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex/Mutex.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex/Peterson's algorithm.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
     "Excalidraw/filter-lock-example-n4.excalidraw.svg",
     "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
@@ -307,7 +308,6 @@
     "研究/ジャーナル・カンファレンス",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/DAG",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Overlay Network",
     "💻️プログラミング・コンピュータ・アルゴリズム/無題のファイル.canvas",
     "assets/FuIo-IyaYAABIci.jpg",
     "assets/64f7a2bd8f035f001c4a0056.png",
