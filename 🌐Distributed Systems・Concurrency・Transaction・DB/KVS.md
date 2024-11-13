@@ -1,1 +1,1 @@
-- [[Key Value Storage]], [[Key Value Store]]
+- [[Key Value Storage]], [[Key Value Store]]とも
