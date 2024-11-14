@@ -1,4 +1,5 @@
 - [[Chain Replication]]の進化系
+- [[Linearizability]]を保証
 - Read-mostlyなワークロードのために、[[Local read]]を可能にしている
 
 # 参考

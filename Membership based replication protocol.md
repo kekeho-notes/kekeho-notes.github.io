@@ -1,0 +1,3 @@
+- メンバーシップベースの[[Replication]] protocol
+- Commitされた書き込みが、すべてのレプリカに到達することを保証
+	- [[Local read]]が容易に達成される
