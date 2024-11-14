@@ -34624,7 +34624,7 @@
 			"version": 3,
 			"versionNonce": 2125220363,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731484940041,
 			"link": null,
 			"locked": false,
@@ -34636,6 +34636,99 @@
 				[
 					-1,
 					-41
+				]
+			],
+			"pressures": [
+				0,
+				0
+			],
+			"simulatePressure": false,
+			"lastCommittedPoint": null
+		},
+		{
+			"id": "RmgHr4F-zsTBGapUhuyMV",
+			"type": "freedraw",
+			"x": -391.7742846899576,
+			"y": 499.97263718924376,
+			"width": 17.71730271783423,
+			"height": 46.898742488384755,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b5n",
+			"roundness": null,
+			"seed": 939136237,
+			"version": 4,
+			"versionNonce": 1291943341,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1731495590077,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					7.295359942637617,
+					-21.88607982791291
+				],
+				[
+					17.71730271783423,
+					-46.898742488384755
+				]
+			],
+			"pressures": [
+				0,
+				0,
+				0
+			],
+			"simulatePressure": false,
+			"lastCommittedPoint": null
+		},
+		{
+			"id": "PRLAXqwjyl-75531bP_np",
+			"type": "freedraw",
+			"x": -541.8502606527888,
+			"y": 492.6772772466061,
+			"width": 1.042194277519684,
+			"height": 60.447268096140306,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"index": "b5o",
+			"roundness": null,
+			"seed": 1372567683,
+			"version": 3,
+			"versionNonce": 419501965,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1731496183431,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.042194277519684,
+					-60.447268096140306
 				]
 			],
 			"pressures": [
@@ -34662,10 +34755,10 @@
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 840,
-		"scrollY": 192,
+		"scrollX": 875.3524294590803,
+		"scrollY": 225.39457996444037,
 		"zoom": {
-			"value": 1
+			"value": 0.959514
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
