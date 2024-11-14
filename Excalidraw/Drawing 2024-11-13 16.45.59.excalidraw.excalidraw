@@ -34717,7 +34717,7 @@
 			"version": 3,
 			"versionNonce": 419501965,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1731496183431,
 			"link": null,
 			"locked": false,
@@ -34755,10 +34755,10 @@
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
-		"scrollX": 875.3524294590803,
-		"scrollY": 225.39457996444037,
+		"scrollX": 556.4507278009239,
+		"scrollY": 225.6044966961465,
 		"zoom": {
-			"value": 0.959514
+			"value": 1.432446
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,

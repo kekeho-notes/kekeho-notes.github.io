@@ -299,20 +299,25 @@
                 "id": "0c62cb1a37ac8f9c",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "日報/2024-11-09.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "新規タブ"
+                  "title": "2024-11-09"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 768,
-        "y": 264,
-        "width": 1024,
-        "height": 800,
+        "x": 132,
+        "y": 128,
+        "width": 1846,
+        "height": 1158,
         "maximize": false,
         "zoom": 0
       }
@@ -320,6 +325,7 @@
   },
   "active": "948d12599ae8a953",
   "lastOpenFiles": [
+    "日報/2024-11-09.md",
     "🔒️Private/2024 Big Data Systemまとめ.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/BASE.md",
@@ -358,7 +364,6 @@
     "🔒️Private",
     "📊数学・論理学/Relation.md",
     "📊数学・論理学/Cartesian product.md",
-    "📊数学・論理学/Commutative.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
     "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/共同編集",
