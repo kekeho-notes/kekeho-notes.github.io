@@ -1,2 +1,2 @@
-- 一般的な非同期[[SMR]]は、[[Leaderless SMR]]であることが多い
+- 一般的な非同期[[State Machine Replication]]は、[[Leaderless SMR]]であることが多い
 	- 全部そうなのか? はよくわからない(kekeho)
