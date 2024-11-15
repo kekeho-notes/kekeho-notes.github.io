@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-15.md",
-                "mode": "preview",
+                "file": "CockroachDB.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-15"
+              "title": "CockroachDB"
             }
           }
         ],
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-11-15.md",
+                "file": "CockroachDB.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-11-15のグラフ"
+              "title": "CockroachDBのグラフ"
             }
           }
         ],
@@ -254,8 +254,11 @@
   },
   "active": "61b2bf67bb500b0a",
   "lastOpenFiles": [
-    "日報/日報.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Amazon MemoryDB.md",
     "CockroachDB.md",
+    "Chain Replication.md",
+    "日報/2024-11-15.md",
+    "日報/日報.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Physical Clocks.md",
@@ -266,7 +269,6 @@
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "DCQL.md",
-    "日報/2024-11-15.md",
     "DIF Presentation Exchange.md",
     "Presentation Definition.md",
     "JSONPath.md",
@@ -280,8 +282,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/ACID.md",
     "Concurrency Controll.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Pessimistic Concurrency Control.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Optimistic Concurrency Control.md",
-    "MOCC.md",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
     "Pasted image 20241113182220.png",
     "🔒️Private/Pasted image 20241113180049.png",
