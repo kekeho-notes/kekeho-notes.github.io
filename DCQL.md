@@ -3,4 +3,4 @@
 - だれかまともなクエリプロセッサ書いてるんだろうか?
 
 # 参考
-- https://idmlab.eidenti
+- https://idmlab.eidentity.jp/2024/10/iiw-39-day1.html
