@@ -1,13 +1,12 @@
-[#Hybrid_Logical_Clock](Hybrid_Logical_Clock)
 [https://link.springer.com/chapter/10.1007/978-3-319-14472-6_2](https://link.springer.com/chapter/10.1007/978-3-319-14472-6_2)
 
-- [[HLC]]の提案論文
+- [[Hybrid Logical Clock]]の提案論文
 - [[Lamport Clock]]と、[[Physical Time]]のハイブリッド! かっこいい(kekeho)
 - [[MongoDB]], [[CockroachDB]]で使われているらしい
 
-Introduction
+# Introduction
 - Brief History of Time
-	- [[💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB/Logical Clock]]: [[Lamport Clock]], [[Vector Clock]]など。Lamport Clockは物理的な時間に紐づいていないし、バックチャンネルでの通信は反映できないので実用的でない
+	- [[Logical Clock]]: [[Lamport Clock]], [[Vector Clock]]など。Lamport Clockは物理的な時間に紐づいていないし、バックチャンネルでの通信は反映できないので実用的でない
 		- (とこの論文ではしている。まあケースバイケースでは)(kekeho)
 	- [[Physical Time]](PT): [[物理時間]]。[[NTP]]使っても完全に同期はできないので、[[Uncertainty intervals]]が生じ、その期間が被っているイベントには順序付けができない。秒が飛んだり、巻き戻ったりということも発生する
 	- [[TrueTime]]: [[Google Spanner]]で提案。特別なデバイスが必要である。また、同期がゆるいとイベントの遅延がかさむ。
