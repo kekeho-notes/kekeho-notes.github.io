@@ -4,101 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "6fbe5bc4373d228d",
+        "id": "1554773f93159ff6",
         "type": "tabs",
         "children": [
           {
-            "id": "f84460b4b9848468",
+            "id": "fbd44b894a200a6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filter lock.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filter lock"
-            }
-          },
-          {
-            "id": "3fc3913ffd5449e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Fairness.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fairness"
-            }
-          },
-          {
-            "id": "e8472e43f81607dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔐暗号技術/Secure Enclave.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Secure Enclave"
-            }
-          },
-          {
-            "id": "948d12599ae8a953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🔒️Private/2024 Big Data Systemまとめ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024 Big Data Systemまとめ"
-            }
-          },
-          {
-            "id": "e741ade6c04e595a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Eventual Consistency"
-            }
-          },
-          {
-            "id": "f9850f540aa9c243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bounded Timestamp.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bounded Timestamp"
+              "title": "Hermes"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,8 +74,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -229,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🔒️Private/2024 Big Data Systemまとめ.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,7 +180,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024 Big Data Systemまとめのグラフ"
+              "title": "Hermesのグラフ"
             }
           }
         ],
@@ -283,50 +206,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "floating": {
-    "id": "2eab38bbb5e1c72f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c4698b3540ee036d",
-        "type": "window",
-        "children": [
-          {
-            "id": "8537d49f03a1510a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0c62cb1a37ac8f9c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "日報/2024-11-09.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2024-11-09"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 132,
-        "y": 128,
-        "width": 1846,
-        "height": 1158,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "948d12599ae8a953",
+  "active": "fbd44b894a200a6f",
   "lastOpenFiles": [
-    "日報/2024-11-09.md",
+    "Zeus.md",
     "🔒️Private/2024 Big Data Systemまとめ.md",
+    "日報/2024-11-09.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/BASE.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/ACID.md",
@@ -363,7 +247,6 @@
     "[[Cartesian.md",
     "🔒️Private",
     "📊数学・論理学/Relation.md",
-    "📊数学・論理学/Cartesian product.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
     "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/共同編集",
