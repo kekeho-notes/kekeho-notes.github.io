@@ -1,3 +1,3 @@
-- Strong [[progress requirement]]
+- Strong [[progress]] requirement
 - [[Wait-free]]と同じ?
 - ループのないコードは、bounded wait-free特性を満たしている

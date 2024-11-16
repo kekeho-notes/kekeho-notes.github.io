@@ -1,4 +1,6 @@
-- [[Byzantine Fault Tolerant]]なトランザクショナルデータベース
+- [[Byzantine Fault Tolerant]]なトランザクショナル[[KVS]
+- Correctnessとして、[[Byzantine Isolation]]を保証
+- [[Progress]]として、[[Byzantine Independence]]を保証
 
 
 # 参考

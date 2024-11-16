@@ -103,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basil.md",
+                "file": "Byzantine Independence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basil"
+              "title": "Byzantine Independence"
             }
           },
           {
@@ -258,7 +258,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Basil.md",
+                "file": "Byzantine Independence.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,7 +286,17 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Basilのグラフ"
+              "title": "Byzantine Independenceのグラフ"
+            }
+          },
+          {
+            "id": "a7f17dfaef474149",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -294,7 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 757.5
+    "width": 462.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -314,13 +324,17 @@
   },
   "active": "2678eb90186bb7e0",
   "lastOpenFiles": [
-    "日報/2024-11-16.md",
     "Basil.md",
+    "Byzantine Independence.md",
+    "Progress.md",
+    "Bounded wait-free.md",
+    "Byzantine Isolation.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault Tolerant.md",
+    "日報/2024-11-16.md",
     "日報/2024-11-17.md",
     "Bounded Timestamp.md",
     "Lamport's Bakery algorithm.md",
     "Wait-free.md",
-    "Bounded wait-free.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Lock-free.md",
     "Critical section.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Livelock.md",
@@ -336,10 +350,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/TiDB.md",
     "W3C Credential Community Group.md",
     "2024-11-16.md",
-    "Unlinkability.md",
-    "その他/大事にしたいお言葉.md",
-    "Bolt-on Causal Consistency.md",
-    "n項関係.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
