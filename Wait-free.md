@@ -1,0 +1,2 @@
+- [[Multiprocessor Programming]]において、他スレッドの動作に関係なく、スレッドがいかなる操作も有限のステップ数で完了させられることを指している
+- [[Lock-free]] $\subset$ [[Wait-free]] 

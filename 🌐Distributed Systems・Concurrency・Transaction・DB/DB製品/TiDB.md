@@ -9,6 +9,7 @@
 - ストレージサーバー
 	- [[TiKV]]サーバー: データ保存([[Key-Valueストア]])。行指向。[[OLTP]]向け
 	- [[TiFlask]]サーバー: 列指向のストレージエンジン。[[OLAP]]向け
+		- TiFlaskにも列指向で保存するから、[[HTAP]] DBなんだろう
 
 参考資料
 - アーキテクチャ: [https://docs.pingcap.com/ja/tidb/stable/tidb-architecture](https://docs.pingcap.com/ja/tidb/stable/tidb-architecture)

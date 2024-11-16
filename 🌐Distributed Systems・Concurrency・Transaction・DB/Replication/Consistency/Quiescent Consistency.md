@@ -1,4 +1,3 @@
-[#Consistency](Consistency.md)
 - [[静止一貫性]]とも
 - 静止状態(Quiescent State)をまたぐリオーダが起きない[[Consistency]]
 	- [[Quiescent State]]: どのスレッドからの操作も行われていない瞬間
