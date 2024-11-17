@@ -88,28 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-16.md",
+                "file": "日報/2024-11-17.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-16"
-            }
-          },
-          {
-            "id": "2678eb90186bb7e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Program Consisitency"
+              "title": "2024-11-17"
             }
           },
           {
@@ -128,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -258,7 +243,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
+                "file": "日報/2024-11-17.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,12 +266,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.2823773769199032,
+                  "scale": 0.22429698398028577,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Program Consisitencyのグラフ"
+              "title": "2024-11-17のグラフ"
             }
           },
           {
@@ -322,14 +307,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2678eb90186bb7e0",
+  "active": "dbb1cbffc2f55dae",
   "lastOpenFiles": [
+    "日報/2024-11-16.md",
+    "その他/大事にしたいお言葉.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
     "Basil.md",
     "Byzantine Independence.md",
     "Byzantine Isolation.md",
     "日報/2024-11-17.md",
-    "日報/2024-11-16.md",
     "Progress.md",
     "Bounded wait-free.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault Tolerant.md",
@@ -348,8 +335,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizable.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Bf-Tree.md",
     "Hash table.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/TiDB.md",
-    "W3C Credential Community Group.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
