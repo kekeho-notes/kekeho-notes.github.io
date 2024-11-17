@@ -1,2 +1,2 @@
-- [[Basil]]で導入された[[Progress]] property
+- [[Basil]]で導入された[[Progress]] / [[Fairness]] property
 - 正しいクライアントcが発行するすべての操作oについて、Byzantineなアクターのグループがoの結果を変えることができない

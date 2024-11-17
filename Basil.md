@@ -8,9 +8,20 @@
 # Concurrency Control
 - [[Byzantine Serializability]]を保証する[[Concurrency Control]]
 - [[Muti-version timestamp ordering]](MVTSO)
+## 実行の流れ
+`Withdraw(Bob, x)`を考える
+1. `Begin(T, TS)`: タイムスタンプをつける
+	-  システムの仮定として、時刻がゆるく同期されている、というのがある
+2. `balance = Read(bob)`: レプリカからOptimisticに値を読み取る
+	- read(key, TS), reply(key, version, value)
+	- f+1個のレプリカから値を読み取り、最もバージョン番号が高いものを選択する
+3. Write(Bob, bal - x)
+4. Commit(T)
 
 # Commit Protocol
-
+- [[2PC]]ベース
+- 異なる順序で競合するトランザクションのコミットを受け取りうるし、レプリカはウソを付くかもしれない
+- Replicas perform CC-Check + Quorum validation = Byzantine Serializability
 
 # Fallback protocol
 - [[Byzantine Independence]]を保証するFallback protocol
@@ -20,3 +31,6 @@
 
 - 解説動画
 	 ![解説動画](https://www.youtube.com/watch?v=_iIuPrlE1nw)
+
+# メモ
+- Byzantineなクライアントが、意図的にAbortして、他のトランザクションもそれに引きづられてどんどんAbortせざるを得ない…みたいなカスケード障害は、どのように防がれている?
