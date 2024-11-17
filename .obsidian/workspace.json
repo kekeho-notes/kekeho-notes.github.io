@@ -103,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basil.md",
-                "mode": "source",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basil"
+              "title": "Program Consisitency"
             }
           },
           {
@@ -258,7 +258,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Basil.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -286,7 +286,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Basilのグラフ"
+              "title": "Program Consisitencyのグラフ"
             }
           },
           {
@@ -322,10 +322,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "933ba3686dc49718",
+  "active": "2678eb90186bb7e0",
   "lastOpenFiles": [
-    "Byzantine Independence.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
     "Basil.md",
+    "Byzantine Independence.md",
     "Byzantine Isolation.md",
     "日報/2024-11-17.md",
     "日報/2024-11-16.md",
@@ -349,7 +350,6 @@
     "Hash table.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/TiDB.md",
     "W3C Credential Community Group.md",
-    "2024-11-16.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
