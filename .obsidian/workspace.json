@@ -281,7 +281,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4276633378057675,
+                  "scale": 1.2823773769199032,
                   "close": true
                 }
               },
@@ -322,7 +322,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2678eb90186bb7e0",
+  "active": "933ba3686dc49718",
   "lastOpenFiles": [
     "Byzantine Independence.md",
     "Basil.md",
