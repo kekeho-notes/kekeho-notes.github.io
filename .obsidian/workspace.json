@@ -103,13 +103,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-16.md",
+                "file": "Basil.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-16"
+              "title": "Basil"
             }
           },
           {
@@ -258,7 +258,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-11-16.md",
+                "file": "Basil.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -281,12 +281,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6371745573752455,
+                  "scale": 0.4305631676269028,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-11-16のグラフ"
+              "title": "Basilのグラフ"
             }
           },
           {
@@ -324,14 +324,14 @@
   },
   "active": "2678eb90186bb7e0",
   "lastOpenFiles": [
-    "Basil.md",
     "Byzantine Independence.md",
+    "Basil.md",
+    "Byzantine Isolation.md",
+    "日報/2024-11-17.md",
+    "日報/2024-11-16.md",
     "Progress.md",
     "Bounded wait-free.md",
-    "Byzantine Isolation.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault Tolerant.md",
-    "日報/2024-11-16.md",
-    "日報/2024-11-17.md",
     "Bounded Timestamp.md",
     "Lamport's Bakery algorithm.md",
     "Wait-free.md",
