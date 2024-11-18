@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hermes.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hermes"
+              "title": "Starvation-freedom"
             }
           }
         ]
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Hermes.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -127,7 +127,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "3161281158fa0fe9",
@@ -196,7 +196,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb89dbc4a3bead8a",
+  "active": "73a3edb3dc0bd75f",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
     "Hermes.md",
