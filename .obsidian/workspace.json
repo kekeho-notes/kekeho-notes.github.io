@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-17.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/SKademlia.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-17"
+              "title": "SKademlia"
             }
           },
           {
@@ -243,7 +243,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-11-17.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/SKademlia.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -266,12 +266,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.22429698398028577,
+                  "scale": 1.1945377459015374,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-11-17のグラフ"
+              "title": "SKademliaのグラフ"
             }
           },
           {
@@ -307,10 +307,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dbb1cbffc2f55dae",
+  "active": "933ba3686dc49718",
   "lastOpenFiles": [
-    "日報/2024-11-18.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Distributed Hash Table/Kademlia.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/SKademlia.md",
+    "Hash table.md",
     "日報/2024-11-17.md",
+    "日報/2024-11-18.md",
     "日報/2024-11-16.md",
     "その他/大事にしたいお言葉.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
@@ -332,9 +335,6 @@
     "FCFS.md",
     "射影.md",
     "nishio 若き日の小さな勲章が大きな呪いになる.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizable.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Bf-Tree.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
