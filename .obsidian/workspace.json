@@ -266,7 +266,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.1945377459015374,
+                  "scale": 0.40515685066697554,
                   "close": true
                 }
               },
@@ -309,12 +309,13 @@
   },
   "active": "dbb1cbffc2f55dae",
   "lastOpenFiles": [
+    "The Byzantine Generals Problem.md",
+    "日報/2024-11-18.md",
     "DCQL.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/SKademlia.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Distributed Hash Table/Kademlia.md",
     "Hash table.md",
     "日報/2024-11-17.md",
-    "日報/2024-11-18.md",
     "日報/2024-11-16.md",
     "その他/大事にしたいお言葉.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Program Consisitency.md",
@@ -334,7 +335,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fairness.md",
     "first-come-first-served.md",
     "FCFS.md",
-    "射影.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
