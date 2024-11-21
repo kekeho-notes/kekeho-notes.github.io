@@ -5,7 +5,7 @@
 - 仮定
 	- メッセージの送信者は識別可能(署名等により達成される)
 	- $3k+1$のノードがあるときに、$k$台以上のサーバーが[[ビザンチン故障]]しない限り、安全([[Safety]])
-	- [[Partially synchronous model]]の仮定のもとで、[[Liveness]]を保証
+	- [[Partially synchronous system]]の仮定のもとで、[[Liveness]]を保証
 		- メッセージ遅延が有限
 
 論文

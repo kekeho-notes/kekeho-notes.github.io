@@ -14,7 +14,7 @@
 - Chain Replicationの進化系である[[CRAQ]]では、[[Local read]]を達成しているが、依然としてWriteは遅い
 
 # システムモデル
-- [[Partially synchronous model]]
+- [[Partially synchronous system]]
 - [[LSCs]]を備えている ← これ必要な仮定かなぁ?
 - [[Failure]] model
 	- [[Crash-stop failure]]
@@ -22,7 +22,7 @@
 		- [[Network partition]]
 		- [[Message reordering]]
 		- [[Message duplication]]
-		- [[Message loss]] ([[Omission failure]]のこと?)
+		- [[Message loss]] ([[Omission fault]]のこと?)
 
 # 仕組み
 - Coordinator replicaとFollower replicaがいる

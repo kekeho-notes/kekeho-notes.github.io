@@ -2,7 +2,7 @@
 - [[EuroSys]] 2024
 
 概要
-- [[Raft]]などの[[State Machine Replication]]アルゴリズムは[[Partially synchronous model]]
+- [[Raft]]などの[[State Machine Replication]]アルゴリズムは[[Partially synchronous system]]
 	- リーダー等の選出のタイミングの仮定に依存しており、パフォーマンスボトルネックが見られる。
 		- [[Safety]] Property ([[Strong Consistency]]など)は保証されても、[[Liveness]], [[Availability]]はメッセージ伝送の最大遅延時間の仮定が崩れると達成されない
 			- たしかにね(kekeho)

@@ -3,7 +3,7 @@
 - ニュアンス的に、Atomic Broadcastは実時間の話、Total Order Broadcastは[[Logical Clock]]の話っぽい? (kekeho)
 
 - [[Lamport Clock]]を使用すると、メッセージの順序付けをした配送が可能だが、[[Fault tolerance]]はない
-- アルゴリズムによってメッセージの[[Omission failure]], [[Timing failure]], [[Byzantine failure]]に耐える
+- アルゴリズムによってメッセージの[[Omission fault]], [[Timing failure]], [[Byzantine failure]]に耐える
 	- どれも[[flooding]]([[gossip]]等)ベースのBroadcastが基盤となっている
 
 Atomic Broadcast

@@ -1,9 +1,9 @@
 - [[Consensus algorithm]]
 - [[Leader-followerモデルのコンセンサスアルゴリズム]]
 - 前提条件
-	- [[Partially synchronous model]]
+	- [[Partially synchronous system]]
 	- プロセス間のコミュニケーションはunreliable
-		- メッセージの[[Omission failure]], Duplication、リオーダーなどが起こり得る
+		- メッセージの[[Omission fault]], Duplication、リオーダーなどが起こり得る
 	- 破損したメッセージは検出できる想定
 	- すべての操作は決定論的
 	- [[Crash-fault torelant]]

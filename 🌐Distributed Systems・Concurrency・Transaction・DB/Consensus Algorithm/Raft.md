@@ -1,2 +1,3 @@
 - [[Consensus Algorithm]]
 - [[Leader-followerモデルのコンセンサスアルゴリズム]]
+- システムモデルとして[[Crash-recovery model]]を仮定している
