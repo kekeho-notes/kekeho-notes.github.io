@@ -8,7 +8,7 @@
 			- たしかにね(kekeho)
 	- フェイルオーバーアルゴリズムも複雑。
 - Bandleは[[Leaderless SMR]], [[Asynchronous State Machine Replication]]。
-	- [[FLP Theorem]]の通り非同期で[[Safety]], [[Availability]]を両立するのはできないので、乱択アルゴリズムに頼る
+	- [[FLP Impossibility]]の通り非同期で[[Safety]], [[Availability]]を両立するのはできないので、乱択アルゴリズムに頼る
 - [[Ben-Or's randomized consensus algorithm]]ライクな[[FlashBA]]コンセンサスアルゴリズムを採用
 
 参考

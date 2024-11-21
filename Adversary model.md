@@ -33,9 +33,9 @@
 - [[State-actor adversary]]:
 	- 究極のstatic adversary. [[unbounded adversary]]のように無限の計算能力を持つ
 	- Honest-but-curiousな盗聴者のように振る舞い、メッセージを収集し、解析する
-- Crash: Passiveに加え、
-- Omission: 
-- Byzantine: 
+- Crash
+- Omission 
+- Byzantine
 
 # 参考
 - [The power of the adversary](https://decentralizedthoughts.github.io/2019-06-07-modeling-the-adversary/)

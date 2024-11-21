@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adversary model.md",
+                "file": "FLP Impossibility.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adversary model"
+              "title": "FLP Impossibility"
             }
           },
           {
@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "完全非同期",
+                "query": "FLP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +105,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary model.md",
+                "file": "FLP Impossibility.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -207,12 +206,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.904166083623827,
+                  "scale": 0.5661069352627743,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Adversary modelのグラフ"
+              "title": "FLP Impossibilityのグラフ"
             }
           },
           {
@@ -250,9 +249,14 @@
   },
   "active": "5b8461d07cef59a5",
   "lastOpenFiles": [
-    "暗号を学ぶのに良さそうな本.md",
-    "Adversary model.md",
+    "📊数学・論理学/Commutative.md",
+    "FLP Impossibility.md",
     "日報/2024-11-21.md",
+    "Adversary model.md",
+    "日報/2024-11-22.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Communication/Total Order Broadcast.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Bandle.md",
+    "暗号を学ぶのに良さそうな本.md",
     "Partially synchronous system.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "Communication model.md",
@@ -271,11 +275,6 @@
     "[Crash-recovery.md",
     "Crash fault.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance/Failure.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/同期システム.md",
-    "Byzantine fault.md",
-    "Timing fault.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",

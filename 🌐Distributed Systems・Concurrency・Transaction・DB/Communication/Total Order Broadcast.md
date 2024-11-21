@@ -44,7 +44,7 @@ Output
 - [[Distributed Consensus]]([[分散合意]])と等価であることが知られている
 	- [[Consensus algorithm]]の代わりに使える
 			- [証明した論文](https://doi.org/10.1145/226643.226647)
-	- コンセンサスと同様、[[FLP Theorem]]はTotal order broadcastにも適用される
+	- コンセンサスと同様、[[FLP Impossibility]]はTotal order broadcastにも適用される
 
 参考
 - [Atomic Broadcast: From Simple Message Diffusion to Byzantine Agreement - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0890540185710607)
