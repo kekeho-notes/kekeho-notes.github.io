@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adversary model.md",
+                "file": "Partially synchronous system.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adversary model"
+              "title": "Partially synchronous system"
             }
           },
           {
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary model.md",
+                "file": "Partially synchronous system.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Adversary modelのグラフ"
+              "title": "Partially synchronous systemのグラフ"
             }
           },
           {
@@ -234,8 +234,8 @@
   },
   "active": "136156ad9a78a05f",
   "lastOpenFiles": [
-    "Partially synchronous system.md",
     "Adversary model.md",
+    "Partially synchronous system.md",
     "日報/2024-11-21.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "Communication model.md",
