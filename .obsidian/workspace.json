@@ -192,7 +192,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.46378881742654016,
+                  "scale": 1.904166083623827,
                   "close": true
                 }
               },
@@ -236,8 +236,8 @@
   "active": "5b8461d07cef59a5",
   "lastOpenFiles": [
     "日報/2024-11-21.md",
-    "Partially synchronous system.md",
     "Adversary model.md",
+    "Partially synchronous system.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "Communication model.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
