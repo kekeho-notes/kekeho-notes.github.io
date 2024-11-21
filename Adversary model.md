@@ -9,3 +9,4 @@
 
 # 参考
 - [The power of the adversary](https://decentralizedthoughts.github.io/2019-06-07-modeling-the-adversary/)
+- [Static adversary](https://library.fiveable.me/key-terms/cryptography/static-adversary)

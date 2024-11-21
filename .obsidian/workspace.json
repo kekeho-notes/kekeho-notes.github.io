@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-11-21.md",
+                "file": "Adversary model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-21"
+              "title": "Adversary model"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Partially synchronous system.md",
+                "file": "Adversary model.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +197,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Partially synchronous systemのグラフ"
+              "title": "Adversary modelのグラフ"
             }
           },
           {
@@ -232,11 +233,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "136156ad9a78a05f",
+  "active": "5b8461d07cef59a5",
   "lastOpenFiles": [
-    "Adversary model.md",
-    "Partially synchronous system.md",
     "日報/2024-11-21.md",
+    "Partially synchronous system.md",
+    "Adversary model.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "Communication model.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
