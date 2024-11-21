@@ -14,17 +14,17 @@
 ## Adaptiviry
 どのような挙動を取るか
 - [[Static adversary]]: adaptiveに対応を変えることはしない
-- [[Adaptive]]: メッセージを改変して応答を調べるなどをする
+	- 攻撃者は、プロトコルを実行する前にどのfを攻撃するか決めないといけない
+- [[Delayed Adaptive adversary]]: パラメータ$k$があり、敵対者がパーティーの破壊を要求すると$\Delta{k}$後にcorruptする
+- [[Weak adaptive adversary]]: 敵対者がパーティーの破壊をしようとすると、パーティーは送信メッセージをすべて送信し終えた後に破壊される
+- [[Adaptive]]:
+	- 敵がパーティーを破壊しようとすると、直ちに破壊される
+	- メッセージを改変して応答を調べるなどをする
+	- まだ到着していない破壊前のパーティーから送信されたメッセージは届く
+- [[Strong adaptive adversary]]:
+	- 破損前に送信されたメッセージは、敵対者によって消去される可能性がある
 
-
-
-
-- Static / Adaptive
-
-
-- Classic / Quantum
-
-# Adversary model (Corruption)の分類
+# Corruptionの分類
 - [[Passive adversary]] ([[Honest-But-Curious adversary]]/[[Semi-Honest adversary]]):
 	- passiveでstaticな攻撃者。
 	- プロトコルから逸脱することはないが、viewから可能な限りの情報を収集することができる
