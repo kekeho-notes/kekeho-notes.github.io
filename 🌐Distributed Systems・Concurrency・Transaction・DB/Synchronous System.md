@@ -3,6 +3,6 @@
 3. 伝送遅延・処理遅延は既知の定数$\delta$に制限される
 
 - 現実には同期システムなどほとんどない
-- authenticationができれば[[Byzantine fault]]なノードがN個いても耐えられるコンセンサスプロトコルがあることが知られている
+- authenticationができれば[[Byzantine fault]]なノードがN個いても(つまり任意の数の障害に)耐えられるコンセンサスプロトコルがあることが知られている
 	- authenticationがなければ$N \geq 3t+1$
 	- 
