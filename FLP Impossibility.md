@@ -4,7 +4,7 @@
 
 
 # 論文
-- https://dl.acm.org/doi/10.1145/3149.214121
+- https://dl.acm.org/doi/10.1145/3149.214121 ([[JACM]]'85)
 
 ## 2. Consensus Protocols
 - Consensus Protocol $P$の定義: $N \geq 2$個のプロセスからなる[[Asynchronous System]]
@@ -34,7 +34,7 @@
 		1. No accessible configuration has more than one decision value
 			- どのような遷移可能なConfigurationも、複数の決定値を持たない
 		2. For each $v \in {0, 1}$, some accessible configuration has decision value v
-			- 0と1それぞれについて、その値を決定地とする遷移可能なConfigurationが存在する
+			- 0と1それぞれについて、その値を決定値とする遷移可能なConfigurationが存在する
 	- Totally correct
 		- 1つのfaulty processがいても、partially correctかついくつかのプロセスが決定状態にたどり着ければOK
 
@@ -46,4 +46,9 @@
 ## Main result
 - Theorem 1: No consensus protocol is totally correct in spite of one fault
 	- 高々1つの故障にも関わらず、totally correctなconsensus protocolはない ([[Asynchronous System]]の場合は)
-- 証明は論文にある
+### 証明
+- 背理法を用い、逆に$p$は1つのfaultがあってもtotally correctであると証明しようとしたときに矛盾が生じることでTheorem 1を証明する
+-  証明の流れ
+	1. まだ決定されていない初期構成がいくつか存在することを証明する
+	2. システムが特定の決定をするようなステップを回避するadmissible runを組み立てられることを示す
+- TODO: 続きを読む
