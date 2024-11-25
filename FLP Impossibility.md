@@ -1,5 +1,9 @@
+---
+aliases:
+  - FLP
+---
 > In this paper, we show the surprising result that no completely asynchronous consensus protocol can tolerate even a single unannounced process death.
-- ビザンチン障害は考慮せず(もっとゆるくCrash faultしか仮定していない)、信頼性のある通信路があって、Exactly-onceのメッセージ配信が可能と仮定しても、ダメ！
+- [[Byzantine fault]]は考慮せず(もっとゆるく[[Crash fault]]しか仮定していない)、信頼性のある通信路があって、Exactly-onceのメッセージ配信が可能と仮定しても、ダメ！
 - [[Determinisitc Consensus]]を仮定している
 
 
