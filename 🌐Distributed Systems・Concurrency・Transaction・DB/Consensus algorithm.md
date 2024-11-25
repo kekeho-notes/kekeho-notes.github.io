@@ -1,3 +1,10 @@
+---
+aliases:
+  - コンセンサスアルゴリズム
+  - コンセンサス
+  - Consensus
+---
+
 # Consensus algorithmのcorrectness
 - **[[Agreement]]**: all nodes in $N$  decide on the same value
 - **[[Validity]]**: the value that is decided upon must have been proposed by some node in $N$

@@ -1,3 +1,8 @@
+---
+aliases:
+  - 故障
+  - 故障モデル
+---
 - いろいろな[[Fault]]がある
 # ネットワークのFailure
 [[Transient failure]]([[一時障害]])

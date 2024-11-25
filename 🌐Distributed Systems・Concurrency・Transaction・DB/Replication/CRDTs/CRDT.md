@@ -86,7 +86,7 @@ Introduction
 	- [[CAP定理]]は[[Consistency]](C)と[[Partition-tolerance]](P)のトレードオフを課している
 - [[Eventual Consistency]]や[[Optimistic Replication]]という別のアプローチがある
 	- レプリカは、非同期で操作を適用し、他のレプリカに送信する
-	- バックグラウンドにあるコンセンサスアルゴリズムがコンフリクトを解消する
+	- バックグラウンドにある[[Consensus algorithm|コンセンサスアルゴリズム]]がコンフリクトを解消する
 	- ネットワークの分断(P)にもかかわらず、データのAvailabilityを高めることができる
 	- ハイパフォーマンス
 	- [[弱い一貫性]]([[Eventual Consistency]])が許容できるアプリケーションもある

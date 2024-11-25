@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Consensus in the presence of partial synchrony.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Proof of Burn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Consensus in the presence of partial synchrony"
+              "title": "Proof of Burn"
             }
           },
           {
@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+                "file": "Consensus in the presence of partial synchrony.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Synchronous System"
+              "title": "Consensus in the presence of partial synchrony"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FLP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -221,7 +221,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 2.3558776733568743,
+                  "scale": 0.5641973581107633,
                   "close": true
                 }
               },
@@ -262,13 +262,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5b8461d07cef59a5",
+  "active": "86837578f89e0178",
   "lastOpenFiles": [
     "Partially synchronous system.md",
+    "Consensus in the presence of partial synchrony.md",
+    "Partially.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance/Failure.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Error.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault, Error, Failureの関係性.md",
+    "Crash fault.md",
+    "The Art of Multiprocessor Programming.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Proof of Burn.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus algorithm.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+    "ブロックチェーンのコンセンサスアルゴリズム.md",
     "FLP Impossibility.md",
     "暗号を学ぶのに良さそうな本.md",
-    "Consensus in the presence of partial synchrony.md",
     "📊数学・論理学/Commutative.md",
     "日報/2024-11-21.md",
     "Adversary model.md",
@@ -277,19 +289,7 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Bandle.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "Communication model.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/2PC.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
-    "Consensus.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus algorithm.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Randomized Consensus Algorithm.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Lattice Agreement.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Raft.md",
-    "Crash-recovery model.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fail-stop fault.md",
-    "Crash-recovery.md",
-    "[Crash-recovery.md",
-    "Crash fault.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
