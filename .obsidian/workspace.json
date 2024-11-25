@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+                "file": "Consensus in the presence of partial synchrony.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Synchronous System"
+              "title": "Consensus in the presence of partial synchrony"
             }
           },
           {
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+                "file": "Consensus in the presence of partial synchrony.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,7 +226,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Synchronous Systemのグラフ"
+              "title": "Consensus in the presence of partial synchronyのグラフ"
             }
           },
           {
@@ -264,10 +264,10 @@
   },
   "active": "5b8461d07cef59a5",
   "lastOpenFiles": [
-    "FLP Impossibility.md",
     "Partially synchronous system.md",
-    "暗号を学ぶのに良さそうな本.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+    "FLP Impossibility.md",
+    "暗号を学ぶのに良さそうな本.md",
     "Consensus in the presence of partial synchrony.md",
     "📊数学・論理学/Commutative.md",
     "日報/2024-11-21.md",
