@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "notes.kekeho.net",
-    pageTitleSuffix: "| notes.kekeho.net",
+    pageTitleSuffix: " | notes.kekeho.net",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -57,7 +57,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "git", "filesystem"],
+        priority: ["git"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
