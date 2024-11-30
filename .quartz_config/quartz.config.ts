@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "notes.kekeho.net",
-    pageTitleSuffix: "",
+    pageTitleSuffix: "| notes.kekeho.net",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,8 +17,8 @@ const config: QuartzConfig = {
     },
     locale: "ja-JP",
     baseUrl: "notes.kekeho.net",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    ignorePatterns: ["Private", "Templates", ".obsidian"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -57,7 +57,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
