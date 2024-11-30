@@ -4,6 +4,8 @@
 - [[Read committed]]のもとでは許容されてしまう[[Anomaly]]
 - [[Snapshot isolation]]では起きない
 
+- Isolation的には、トランザクションの逐次実行と等しくなるべきなのに、図のようにxを2回読んでそれぞれで値が変わっていたらおかしい
+
 許容されないケース
 - DBのバックアップ
 	- Repeatable readが発生していたら、一貫性(ACIDのC)が失われる

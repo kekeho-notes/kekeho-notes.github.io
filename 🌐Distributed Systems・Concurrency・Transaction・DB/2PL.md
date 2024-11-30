@@ -2,11 +2,6 @@
 - [[Serializability]]を実現するために使われる
 - [[Pessimistic Concurrency Control]]
 - Read-Read以外は全部ブロックする
-lock
-,,
-,,
-,,
-
 - [[Snapshot isolation]]と異なり、リーダーはライターをブロックする & ライターはリーダーもブロックする
 
 仕組み
