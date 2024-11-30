@@ -260,7 +260,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4305631676269023,
+                  "scale": 0.41205987119768456,
                   "close": true
                 }
               },
@@ -303,7 +303,11 @@
   },
   "active": "46808858ae1ff497",
   "lastOpenFiles": [
+    "Crash-stop failure.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRAQ.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Isolation.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
@@ -329,10 +333,6 @@
     "Bounded wait-free.md",
     "Wait-free.md",
     "Consensus in the presence of partial synchrony.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus algorithm.md",
-    "Byzantine fault.md",
-    "FLP Impossibility.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",
