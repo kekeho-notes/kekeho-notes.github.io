@@ -1,4 +1,4 @@
-- [[Isolation]]の文脈において、[[Serializable]]でない実行を引き起こす異常のこと
+- [[🌐Distributed Systems・Concurrency・Transaction・DB/Isolation]]の文脈において、[[Serializable]]でない実行を引き起こす異常のこと
 
 
 参考

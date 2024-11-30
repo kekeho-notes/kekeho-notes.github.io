@@ -1,4 +1,4 @@
-[#Serializability](Serializability.md) [#Isolation](Isolation.md) [#トランザクション分離レベル](トランザクション分離レベル.md)	[#トランザクション](トランザクション)
+[#Serializability](Serializability.md) [#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md) [#トランザクション分離レベル](🌐Distributed%20Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md)	[#トランザクション](トランザクション)
 - [[スナップショット分離]]とも
 - それぞれのトランザクションが、データベースの一貫性のあるスナップショットから読み取りを行う
 	- ここでの一貫性は、因果関係において一貫している、という意味

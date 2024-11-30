@@ -6,7 +6,7 @@
 		- 不変条件はアプリケーションによって異なる。ACIDの中でCだけは、データベースの特性ではなくアプリケーションの特性
 		- ACIDの中で、Cは頭字語を成立させるために付け加えられたものであり、本来ACIDに属するものではない
 	- [[CAP]], [[PACELC theorem]]のCとは違うので注意
-- [[Isolation]]: [[Concurrency Control]]
+- [[🌐Distributed Systems・Concurrency・Transaction・DB/Isolation]]: [[Concurrency Control]]
 	- 並行で実行されるトランザクションがあっても、あたかもそれぞれが順番に処理されている(=同時に実行されているトランザクションはない)かのように(Seriallyに)振る舞うことを保証する
 		- 古典的には[[Serializability]]
 	- 並行性が問題になるのは、1つのトランザクションが他のトランザクションから並行して変更されているデータを読み込む場合(read-write)、あるいは2つのトランザクションが同じデータを変更する場合(write-write)。read-readは安全

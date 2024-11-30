@@ -4,7 +4,7 @@
 - Read-Read以外は全部ブロックする
 - [[Snapshot isolation]]と異なり、リーダーはライターをブロックする & ライターはリーダーもブロックする
 
-仕組み
+# 仕組み
 - Shared modeのロックと、Exclusive modeのロックがある
 	- Shared mode lock
 		- 複数のトランザクションが同時に取得できる

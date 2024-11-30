@@ -1,6 +1,6 @@
 - [[Replication]]における、レプリカ間の状態の一貫性を指す
 - 一般的に[[Safety]] propertyとされる
-- いろいろな種類([[Linearizable]]以下が[[Consistency]]、左側は[[Isolation]])
+- いろいろな種類([[Linearizable]]以下が[[Consistency]]、左側は[[🌐Distributed Systems・Concurrency・Transaction・DB/Isolation]])
 	- ![[assets/Screenshot%202024-08-09%20at%205.35.11%E2%80%AFPM.png]]
 	- [https://arxiv.org/pdf/1302.0309](https://arxiv.org/pdf/1302.0309)
 

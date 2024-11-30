@@ -1,4 +1,4 @@
-[#Isolation](Isolation.md) [#トランザクション](トランザクション)
+[#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md) [#トランザクション](トランザクション)
 - [[Anomaly]]の一つ
 - 2つのトランザクションが並行してDB内の同じオブジェクトを更新しようとしているとき、先行する書き込みがまだコミットされていないトランザクションの一部であり、あとから行われる書き込みがコミットされていない値を上書きしてしまうケース
 - ![[assets/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F68018%2F55e8325e-81ce-911c-c731-52b24b0c18aa.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=ad0fee74813019295da9c21ea894d488]]

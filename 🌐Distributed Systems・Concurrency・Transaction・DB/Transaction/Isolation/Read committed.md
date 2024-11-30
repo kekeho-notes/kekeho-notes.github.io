@@ -1,4 +1,4 @@
-[#Isolation](Isolation.md)
+[#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md)
 - [[弱い分離レベル]]の一つ
 - 以下を保証
 	- [[Dirty read]]が生じないことを保証

@@ -52,13 +52,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/2PL.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2PL"
+              "title": "Hermes"
             }
           },
           {
@@ -159,8 +159,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,7 +237,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/2PL.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -261,12 +260,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5641973581107633,
+                  "scale": 0.4305631676269023,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2PLのグラフ"
+              "title": "Hermesのグラフ"
             }
           },
           {
@@ -304,6 +303,14 @@
   },
   "active": "46808858ae1ff497",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Isolation.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Lost Update.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Phantom.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Write skew.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/2PL.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Nonrepeatable read.md",
     "index.md",
     "日報.md",
@@ -326,14 +333,6 @@
     "Byzantine fault.md",
     "FLP Impossibility.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
-    "Partially synchronous system.md",
-    "Partially.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault tolerance/Failure.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Error.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault, Error, Failureの関係性.md",
-    "Crash fault.md",
-    "The Art of Multiprocessor Programming.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",

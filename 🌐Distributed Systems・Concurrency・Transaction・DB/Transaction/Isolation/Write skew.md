@@ -1,4 +1,4 @@
-[#Isolation](Isolation.md) [#トランザクション分離レベル](トランザクション分離レベル.md) [#トランザクション](トランザクション)
+[#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md) [#トランザクション分離レベル](🌐Distributed%20Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md) [#トランザクション](トランザクション)
 
 - 読んでいない値に書き込む際に、他のトランザクションの読んだ値に書き込んでしまう[[Anomaly]]
 - [[Snapshot isolation]]のもとで起こる

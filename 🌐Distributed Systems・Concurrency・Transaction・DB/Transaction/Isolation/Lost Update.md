@@ -1,4 +1,4 @@
-[#Isolation](Isolation.md) [#トランザクション分離レベル](トランザクション分離レベル.md) [#トランザクション](トランザクション)
+[#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md) [#トランザクション分離レベル](🌐Distributed%20Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md) [#トランザクション](トランザクション)
 
 - 書き込んだ値が、他のトランザクションによってなかったことにされる[[Anomaly]]。([[Dead step]])
 - ![[assets/671c7c61b0332e7f6de91072.png]]

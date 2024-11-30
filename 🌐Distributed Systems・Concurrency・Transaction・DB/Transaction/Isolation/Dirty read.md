@@ -1,4 +1,4 @@
-[#Isolation](Isolation.md) [#トランザクション](トランザクション)
+[#Isolation](🌐Distributed%20Systems・Concurrency・Transaction・DB/Isolation.md) [#トランザクション](トランザクション)
 - コミットされていない値が、他のトランザクションから見えてしまう[[Anomaly]]
 - 対処する方法
 	- 読み取り時にもロックをする←長時間にわたる書き込みトランザクションがあったときに、読み取りも全部ブロックされてつらい
