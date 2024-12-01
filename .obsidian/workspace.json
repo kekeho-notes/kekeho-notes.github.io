@@ -52,13 +52,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
+                "file": "🔐暗号技術/暗号学的ハッシュ関数.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hermes"
+              "title": "暗号学的ハッシュ関数"
             }
           },
           {
@@ -237,7 +237,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
+                "file": "🔐暗号技術/暗号学的ハッシュ関数.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -265,7 +265,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Hermesのグラフ"
+              "title": "暗号学的ハッシュ関数のグラフ"
             }
           },
           {
@@ -303,8 +303,8 @@
   },
   "active": "46808858ae1ff497",
   "lastOpenFiles": [
-    "Crash-stop failure.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
+    "Crash-stop failure.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRAQ.md",
