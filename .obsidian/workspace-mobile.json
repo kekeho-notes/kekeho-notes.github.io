@@ -4,27 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "96accb79780424e4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eb89dbc4a3bead8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Starvation-freedom"
-            }
-          }
-        ]
-      },
-      {
         "id": "bdfe7fd964e65e40",
         "type": "tabs",
         "children": [
@@ -34,7 +13,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
+                "file": "Bounded Timestamp.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -64,8 +43,24 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "ca7a6605936a6a1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bounded Timestamp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bounded Timestamp"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +87,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "bounded",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -196,8 +191,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73a3edb3dc0bd75f",
+  "active": "ca7a6605936a6a1f",
   "lastOpenFiles": [
+    "Lamport's Bakery algorithm.md",
+    "Bounded Timestamp.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
+    "Bounded wait-free.md",
     "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
     "Hermes.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Merkle Tree.md",
@@ -215,7 +214,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Blockchain/Proof of Burn.md",
     "The Art of Multiprocessor Programming.md",
     "Filter lock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
     "Excalidraw/filter-lock-example-n4.excalidraw.md",
     "Excalidraw/filter-lock-example-n4.excalidraw.svg",
@@ -226,10 +224,7 @@
     "その他/SFS.md",
     "日報/2024-11-09.md",
     "日報/日報.md",
-    "日報/2024 03 21.md",
     "無題のキャンバス.canvas",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Read committed.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Lost Update.md",
     "Excalidraw"
   ]
 }
