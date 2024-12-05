@@ -50,13 +50,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bounded Timestamp.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/2PL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bounded Timestamp"
+              "title": "2PL"
             }
           }
         ],
@@ -87,7 +87,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "bounded",
+            "query": "2pl",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -193,8 +193,8 @@
   },
   "active": "ca7a6605936a6a1f",
   "lastOpenFiles": [
-    "Lamport's Bakery algorithm.md",
     "Bounded Timestamp.md",
+    "Lamport's Bakery algorithm.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Starvation-freedom.md",
     "Bounded wait-free.md",
     "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
