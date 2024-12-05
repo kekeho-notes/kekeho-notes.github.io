@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Phantom",
+                "query": "local first",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +159,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -303,6 +304,10 @@
   },
   "active": "86837578f89e0178",
   "lastOpenFiles": [
+    "Local first.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+    "日報/2024 03 21.md",
+    "無題のファイル.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault Tolerant.md",
     "Byzantine fault.md",
@@ -325,14 +330,10 @@
     "日報/日報.md",
     "🔒️Private/未踏アドバンスド/Kairosネタ.md",
     "時刻認証局.md",
-    "🔒️Private/2024 Big Data Systemまとめ.md",
     "🔒️Private/未踏アドバンスド",
     "Pasted image 20241114205127.png",
     "Pasted image 20241114202412.png",
     "Pasted image 20241113182220.png",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Lock-free.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fairness.md",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
     "💻️Computer Science・プログラミング・アルゴリズム・ツール",
     "🔒️Private/2022-0404-orien-river-v2.pdf",

@@ -87,7 +87,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "2pl",
+            "query": "Crdt",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -191,7 +191,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ca7a6605936a6a1f",
+  "active": "73a3edb3dc0bd75f",
   "lastOpenFiles": [
     "Bounded Timestamp.md",
     "Lamport's Bakery algorithm.md",

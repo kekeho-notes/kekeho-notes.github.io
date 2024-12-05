@@ -7,6 +7,7 @@
 - データへの操作を[[可換]]なものだけに限定する
 	- 足し算など
 	- 操作列がすべて到達すれば、すべてのノードのレプリカは収束する→[[Strong Eventual Consistency]]!
+- [[Local first]]なソフトウェアを実現する
 
 - [[CmRDT]] ([[Operation-Based CRDT]])
 	- 操作を送り合う
