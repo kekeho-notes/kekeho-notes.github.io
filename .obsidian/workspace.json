@@ -82,13 +82,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+                "file": "研究/論文の書き方.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CRDT"
+              "title": "論文の書き方"
             }
           },
           {
@@ -159,8 +159,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,7 +237,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+                "file": "研究/論文の書き方.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -266,7 +265,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "CRDTのグラフ"
+              "title": "論文の書き方のグラフ"
             }
           },
           {
@@ -304,8 +303,9 @@
   },
   "active": "86837578f89e0178",
   "lastOpenFiles": [
-    "Local first.md",
+    "日報/2024-12-06.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+    "Local first.md",
     "日報/2024 03 21.md",
     "無題のファイル.md",
     "Byzantine faultを想定したほうが良さそうなストーリー集.md",
@@ -329,7 +329,6 @@
     "日報.md",
     "日報/日報.md",
     "🔒️Private/未踏アドバンスド/Kairosネタ.md",
-    "時刻認証局.md",
     "🔒️Private/未踏アドバンスド",
     "Pasted image 20241114205127.png",
     "Pasted image 20241114202412.png",
