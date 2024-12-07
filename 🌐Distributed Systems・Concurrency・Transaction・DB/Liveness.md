@@ -1,13 +1,17 @@
-- [[活性]]とも
+---
+aliases:
+  - 活性
+---
 - good things do happen
 	- 例えば、操作が進行する、デッドロックとかしないよという保証
 - どんな事態からも正常状態へ復旧できるよという性質
 
 - 関連: [[Safety]]
 
-# Livenessを証明するには
-- 参考: [Proving Liveness Properties of Concurrent Programs]()
+# Livenessの例
+- [[Deadlock-freedom]]
+- [[Termination]]
+- メッセージの[[Eventual Delivery]]
 
-# 参考
-- [https://en.wikipedia.org/wiki/Safety_and_liveness_properties](https://en.wikipedia.org/wiki/Safety_and_liveness_properties)
-- 
+追記する
+# Liveness

@@ -82,13 +82,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
+                "file": "Temporal logic.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Liveness"
+              "title": "Temporal logic"
+            }
+          },
+          {
+            "id": "6e5da51a1590f8b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cobegin.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cobegin"
             }
           },
           {
@@ -107,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -138,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "local first",
+                "query": "並行処理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,7 +252,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
+                "file": "cobegin.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -260,12 +275,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.4433637650944637,
+                  "scale": 0.5046682139556424,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Livenessのグラフ"
+              "title": "cobeginのグラフ"
             }
           },
           {
@@ -301,11 +316,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "86837578f89e0178",
+  "active": "6e5da51a1590f8b7",
   "lastOpenFiles": [
+    "日報/2024-12-08.md",
+    "日報/2024-12-06.md",
+    "cobegin.md",
+    "Concurrent.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/TLA+.md",
+    "Temporal logic.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Safety.md",
     "研究/論文の書き方.md",
-    "日報/2024-12-06.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
     "Local first.md",
     "日報/2024 03 21.md",
@@ -323,12 +344,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Isolation.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Serializable.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Lost Update.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Phantom.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Write skew.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/2PL.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Nonrepeatable read.md",
-    "index.md",
-    "日報.md",
     "🔒️Private/未踏アドバンスド",
     "Pasted image 20241114205127.png",
     "Pasted image 20241114202412.png",
@@ -347,9 +362,3 @@
     "🔒️Private",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
     "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/共同編集",
-    "無題のキャンバス.canvas",
-    "土木",
-    "💻️プログラミング・コンピュータ・アルゴリズム/無題のファイル.canvas"
-  ]
-}
