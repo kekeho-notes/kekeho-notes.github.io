@@ -4,5 +4,10 @@
 - どんな事態からも正常状態へ復旧できるよという性質
 
 - 関連: [[Safety]]
-参考
+
+# Livenessを証明するには
+- 参考: [Proving Liveness Properties of Concurrent Programs]()
+
+# 参考
 - [https://en.wikipedia.org/wiki/Safety_and_liveness_properties](https://en.wikipedia.org/wiki/Safety_and_liveness_properties)
+- 
