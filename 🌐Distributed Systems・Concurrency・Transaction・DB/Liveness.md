@@ -14,11 +14,4 @@ aliases:
 - メッセージの[[Eventual Delivery]]
 
 追記する
-# Livenessを証明するには
-- 参考: [Proving Liveness Properties of Concurrent Programs](https://lamport.azurewebsites.net/pubs/liveness.pdf)
-- [[Temporal logic|時相論理]]で証明する
-
-
-# 参考
-- [https://en.wikipedia.org/wiki/Safety_and_liveness_properties](https://en.wikipedia.org/wiki/Safety_and_liveness_properties)
-- 
+# Liveness
