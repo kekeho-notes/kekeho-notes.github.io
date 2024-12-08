@@ -44,8 +44,16 @@ $\Diamond$: now or sometime in the future (最終的に、Eventually)
 - $\square(I \supset \square I)$ (不変条件): if $I$ ever becomes true, then it will remain true forever
 ### Livenessに関連する公式
 - $\square (P \supset \Diamond Q)$: if $P$ ever becomes true, then $Q$ will be true at the same time or later
-	- $P $
-
+	- $P \leadsto Q$: $P$ leads $Q$ともいう
+### その他の公式
+- $\square (P \supset Q) \supset (P \leadsto Q)$
+- $\square(P \land Q) \equiv (\square P \land \square Q)$
+- $(\square P \lor \square Q) \supset \square(P \lor Q)$
+- $\Diamond(P \lor Q) \equiv (\Diamond P \lor \Diamond Q)$
+- $(\square P \land \square (P \supset Q)) \supset \square Q$
+- $\Diamond P \lor \square \sim{P}$: Pは最終的に真になるか、永遠に偽でありつづけるかのどちらかである
+- $((P \leadsto Q) \land (Q \leadsto R)) \supset (P \leadsto R)$: 推移律
+- 
 # 参考
 - https://www.cs.tsukuba.ac.jp/~mizutani/under_grad/programtheory/2014/2014-09.pdf
 - https://lamport.azurewebsites.net/pubs/liveness.pdf
