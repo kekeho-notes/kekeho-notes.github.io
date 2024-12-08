@@ -18,8 +18,9 @@ $\Diamond$: now or sometime in the future (最終的に、Eventually)
 		- Fairness: $\textit{ready}(s_i)$に含まれるアトミック処理$a$は、$s_j (j > i)$の実行にいつか含まれる
 - 現在のステートのみから次の遷移可能なステート群が決まる
 
-## 即時アサーション(Immediate Assertions)
-- Temporal logicは、$\land$, $\lor$, $\neg$などの一般的な論理記号と、$\square$, $\Diamond$からなる即時アサーションから構築される
+## Immediate Assertions
+- Temporal logicは、$\land$, $\lor$, $\neg$などの一般的な論理記号と$\square$, $\Diamond$からなる、Immediate Assertions(即時アサーション)から構築される
+- プログラムのステートにおける関数
 - 記法
 	- $s \vDash P$: ステート$s$において、即時アサーション$P$が真である
 		- 例: $s \vDash x = 1$はステート$s$において$x = 1$が満たされていることを示す
@@ -30,6 +31,20 @@ $\Diamond$: now or sometime in the future (最終的に、Eventually)
 	- Aが[[cobegin]]の中のステートメントの場合、cobegin全体が終了しているか、cobeginは実行中だがAは終わっている、という状態
 
 ## Temporal Assertions
+- プログラムの実行シーケンスにおける関数
+- 記法
+	- $\sigma \vDash P$: プログラムの無限の実行シーケンス$\sigma$においてtemporal assertion $P$が真である
+- Immediate assertionsとの関連性:
+	- $\sigma \vDash P$ if and only if $s_0 \vDash P$
+- 時相演算子を使う場合
+	- $\sigma \vDash \square P$ if and only if $\forall i \ge 0: \sigma^{(i)} \vDash P$
+	- $\sigma \vDash \Diamond P$ if and only if $\exists i \ge 0: \sigma^{(i)} \vDash P$
+### Safetyに関連する公式
+- $P \supset \square Q$ (含意): if $P$ is true now, then $Q$ will always be true
+- $\square(I \supset \square I)$ (不変条件): if $I$ ever becomes true, then it will remain true forever
+### Livenessに関連する公式
+- $\square (P \supset \Diamond Q)$: if $P$ ever becomes true, then $Q$ will be true at the same time or later
+	- $P $
 
 # 参考
 - https://www.cs.tsukuba.ac.jp/~mizutani/under_grad/programtheory/2014/2014-09.pdf
