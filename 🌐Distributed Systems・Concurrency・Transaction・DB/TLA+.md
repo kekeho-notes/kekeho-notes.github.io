@@ -253,4 +253,4 @@ Tips
 	- > TLA+ や PlusCal は設計を抽象化する過程で設計者の主観や感覚の影響を大きく受けやすい。「TLA+ で証明済み」といった主張を盲信せず、どのような前提の下にどのようなケースが適用または省略されたか (省略した部分はどう実装することを想定しているか) を十分にレビューすべきである。
 		- なるほど(kekeho)
 - [エンジニア目線で見る TLA+ と PlusCal - TAKAMI Torao | PPT](https://www.slideshare.net/slideshow/tla-pluscal-takami-torao/265420965)
-	- [[TLC]]がどうやって[[Sa
+	- [[TLC]]がどうやって[[Safety]], [[Liveness]]の検証をしているか解説されている
