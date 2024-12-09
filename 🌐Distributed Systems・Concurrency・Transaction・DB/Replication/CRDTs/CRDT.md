@@ -96,4 +96,4 @@ Introduction
 - CRDTはコンセンサスいらず
 - [[Linearizability]]ほしいが、これには一般的にコンセンサスが必要なので、CRDTでは弱い[[Quiescent Consistency]]を考える
 - 続きを書こうと思ったけど、めんどくさくなってしまって諦めた(kekeho)
-	- [[Delight]]の輪読でやったときにまとめたスライド: [https://blog.kekeho.net/2023/10/23/論文輪読-crdt/](https://blog.kekeho.net/2
+	- [[Delight]]の輪読でやったときにまとめたスライド: [https://blog.kekeho.net/2023/10/23/論文輪読-crdt/](https://blog.kekeho.net/2023/10/23/論文輪読-crdt/)

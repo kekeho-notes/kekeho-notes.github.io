@@ -176,7 +176,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.0078125,
+                  "scale": 0.66669035360396,
                   "close": true
                 }
               },
@@ -217,7 +217,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6e5da51a1590f8b7",
+  "active": "933ba3686dc49718",
   "lastOpenFiles": [
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/CAP定理.md",
