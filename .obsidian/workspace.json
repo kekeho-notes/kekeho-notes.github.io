@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-12-08.md",
+                "file": "FLP Impossibility.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-08"
+              "title": "FLP Impossibility"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "並行処理",
+                "query": "logical clock",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-12-08.md",
+                "file": "FLP Impossibility.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -175,12 +176,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5491508130584001,
+                  "scale": 0.0078125,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-12-08のグラフ"
+              "title": "FLP Impossibilityのグラフ"
             }
           },
           {
@@ -218,9 +219,25 @@
   },
   "active": "6e5da51a1590f8b7",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
+    "Partially synchronous system.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Vector Clock.md",
+    "Vector_Clock.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Lamport Clock.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault, Error, Failureの関係性.md",
+    "FLP Impossibility.md",
+    "Consensus in the presence of partial synchrony.md",
+    "Adversary model.md",
+    "Bounded wait-free.md",
     "📊数学・論理学/Temporal logic.md",
-    "日報/2024-12-07.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Join Semilattice.md",
+    "Pasted image 20241208221304.png",
     "日報/2024-12-08.md",
+    "日報/2024-12-07.md",
     "assets/Pasted image 20241208160300.png",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
     "📊数学・論理学/iff.md",
@@ -230,20 +247,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/TLA+.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Safety.md",
     "研究/論文の書き方.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
-    "Local first.md",
-    "日報/2024 03 21.md",
-    "無題のファイル.md",
-    "Byzantine faultを想定したほうが良さそうなストーリー集.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault Tolerant.md",
-    "Byzantine fault.md",
-    "🔐暗号技術/暗号学的ハッシュ関数.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
-    "Crash-stop failure.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRAQ.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Isolation.md",
     "🔒️Private/未踏アドバンスド",
     "Pasted image 20241114205127.png",
     "Pasted image 20241114202412.png",
@@ -256,7 +259,6 @@
     "🔒️Private/Pasted image 20241113175838.png",
     "Pasted image 20241113175838.png",
     "🔒️Private/Pasted image 20241113172349.png",
-    "Pasted image 20241113172349.png",
     "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.excalidraw",
     "🔒️Private",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
