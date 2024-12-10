@@ -1,6 +1,3 @@
-![[assets/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F31409%2Fb0091608-d6cb-92e4-e528-8e487f06831f.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=fc9e0daf2c9a8ad777381b9fb232f4e1]]
-
-
 - [[Rust]]の[[Atomic]]操作には、いくつかの保証レベルがある
 	- 大前提として、単一スレッドの中では順序が守られる。しかし、別スレッドから観測したときに、あたかも順序がぐちゃぐちゃに実行されているように見えることがある
 - [[Relaxed]]: 同期を行わない
@@ -15,5 +12,8 @@
 	- すべてのスレッドが合意する単一の全順序を構成
 難しい。。。(kekeho)
 
+おそらくだが、単一の操作に限ればAckRelとSeqCstは同じ結果を生むはず。問題は複数の変数を扱うときで、AckRelでは異なる変数間の操作順序に一貫性が生まれない一方で、SeqCstでは全てのスレッドが全ての変数の操作を同じグローバルな順序で見ることが保証される。
+
 参考文献
 - [https://qiita.com/qnighy/items/b3b728adf5e4a3f1a841](https://qiita.com/qnighy/items/b3b728adf5e4a3f1a841)
+- https://marabos.nl/atomics/memory-ordering.html
