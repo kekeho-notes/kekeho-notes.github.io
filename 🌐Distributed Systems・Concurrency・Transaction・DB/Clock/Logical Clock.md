@@ -61,4 +61,15 @@
 		- [[Logical Physical Clocks]]
 - [[Bloom Clock]]
 	- [https://arxiv.org/abs/1905.13064](https://arxiv.org/abs/1905.13064)
-	- [The Bloom Clock to Characterize Causality in Distributed S
+	- [The Bloom Clock to Characterize Causality in Distributed Systems | SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-57811-4_25)
+	- 偽陽性があるが、ベクタークロックと比べて空間効率がよい
+		- 偽陰性があると致命的だと思うけど、偽陽性なら多くのアプリケーションで許容できるんでは(kekeho)
+
+# 参考
+- [https://hazm.at/mox/distributed-system/algorithm/consistency/version-vector/index.html](https://hazm.at/mox/distributed-system/algorithm/consistency/version-vector/index.html)
+- [https://dl.acm.org/doi/abs/10.1145/3335772.3335934](https://dl.acm.org/doi/abs/10.1145/3335772.3335934)
+- [https://www.hpcs.cs.tsukuba.ac.jp/~msato/lecture-note/dsys-2012/lecture-dist-clock.pdf](https://www.hpcs.cs.tsukuba.ac.jp/~msato/lecture-note/dsys-2012/lecture-dist-clock.pdf)
+- ![](https://www.youtube.com/watch?v=BRvj8PykSc4&feature=youtu.be)
+
+
+[#p2p](p2p) [#分散システム](分散システム.md)
