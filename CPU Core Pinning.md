@@ -11,3 +11,15 @@ description: "This year I have been involved in running performance benchmarks o
 url: "https://manuel.bernhardt.io/posts/2023-11-16-core-pinning/"
 ```
 
+# macOS
+- うーん、できなさそう?
+- スレッドの[[QoS]]は設定できて、多分Eコアで動かしたり配慮はしてくれそう
+- でも[[Rust]]の[core_affinity](https://github.com/Elzair/core_affinity_rs)ではどうもx86_64だとできそう? (試してない)
+
+## 参考
+```embed
+title: "CPU Pinning on macOS – random blog"
+image: ""
+description: "Apple operating systems explicitly do not support CPU pinning in a shipping configuration."
+url: "https://threedots.ovh/blog/2022/06/cpu-pinning-on-macos/"
+```
