@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-12-10.md",
+                "file": "CPU Core Pinning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-10"
+              "title": "CPU Core Pinning"
             }
           }
         ],
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-12-10.md",
+                "file": "CPU Core Pinning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-12-10のグラフ"
+              "title": "CPU Core Pinningのグラフ"
             }
           },
           {
@@ -232,10 +232,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ab33093b1fbcba8d",
+  "active": "739479d870e0eb04",
   "lastOpenFiles": [
-    "CPU Core Pinning.md",
     "日報/2024-12-10.md",
+    "CPU Core Pinning.md",
     "プログラミング言語・環境/Rust/RustのMemory Ordering.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/CAP定理.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
