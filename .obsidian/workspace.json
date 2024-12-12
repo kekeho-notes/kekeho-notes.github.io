@@ -1,75 +1,59 @@
 {
   "main": {
-    "id": "6a2c49f394df8a56",
+    "id": "643b89889f3b73d0",
     "type": "split",
     "children": [
       {
-        "id": "1554773f93159ff6",
+        "id": "1b6b414a2f9a8014",
         "type": "tabs",
         "children": [
           {
-            "id": "6e5da51a1590f8b7",
+            "id": "1f67ac571d5541dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "プログラミング言語・環境/Rust/RustのMemory Ordering.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Causal Consistency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RustのMemory Ordering"
-            }
-          },
-          {
-            "id": "739479d870e0eb04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hermes"
+              "title": "Causal Consistency"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "12a939160c9d1e9a",
+    "id": "fea7836f76eaf7f8",
     "type": "split",
     "children": [
       {
-        "id": "76731e2768f975e8",
+        "id": "182f015c1bff7931",
         "type": "tabs",
         "children": [
           {
-            "id": "ab33093b1fbcba8d",
+            "id": "8340f7a728e31cb4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
             }
           },
           {
-            "id": "6280d6e2b8e245e9",
+            "id": "13949dc5d3556900",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "logical clock",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +65,7 @@
             }
           },
           {
-            "id": "e2a3afd5de3b9e35",
+            "id": "c9f5cd04d56413d0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,25 +78,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 300
   },
   "right": {
-    "id": "82a665169caa6dda",
+    "id": "3bf34daf7425c0b7",
     "type": "split",
     "children": [
       {
-        "id": "c7dcecef2acb35e1",
+        "id": "b41dd6768647cb9f",
         "type": "tabs",
         "children": [
           {
-            "id": "cb442cda6c503548",
+            "id": "2a2140506849819a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bolt-on Causal Consistency.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Causal Consistency.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -120,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bolt-on Causal Consistencyへのバックリンク"
+              "title": "Causal Consistencyへのバックリンク"
             }
           },
           {
-            "id": "e916b2daa3c5a5a4",
+            "id": "f991e0f56e20b59f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Groupware.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Causal Consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Groupwareからのアウトゴーイングリンク"
+              "title": "Causal Consistencyからのアウトゴーイングリンク"
             }
           },
           {
-            "id": "e27fac1d1ee114f7",
+            "id": "afccd44ff8d70f5b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,132 +135,47 @@
             }
           },
           {
-            "id": "b451c2de88f04bb4",
+            "id": "3de09e869ffca8b4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Groupware.md"
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Causal Consistency.md"
               },
               "icon": "lucide-list",
-              "title": "Groupwareのアウトライン"
-            }
-          },
-          {
-            "id": "933ba3686dc49718",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": true,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": false,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": -0.8,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.66669035360396,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Hermesのグラフ"
-            }
-          },
-          {
-            "id": "a7f17dfaef474149",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Causal Consistencyのアウトライン"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:グラフビューを開く": false,
       "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
       "markdown-importer:Markdownインポーターを開く": false,
-      "audio-recorder:録音の開始/停止": false,
       "random-note:ランダムノートを開く": false,
-      "obsidian-git:Open Git source control": false,
+      "audio-recorder:録音の開始/停止": false,
       "publish:パブリッシュによる変更の公開": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "739479d870e0eb04",
+  "active": "1f67ac571d5541dc",
   "lastOpenFiles": [
-    "🌐Distributed Systems・Concurrency・Transaction・DB/2PC.md",
-    "日報/2024-12-10.md",
-    "CPU Core Pinning.md",
-    "プログラミング言語・環境/Rust/RustのMemory Ordering.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/CAP定理.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
-    "📊数学・論理学/Temporal logic.md",
-    "FLP Impossibility.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
-    "Partially synchronous system.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Synchronous System.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Vector Clock.md",
-    "Vector_Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Lamport Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault, Error, Failureの関係性.md",
-    "Consensus in the presence of partial synchrony.md",
-    "Adversary model.md",
-    "Bounded wait-free.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRDTs/CRDT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Join Semilattice.md",
-    "Pasted image 20241208221304.png",
-    "日報/2024-12-08.md",
-    "日報/2024-12-07.md",
-    "assets/Pasted image 20241208160300.png",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
-    "📊数学・論理学/iff.md",
-    "🔒️Private/未踏アドバンスド",
-    "Pasted image 20241114205127.png",
-    "Pasted image 20241114202412.png",
-    "Pasted image 20241113182220.png",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール/🌐Distributed Systems・Concurrency・Transaction・DB",
-    "💻️Computer Science・プログラミング・アルゴリズム・ツール",
-    "🔒️Private/2022-0404-orien-river-v2.pdf",
-    "🔒️Private/Pasted image 20241113180049.png",
-    "Pasted image 20241113180049.png",
-    "🔒️Private/Pasted image 20241113175838.png",
-    "Pasted image 20241113175838.png",
-    "🔒️Private/Pasted image 20241113172349.png",
-    "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.excalidraw",
-    "🔒️Private",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex",
-    "Excalidraw/filter-lock-example-n4.excalidraw.excalidraw",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/共同編集",
-   
+    "🌐Distributed Systems・Concurrency・Transaction・DB/PACELC theorem.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md"
+  ]
+}
