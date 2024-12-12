@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "日報/2024-12-10.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-10"
+              "title": "Hermes"
             }
           }
         ],
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "日報/2024-12-10.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2024-12-10のグラフ"
+              "title": "Hermesのグラフ"
             }
           },
           {
@@ -234,8 +234,9 @@
   },
   "active": "739479d870e0eb04",
   "lastOpenFiles": [
-    "CPU Core Pinning.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/2PC.md",
     "日報/2024-12-10.md",
+    "CPU Core Pinning.md",
     "プログラミング言語・環境/Rust/RustのMemory Ordering.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/CAP定理.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
@@ -261,7 +262,6 @@
     "assets/Pasted image 20241208160300.png",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
     "📊数学・論理学/iff.md",
-    "cobegin.md",
     "🔒️Private/未踏アドバンスド",
     "Pasted image 20241114205127.png",
     "Pasted image 20241114202412.png",
