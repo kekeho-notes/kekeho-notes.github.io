@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CORFU"
+              "title": "Omission fault"
             }
           }
         ]
@@ -53,11 +53,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "遅延 故障",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -74,7 +74,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -122,7 +123,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "CORFUのグラフ"
+              "title": "Omission faultのグラフ"
             }
           },
           {
@@ -131,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CORFUへのバックリンク"
+              "title": "Omission faultへのバックリンク"
             }
           },
           {
@@ -150,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CORFUからのアウトゴーイングリンク"
+              "title": "Omission faultからのアウトゴーイングリンク"
             }
           },
           {
@@ -177,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md"
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md"
               },
               "icon": "lucide-list",
-              "title": "CORFUのアウトライン"
+              "title": "Omission faultのアウトライン"
             }
           }
         ]
@@ -194,4 +195,33 @@
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日の�
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "markdown-importer:Markdownインポーターを開く": false,
+      "random-note:ランダムノートを開く": false,
+      "audio-recorder:録音の開始/停止": false,
+      "publish:パブリッシュによる変更の公開": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "1f67ac571d5541dc",
+  "lastOpenFiles": [
+    "Partially synchronous system.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Sequential Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Quiescent Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Composability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Causal Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/PACELC theorem.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Serializability.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Strong Eventual Consistency.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Eventual Consistency.md"
+  ]
+}
