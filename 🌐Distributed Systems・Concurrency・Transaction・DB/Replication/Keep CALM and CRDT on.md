@@ -1,16 +1,14 @@
-[#CALM_Theorem](CALM_Theorem) [#CRDT](CRDT.md)
-
+# 概要
 - [[CALM Theorem]]の記事を[[CACM]]に書いたJ. M. Hellersteinらの論文
 - [[VLDB]] 2022: [https://www.vldb.org/pvldb/vol16/p856-power.pdf](https://www.vldb.org/pvldb/vol16/p856-power.pdf)
 	- [https://arxiv.org/pdf/2210.12605](https://arxiv.org/pdf/2210.12605)
-
 - [[CRDT]]の保証はデータ更新にのみフォーカスが当てられていて、データのReadは安全ではない
 	- [[Early Read]]とかがある
 	- マージとかは[[monotonic]]だけど、クエリは[[monotonic]]なものとそうでないものが混ざってるのが問題
 - [[CALM Theorem]]の[[monotonicity]]をCRDTに適用して、安全なクエリモデルを作る
 
-クエリの満たすべき性質
-- Safety: Queries should be sequentially consistent, regardless of the replica at which they are evaluated
+# クエリの満たすべき性質
+- [[Safety]]: Queries should be sequentially consistent, regardless of the replica at which they are evaluated
 	- これって別に、[[Sequential Consistency]]とは関係ない…? [[monotonic reads]]みたいな話?(kekeho)
 - Efficiency: Queries should be evaluated locally without coordination whenever possible
 	- whenever possible...(kekeho)

@@ -1,6 +1,6 @@
 - [https://cacm.acm.org/research/keeping-calm/](https://cacm.acm.org/research/keeping-calm/)
 - [[CALM]]: [[Consistency As Logical Monotonicity]]
-
+# 概要
 - [[Program Consisitency]]: [[Consistency]]の定義を、操作の順序づけから決定論的なプログラムの結果にシフトする考え方？
 	- 既存の[[Consistency]]の議論([[Linearizability]]など)では、メモリアクセスの順序を制約することで一貫性を担保していた
 		- このモデルでは、特定のプログラムの結果の一貫性に、Coordinationが必要かどうかの議論を曖昧にしていた
@@ -33,7 +33,7 @@
 	- 非単調操作が常にCoordination messageを送る必要があることを証明する
 		- ここ具体的にどう証明するんだろう。証明した論文を読まねば(kekeho)
 
-メモ
+# メモ
 - CALMは、[[CAP定理]]のC,A,Pが同時に満たせる問題のクラスを規定する
 	- [[Coordination free]]であることは、[[Network partition]]下での[[Availability]]と等価
 		- [[Coordination free]]ということは、[[Network partition]]下でも独立で処理を進められる
@@ -44,11 +44,11 @@
 - Monotonic Problemは、協調が必要ないだけでなく、ネットワーク[[メンバーシップ]]の知識を必要としない問題でもある
 	- 確かに、データフローは[[Gossip]]等で十分だよな(kekeho)
 
-うんちく
+## うんちく
 - [[PODS]] 2010で予想が発表されて、amelootらが色々形式化とか証明とかをした
 - [[Bloom言語]]で活用されている?
 
-参考資料
+# 参考資料
 - [https://speakerdeck.com/jhellerstein/the-calm-theorem-positive-directions-for-distributed-computing](https://speakerdeck.com/jhellerstein/the-calm-theorem-positive-directions-for-distributed-computing)
 - [https://cacm.acm.org/research/keeping-calm/](https://cacm.acm.org/research/keeping-calm/)
 	- Communications of the ACMの記事
