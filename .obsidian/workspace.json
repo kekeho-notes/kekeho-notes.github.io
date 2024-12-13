@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Omission fault"
+              "title": "CALM Theorem"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +123,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Omission faultのグラフ"
+              "title": "CALM Theoremのグラフ"
             }
           },
           {
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Omission faultへのバックリンク"
+              "title": "CALM Theoremへのバックリンク"
             }
           },
           {
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Omission faultからのアウトゴーイングリンク"
+              "title": "CALM Theoremからのアウトゴーイングリンク"
             }
           },
           {
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md"
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/CALM Theorem.md"
               },
               "icon": "lucide-list",
-              "title": "Omission faultのアウトライン"
+              "title": "CALM Theoremのアウトライン"
             }
           }
         ]
@@ -208,6 +208,7 @@
   },
   "active": "1f67ac571d5541dc",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
     "SOSP.md",
     "OSDI.md",
     "トップカンファレンス.md",
@@ -217,7 +218,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Bandle.md",
     "EuroSys.md",
     "CORE Ranking.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
     "Partially synchronous system.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",

@@ -54,4 +54,4 @@
 	- Communications of the ACMの記事
 - [https://dl.acm.org/doi/10.1145/2450142.2450151](https://dl.acm.org/doi/10.1145/2450142.2450151)
 	- 証明した論文
-- [[ amutake CALM]]
+- [amutake/CALM](https://scrapbox.io/amutake/CALM)
