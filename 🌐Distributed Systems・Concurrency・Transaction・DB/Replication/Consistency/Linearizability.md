@@ -14,4 +14,4 @@ aliases:
 参考
 - [https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html](https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html)
 - [nikezono/Linearizability](https://scrapbox.io/nikezono/Linearizability)
-- http://www.bailis.org/blog/linearizability-versu
+- http://www.bailis.org/blog/linearizability-versus-serializability/

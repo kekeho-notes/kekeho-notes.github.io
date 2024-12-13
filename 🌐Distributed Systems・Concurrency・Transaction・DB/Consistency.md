@@ -7,4 +7,10 @@
 参考
 - [Eventual Consistencyまでの一貫性図解大全 - Qiita](https://qiita.com/kumagi/items/3867862c6be65328f89c)
 	- これ、わかるようでわかりづらいような…。(kekeho)
-- [https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-level
+- [https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+
+
+infobox
+
+
+

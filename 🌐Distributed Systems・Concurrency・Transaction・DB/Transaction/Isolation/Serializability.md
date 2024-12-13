@@ -11,4 +11,4 @@ aliases:
 - 本当にトランザクションを順次実行する
 	- [[VoltDB]]とかはこれらしい
 - [[2PL]]
-- [[Serializable Snap
+- [[Serializable Snapshot Isolation]]
