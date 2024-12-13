@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EuroSys.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EuroSys"
+              "title": "Omission fault"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "eurosys",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "EuroSys.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,7 +123,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "EuroSysのグラフ"
+              "title": "Omission faultのグラフ"
             }
           },
           {
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EuroSys.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "EuroSysへのバックリンク"
+              "title": "Omission faultへのバックリンク"
             }
           },
           {
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EuroSys.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "EuroSysからのアウトゴーイングリンク"
+              "title": "Omission faultからのアウトゴーイングリンク"
             }
           },
           {
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EuroSys.md"
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md"
               },
               "icon": "lucide-list",
-              "title": "EuroSysのアウトライン"
+              "title": "Omission faultのアウトライン"
             }
           }
         ]
@@ -208,9 +208,15 @@
   },
   "active": "1f67ac571d5541dc",
   "lastOpenFiles": [
+    "SOSP.md",
+    "OSDI.md",
+    "トップカンファレンス.md",
+    "Chain Replication.md",
+    "USENIX.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRAQ.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Bandle.md",
     "EuroSys.md",
-    "SOSP.md",
+    "CORE Ranking.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
     "Partially synchronous system.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
