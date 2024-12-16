@@ -1,1 +1,1 @@
-- [[Multiprocessor Programming]]の文脈で、シングルスレッド
+- [[Multiprocessor Programming]]の文脈で、シングルスレッドの呼び出し順序のことを指す
