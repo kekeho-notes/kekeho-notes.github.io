@@ -1,0 +1,1 @@
+- [[Multiprocessor Programming]]の文脈で、シングルスレッド
