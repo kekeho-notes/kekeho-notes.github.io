@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Sequential Consistency.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deadlock-freedom"
+              "title": "Sequential Consistency"
             }
           },
           {
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Sequential Consistency.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,12 +171,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6380169077455758,
+                  "scale": 1.3237209861554322,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Deadlock-freedomのグラフ"
+              "title": "Sequential Consistencyのグラフ"
             }
           },
           {
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Sequential Consistency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +195,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Deadlock-freedomへのバックリンク"
+              "title": "Sequential Consistencyへのバックリンク"
             }
           },
           {
@@ -261,6 +261,11 @@
   },
   "active": "1f67ac571d5541dc",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Program correctness.md",
+    "Progress.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
+    "assets/Pasted image 20241216151935.png",
     "Lamport's Bakery algorithm.md",
     "アルゴリズム/計算量.md",
     "QGIS.md",
@@ -282,10 +287,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/CRAQ.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/Bandle.md",
     "EuroSys.md",
-    "CORE Ranking.md",
-    "Partially synchronous system.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Asynchronous System.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/CORFU.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Sequential Consistency.md"
+    "CORE Ranking.md"
   ]
 }

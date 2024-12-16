@@ -12,3 +12,5 @@ aliases:
 	- 複数のオブジェクトに対するR/Wは、非同期実行の環境下において古いデータに基づいた読み書きを行うこととなり、正しく動作しない
 - 書き込みについては[[Linearizability]]と一緒だが、読み込みは[[Linearizability|Linearizable]]にならない
 	- 読み込みの最新性が保証されない
+
+- [[Multiprocessor Programming]]の文脈で、コンピュータのメモリは一般的にSequential Consistencyを提供することが多い
