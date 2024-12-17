@@ -142,9 +142,17 @@
   "left": {
     "id": "fea7836f76eaf7f8",
     "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3bf34daf7425c0b7",
+    "type": "split",
     "children": [
       {
-        "id": "182f015c1bff7931",
+        "id": "b8c6237b12b9bed6",
         "type": "tabs",
         "children": [
           {
@@ -186,17 +194,8 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "3bf34daf7425c0b7",
-    "type": "split",
-    "children": [
+        ]
+      },
       {
         "id": "b41dd6768647cb9f",
         "type": "tabs",
@@ -230,7 +229,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.3237209861554322,
+                  "scale": 0.6895773887546106,
                   "close": true
                 }
               },
@@ -300,7 +299,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -318,7 +317,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "88e1e31c836ee31c",
+  "active": "8340f7a728e31cb4",
   "lastOpenFiles": [
     "🌐Distributed Systems・Concurrency・Transaction・DB/Mutex/Peterson's algorithm.md",
     "Filter lock.md",
