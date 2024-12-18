@@ -206,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Filter lock.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -234,7 +234,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Filter lockのグラフ"
+              "title": "Consistencyのグラフ"
             }
           },
           {
