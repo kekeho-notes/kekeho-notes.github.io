@@ -154,13 +154,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "プログラミング言語・環境/Rust/Rust.md",
+                "file": "CPU Core Pinning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rust"
+              "title": "CPU Core Pinning"
             }
           },
           {
@@ -179,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -251,7 +251,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "tokio.md",
+                "file": "CPU Core Pinning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -279,7 +279,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "tokioのグラフ"
+              "title": "CPU Core Pinningのグラフ"
             }
           },
           {
@@ -362,12 +362,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f9d84d535c145898",
+  "active": "c4f31278788b43a3",
   "lastOpenFiles": [
+    "Sushi principle.md",
+    "CPU Core Pinning.md",
     "プログラミング言語・環境/Rust/Rust.md",
     "tokio.md",
-    "CPU Core Pinning.md",
-    "Sushi principle.md",
     "MapReduce.md",
     "Pasted image 20241218154748.png",
     "バッチ処理システム.md",

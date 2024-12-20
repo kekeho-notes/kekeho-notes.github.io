@@ -2,7 +2,9 @@
 	- 評価取るときとかにOSのスケジューラの影響を排除できる
 
 # Linux
-- `taskset`コマンド
+- `taskset`コマンドを使うと、コアをそのプロセスに固定できる
+- カーネルのboot parameterの`nohz_full`, `isolcpus`をいい感じに設定すると、カーネルもそのコアを使わないようにできる
+	- コアのトポロジーを意識して、物理コア単位で開放してあげるとよし
 ## 参考
 ```embed
 title: "On pinning and isolating CPU cores"
@@ -10,6 +12,7 @@ image: "https://manuel.bernhardt.io/wp-content/cpu-costs.jpg"
 description: "This year I have been involved in running performance benchmarks of Aeron over at Adaptive on two major cloud providers. I learned quite a few things about the arcane arts science craft of running performance benchmarks. When benchmarking a piece of software, you really want to get the best performance out of it, which is to say that you also want to run it under the best conditions in order to see what is possible."
 url: "https://manuel.bernhardt.io/posts/2023-11-16-core-pinning/"
 ```
+- Kernel boot parameterの書き換え方: https://wiki.ubuntu.com/Kernel/KernelBootParameters
 
 # macOS
 - うーん、できなさそう?
