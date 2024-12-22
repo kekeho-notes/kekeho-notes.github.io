@@ -169,13 +169,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TPC-C.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TPC-C"
+              "title": "Fault"
             }
           },
           {
@@ -266,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TPC-C.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -294,7 +294,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "TPC-Cのグラフ"
+              "title": "Faultのグラフ"
             }
           },
           {
@@ -379,8 +379,8 @@
   },
   "active": "0cb41736163aec9d",
   "lastOpenFiles": [
-    "CPU Core Pinning.md",
     "TPC-C.md",
+    "CPU Core Pinning.md",
     "Sushi principle.md",
     "プログラミング言語・環境/Rust/Rust.md",
     "tokio.md",
