@@ -169,13 +169,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
+                "file": "Adversary model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fault"
+              "title": "Adversary model"
             }
           },
           {
@@ -266,7 +266,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
+                "file": "Adversary model.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -294,7 +294,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Faultのグラフ"
+              "title": "Adversary modelのグラフ"
             }
           },
           {
@@ -379,6 +379,9 @@
   },
   "active": "0cb41736163aec9d",
   "lastOpenFiles": [
+    "🔐暗号技術/リプレイ攻撃.md",
+    "🔐暗号技術/暗号学的ハッシュ関数.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
     "TPC-C.md",
     "CPU Core Pinning.md",
     "Sushi principle.md",
@@ -403,9 +406,6 @@
     "Progress.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
-    "assets/Pasted image 20241216151935.png",
-    "Lamport's Bakery algorithm.md",
-    "アルゴリズム/計算量.md",
-    "QGIS.md"
+    "assets/Pasted image 20241216151935.png"
   ]
 }
