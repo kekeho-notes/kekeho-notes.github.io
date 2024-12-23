@@ -169,13 +169,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adversary model.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adversary model"
+              "title": "Hypercube"
+            }
+          },
+          {
+            "id": "bf1d56e38b26e5df",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://doi.org/10.1007/3-540-45074-2_11"
+              },
+              "icon": "lucide-file",
+              "title": "HyperCuP — Hypercubes, Ontologies, and Efficient Search on Peer-to-Peer Networks | SpringerLink"
             }
           },
           {
@@ -266,7 +278,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary model.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -294,7 +306,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Adversary modelのグラフ"
+              "title": "Hypercubeのグラフ"
             }
           },
           {
@@ -379,6 +391,8 @@
   },
   "active": "0cb41736163aec9d",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
+    "Adversary model.md",
     "🔐暗号技術/リプレイ攻撃.md",
     "🔐暗号技術/暗号学的ハッシュ関数.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
@@ -404,8 +418,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Program correctness.md",
     "Progress.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Deadlock-freedom.md",
     "assets/Pasted image 20241216151935.png"
   ]
 }
