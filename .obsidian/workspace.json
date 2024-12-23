@@ -169,13 +169,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hypercube"
+              "title": "Logical Clock"
             }
           },
           {
@@ -278,7 +278,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Logical Clock.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -306,7 +306,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Hypercubeのグラフ"
+              "title": "Logical Clockのグラフ"
             }
           },
           {
@@ -391,6 +391,7 @@
   },
   "active": "0cb41736163aec9d",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Lamport Clock.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
     "Adversary model.md",
     "🔐暗号技術/リプレイ攻撃.md",
@@ -417,7 +418,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Consistency/Linearizability.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Program correctness.md",
-    "Progress.md",
     "assets/Pasted image 20241216151935.png"
   ]
 }
