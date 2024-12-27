@@ -1,1 +1,0 @@
-- [[Timestamp Oracle]]とも

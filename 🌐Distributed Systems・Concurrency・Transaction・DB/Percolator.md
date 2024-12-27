@@ -20,18 +20,18 @@
 write
 - [[2PC]]で書く
 	1. prewrite
-		- [[TSO]]から取得した`start_ts`で`c:lock`にロックを掛ける
+		- [[Timestamp Oracle|TSO]]から取得した`start_ts`で`c:lock`にロックを掛ける
 			- ロックのうち、どれか1つがPrimary lockとなり、ほかはSecondary lockとなる?
 		- start_tsで`c:data`に値を書き込む
 		- 既にロックされている or start_tsより新しいバージョンの値がある場合、書き込み競合なので、現在のトランザクションは[[rollback]]される
 			- 単にロックと、データ列の対応する値を削除するだけ
 	2. commit
-		- [[TSO]]から`commit_ts`を取得
+		- [[Timestamp Oracle|TSO]]から`commit_ts`を取得
 		- `commit_ts`、`c:write`に書き込む。Primary lockを取る。すべてのSecondary lockに対してもこれを繰り返す
 			- PrimaryのCommitが完了すればトランザクションはおしまい。セカンダリロックのコミットが失敗しても問題ない
 				- なんで? というか、いまいちprimary lock, secondary lockがわかっていない(kekeho)
 - read
-	- [[TSO]]からタイムスタンプ`ts`を取得
+	- [[Timestamp Oracle|TSO]]からタイムスタンプ`ts`を取得
 	- 読み込もうとしているrowが、$\lbrack 0, ts \rbrack$の範囲でロックされていないかチェック
 		- ロックがないか、tsより大きなタイムスタンプでロックされていればOK
 	- `c:write`の`commit_ts`が$\lbrack 0, ts \rbrack$の範囲の中で最新のレコードを取得する

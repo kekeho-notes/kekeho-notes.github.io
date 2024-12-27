@@ -1,7 +1,7 @@
-[[TiDB]]の[[Timestamp Oracle]]([[TSO]])についてまとめる
+[[TiDB]]の[[Timestamp Oracle]]についてまとめる
 
 ![[assets/66a3a812d43b78001ce7b5e0.png]]
-- [[PD]] Clusterが[[TSO]]を提供
+- [[PD]] Clusterが[[Timestamp Oracle|TSO]]を提供
 	- [[Raft]]([[etcd]])でメタデータのレプリケーションをしている
 - 下の18bitが[[Logical Clock]]、上の46bitが物理クロック([[Physical Time]])
 	- [[Logical Physical Clocks]]的なノリ?

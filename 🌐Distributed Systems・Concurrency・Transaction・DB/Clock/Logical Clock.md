@@ -1,4 +1,8 @@
-[#Logical_Clock](Logical_Clock) [#論理クロック](論理クロック)
+---
+aliases:
+  - 論理クロック
+---
+
 
 # 論理時計の条件
 1. $e_i$[[happend-before]] $e_j$($e_i \Rightarrow e_j$)ならば、$T(e_i) < T(e_j)$となる ([[Timestamp Completeness]])

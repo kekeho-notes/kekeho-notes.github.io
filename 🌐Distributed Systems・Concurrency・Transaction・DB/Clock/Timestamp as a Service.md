@@ -14,7 +14,7 @@
 - [[分散DB]]の分野では、[[Logical Clock]]が使われる。
 	- [[Timestamp Oracle]]が使われているが、[[単一障害点]]になりがち
 	- [[Lamport Clock]]、[[Vector Clock]]は使いづらいので、分散DBではあまり使われていない。
-	- 既存のCFTな[[Timestamp Oracle]]([[TSO]])は、PrimaryをRaftで選挙して…みたいなものだったが、選挙中ダウンタイムが長くなってしまって性能が悪化していた
+	- 既存のCFTな[[Timestamp Oracle]]は、PrimaryをRaftで選挙して…みたいなものだったが、選挙中ダウンタイムが長くなってしまって性能が悪化していた
 - [[Linearizability|Linearizable]]で、[[Crash-fault torelant]]な論理時計のアルゴリズムを提案
 
 満たしている性質
