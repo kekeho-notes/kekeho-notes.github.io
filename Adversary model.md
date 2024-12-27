@@ -23,6 +23,11 @@
 	- まだ到着していない破壊前のパーティーから送信されたメッセージは届く
 - [[Strong adaptive adversary]]:
 	- 破損前に送信されたメッセージは、敵対者によって消去される可能性がある
+	- あくまで、送信してから受信されるまでの間に、corruptionさせたうえで事後的にメッセージも消せるということっぽい。すでに他のプロセスに受信されているメッセージについてはイジれないということっぽい。
+	- 初出は[[Communication Complexity of Byzantine Agreement, Revisited]]か?
+	- 例
+		- 敵対者はルーターをコントロールしている
+		- ノード$i$から発出されたメッセージ$m$を観察したうえで、$i$を攻撃し破壊し、更に$m$を破棄する
 
 # Corruptionの分類
 - [[Passive adversary]] ([[Honest-But-Curious adversary]]/[[Semi-Honest adversary]]):

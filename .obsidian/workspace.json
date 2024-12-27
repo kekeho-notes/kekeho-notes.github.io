@@ -70,8 +70,7 @@
               "title": "The power of the adversary"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "subquadratic.md",
+                "file": "Adversary model.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,7 +170,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "subquadraticのグラフ"
+              "title": "Adversary modelのグラフ"
             }
           },
           {
@@ -254,8 +253,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "90f15ca227a3eea2",
+  "active": "4a6e501024ec2914",
   "lastOpenFiles": [
+    "Communication Complexity of Byzantine Agreement, Revisited.md",
+    "トップカンファレンス.md",
+    "PODC.md",
+    "Conference.md",
+    "研究/論文の書き方.md",
+    "CORE Ranking.md",
     "Adversary model.md",
     "subquadratic.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
@@ -277,12 +282,6 @@
     "Timing fault.md",
     "Crash fault.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
-    "令和2年 改正個人情報保護法.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Lamport Clock.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Hypercube.md",
-    "🔐暗号技術/リプレイ攻撃.md",
-    "🔐暗号技術/暗号学的ハッシュ関数.md",
-    "TPC-C.md",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"
   ]

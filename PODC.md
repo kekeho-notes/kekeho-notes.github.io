@@ -1,0 +1,3 @@
+- ACM Principles of Distributed Computing
+- [[分散システム]]についての[[Conference]]
+- [[トップカンファレンス]]の一つ

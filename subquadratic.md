@@ -4,7 +4,11 @@
 # 数学的な定義
 - subquadratic関数は、以下の不等式を満たす関数$\varphi$である。
   $\varphi(x + y)  + \varphi(x - y) \le 2\varphi(x) + 2\varphi(y)$
-	- 不等号が逆$\ge$になる場合は、[[superquadratic]]と呼ばれる
+- $\varphi(x) = x^2$  のとき、等号で成立する
+- 不等号が逆$\ge$になる場合は、[[superquadratic]]と呼ばれる
 
 # 関連
 - [[計算量]]
+
+# 参考
+https://www.degruyter.com/document/doi/10.1515/dema-2006-0405/pdf
