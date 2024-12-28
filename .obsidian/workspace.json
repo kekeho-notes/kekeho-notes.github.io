@@ -37,7 +37,8 @@
               "title": "PBFT"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "2f35e3cbcf89a424",
@@ -157,7 +158,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,7 +186,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "State Machine Replicationのグラフ"
+              "title": "PBFTのグラフ"
             }
           },
           {
@@ -268,8 +269,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13d5c4de313b8114",
+  "active": "2c41c707c10e5e19",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp Oracle.md",
@@ -296,7 +298,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consistency.md",
     "🔒️Private/Kairos",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
-    "日報/2024-12-27.md",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"
   ]
