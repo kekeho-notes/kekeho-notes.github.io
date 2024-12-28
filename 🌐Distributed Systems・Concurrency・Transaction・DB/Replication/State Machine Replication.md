@@ -15,3 +15,7 @@ Requirements
 - [[Total Order Broadcast]]が用いられる [#Broadcast](Broadcast.md)
 	- [[Causal Broadcast]], [[Reliable Broadcast]], [[Best-effort Broadcast]]でも、状態遷移関数に仮定を置けば可能
 
+
+# 論文
+- Time, Clocks, and the Ordering of Events in a Distributed System by [[Leslie Lamport]]
+- F. Schneider. Implementing Fault-Tolerant Services Using The State Machine Approach: A Tutorial. _ACM Computing Surveys_, 22(4), 1990.
