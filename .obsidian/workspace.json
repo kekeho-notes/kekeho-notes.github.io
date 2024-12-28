@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PBFT"
+              "title": "Hermes"
             }
           }
         ],
@@ -158,7 +158,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
+                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -186,7 +186,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "PBFTのグラフ"
+              "title": "Hermesのグラフ"
             }
           },
           {
@@ -271,9 +271,9 @@
   },
   "active": "2c41c707c10e5e19",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp Oracle.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp as a Service.md",
     "Timestamp Correctness.md",
