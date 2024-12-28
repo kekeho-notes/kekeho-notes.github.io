@@ -1,0 +1,3 @@
+- [[Timestamp Oracle|TSO]]の正しさの定義としてよく使われる
+- タイムスタンプ$T_\sigma$を得るセッション$\sigma \in S$は、時刻$Q_\sigma$に開始され、$A_\sigma$に終了する。
+- Timestamp correctness: $\forall \sigma, \forall \tau \in S: (A_\sigma \prec Q_\tau \Rightarrow T_\sigma < T_\tau)$

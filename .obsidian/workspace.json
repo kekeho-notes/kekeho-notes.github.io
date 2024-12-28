@@ -142,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adversary model.md",
+                "file": "🔒️Private/Kairos/仮定と故障モデルの整理.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -170,7 +170,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Adversary modelのグラフ"
+              "title": "仮定と故障モデルの整理のグラフ"
             }
           },
           {
@@ -235,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 891.5
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,23 +253,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a6e501024ec2914",
+  "active": "13d5c4de313b8114",
   "lastOpenFiles": [
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp Oracle.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp as a Service.md",
+    "Timestamp Correctness.md",
+    "🔒️Private/Kairos/仮定と故障モデルの整理.md",
+    "Partially synchronous system.md",
+    "Adversary model.md",
     "Communication Complexity of Byzantine Agreement, Revisited.md",
     "トップカンファレンス.md",
     "PODC.md",
     "Conference.md",
     "研究/論文の書き方.md",
     "CORE Ranking.md",
-    "Adversary model.md",
     "subquadratic.md",
-    "🔒️Private/Kairos/仮定と故障モデルの整理.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp Oracle.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/TiDB.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/TiDB PD's Timestamp Oracle.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Percolator.md",
     "ネットワークプログラミング/UDPポートに(ランダムな)未使用のポート番号を割り当てる.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp as a Service.md",
     "Basil.md",
     "Byzantine Isolation.md",
     "Excalidraw/Drawing 2024-11-13 16.45.59.excalidraw.md",
@@ -280,8 +282,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Fault.md",
     "日報/2024-12-27.md",
     "Timing fault.md",
-    "Crash fault.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Omission fault.md",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"
   ]
