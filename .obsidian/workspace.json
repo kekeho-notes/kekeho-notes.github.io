@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
+                "file": "🔒️Private/Kairos/仮定と故障モデルの整理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Liveness"
+              "title": "仮定と故障モデルの整理"
             }
           },
           {
@@ -52,8 +52,39 @@
               "icon": "lucide-file",
               "title": "HoneyBadgerBFT"
             }
+          },
+          {
+            "id": "d3b9debd114a3735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GP2 Thesis"
+            }
+          },
+          {
+            "id": "52a9ccfc5c5ca2c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obisidanでの論文執筆環境.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obisidanでの論文執筆環境"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "2f35e3cbcf89a424",
@@ -174,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,7 +233,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Livenessのグラフ"
+              "title": "Obisidanでの論文執筆環境のグラフ"
             }
           },
           {
@@ -211,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Filter lock.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +252,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Filter lockへのバックリンク"
+              "title": "Obisidanでの論文執筆環境へのバックリンク"
             }
           },
           {
@@ -230,12 +261,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/広域ファイル共有システム/IPFS.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "IPFSからのアウトゴーイングリンク"
+              "title": "Obisidanでの論文執筆環境からのアウトゴーイングリンク"
             }
           },
           {
@@ -257,13 +288,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌐Distributed Systems・Concurrency・Transaction・DB/広域ファイル共有システム/IPFS.md"
+                "file": "Obisidanでの論文執筆環境.md"
               },
               "icon": "lucide-list",
-              "title": "IPFSのアウトライン"
+              "title": "Obisidanでの論文執筆環境のアウトライン"
+            }
+          },
+          {
+            "id": "b45dabdc457397cb",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -285,9 +327,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13d5c4de313b8114",
+  "active": "52a9ccfc5c5ca2c4",
   "lastOpenFiles": [
+    "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
+    "Obisidanでの論文執筆環境.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
+    "🔒️Private/Kairos/GP2 Thesis",
+    "assets/bibliography.bib",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
     "IMG_0541.png",
     "IMG_0540.png",
     "Excalidraw/Drawing 2024-12-29 21.46.10.excalidraw.md",
@@ -312,8 +359,6 @@
     "CORE Ranking.md",
     "subquadratic.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/DB製品/TiDB.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/TiDB PD's Timestamp Oracle.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Percolator.md",
     "🔒️Private/Kairos",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"

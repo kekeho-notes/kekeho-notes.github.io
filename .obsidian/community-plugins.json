@@ -2,5 +2,7 @@
   "obsidian-git",
   "obsidian-excalidraw-plugin",
   "obsidian-link-embed",
-  "surfing"
+  "surfing",
+  "obsidian-citation-plugin",
+  "obsidian-pandoc-reference-list"
 ]

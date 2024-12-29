@@ -1,0 +1,381 @@
+@article{taas:vldb24,
+author = {Li, Yishuai and Zhu, Yunfeng and Shi, Chao and Zhang, Guanhua and Wang, Jianzhong and Zhang, Xiaolu},
+title = {Timestamp as a Service, Not an Oracle},
+year = {2024},
+issue_date = {January 2024},
+publisher = {VLDB Endowment},
+volume = {17},
+number = {5},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3641204.3641210},
+doi = {10.14778/3641204.3641210},
+abstract = {We present a logical timestamping mechanism for ordering transactions in distributed databases, eliminating the single point of failure (SPoF) that bother existing timestamp "oracles". The main innovation is a bipartite client-server architecture, where the servers do not communicate with each other. The result is a highly available timestamping "service" that guarantees the availability of time-stamps, unless half the servers are down at the same time.We study the fundamental needs of timestamping, and formalize its availability and correctness properties in a distributed setting. We then introduce the TaaS (timestamp as a service) algorithm, which defines a monotonic spacetime over multiple server clocks. We prove, mathematically: (i) Availability that the timestamps are always computable, provided any majority of the server clocks being observable; and (ii) Correctness that all the computed time-stamps must increase monotonically over time, even if some clocks become unobservable.We evaluate our algorithm by prototyping TaaS and benchmarking it against state of the art timestamp oracle in TiDB. Our experiment shows that TaaS is indeed immune to SPoF (as we have proven mathematically), while exhibiting a reasonable performance at the same order of magnitude with TiDB. We also demonstrate the stability of our bipartite architecture, by deploying TaaS across datacenters and showing its resilience to datacenter-level failures.},
+journal = {Proc. VLDB Endow.},
+month = {may},
+pages = {994-1006},
+numpages = {13}
+}
+
+
+@article{lamport:time-clocks-and-the-ordering-of-events,
+author = {Lamport, Leslie},
+title = {Time, clocks, and the ordering of events in a distributed system},
+year = {1978},
+issue_date = {July 1978},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {21},
+number = {7},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/359545.359563},
+doi = {10.1145/359545.359563},
+abstract = {The concept of one event happening before another in a distributed system is examined, and is shown to define a partial ordering of the events. A distributed algorithm is given for synchronizing a system of logical clocks which can be used to totally order the events. The use of the total ordering is illustrated with a method for solving synchronization problems. The algorithm is then specialized for synchronizing physical clocks, and a bound is derived on how far out of synchrony the clocks can become.},
+journal = {Commun. ACM},
+month = jul,
+pages = {558-565},
+numpages = {8},
+keywords = {multiprocess systems, distributed systems, computer networks, clock synchronization}
+}
+
+@inproceedings{mattern:vector-clock,
+  title={Virtual Time and Global States of Distributed Systems},
+  author={Friedemann, Mattern},
+  year={1988},
+  booktitle={Parallel and Distributed Algorithms},
+  publisher={North-Holland},
+  pages={215-226}
+}
+
+
+@InProceedings{kulkarni:hlc,
+author="Kulkarni, Sandeep S.
+and Demirbas, Murat
+and Madappa, Deepak
+and Avva, Bharadwaj
+and Leone, Marcelo",
+editor="Aguilera, Marcos K.
+and Querzoni, Leonardo
+and Shapiro, Marc",
+title="Logical Physical Clocks",
+booktitle="Principles of Distributed Systems",
+year="2014",
+publisher="Springer International Publishing",
+address="Cham",
+pages="17--32",
+abstract="There is a gap between the theory and practice of distributed systems in terms of the use of time. The theory of distributed systems shunned the notion of time, and introduced ``causality tracking'' as a clean abstraction to reason about concurrency. The practical systems employed physical time (NTP) information but in a best effort manner due to the difficulty of achieving tight clock synchronization. In an effort to bridge this gap and reconcile the theory and practice of distributed systems on the topic of time, we propose a hybrid logical clock, HLC, that combines the best of logical clocks and physical clocks. HLC captures the causality relationship like logical clocks, and enables easy identification of consistent snapshots in distributed systems. Dually, HLC can be used in lieu of physical/NTP clocks since it maintains its logical clock to be always close to the NTP clock. Moreover HLC fits in to 64 bits NTP timestamp format, and is masking tolerant to NTP kinks and uncertainties.We show that HLC has many benefits for wait-free transaction ordering and performing snapshot reads in multiversion globally distributed databases.",
+isbn="978-3-319-14472-6",
+url={https://doi.org/10.1007/978-3-319-14472-6_2},
+doi={10.1007/978-3-319-14472-6_2}
+}
+
+@article{google:spanner,
+author = {Corbett, James C. and Dean, Jeffrey and Epstein, Michael and Fikes, Andrew and Frost, Christopher and Furman, J. J. and Ghemawat, Sanjay and Gubarev, Andrey and Heiser, Christopher and Hochschild, Peter and Hsieh, Wilson and Kanthak, Sebastian and Kogan, Eugene and Li, Hongyi and Lloyd, Alexander and Melnik, Sergey and Mwaura, David and Nagle, David and Quinlan, Sean and Rao, Rajesh and Rolig, Lindsay and Saito, Yasushi and Szymaniak, Michal and Taylor, Christopher and Wang, Ruth and Woodford, Dale},
+title = {Spanner: Google’s Globally Distributed Database},
+year = {2013},
+issue_date = {August 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {31},
+number = {3},
+issn = {0734-2071},
+url = {https://doi.org/10.1145/2491245},
+doi = {10.1145/2491245},
+abstract = {Spanner is Google's scalable, multiversion, globally distributed, and synchronously replicated database. It is the first system to distribute data at global scale and support externally-consistent distributed transactions. This article describes how Spanner is structured, its feature set, the rationale underlying various design decisions, and a novel time API that exposes clock uncertainty. This API and its implementation are critical to supporting external consistency and a variety of powerful features: nonblocking reads in the past, lock-free snapshot transactions, and atomic schema changes, across all of Spanner.},
+journal = {ACM Trans. Comput. Syst.},
+month = aug,
+articleno = {8},
+numpages = {22},
+keywords = {transactions, time management, replication, concurrency control, Distributed databases}
+}
+
+@inproceedings{rebecca:cockroachdb,
+author = {Taft, Rebecca and Sharif, Irfan and Matei, Andrei and VanBenschoten, Nathan and Lewis, Jordan and Grieger, Tobias and Niemi, Kai and Woods, Andy and Birzin, Anne and Poss, Raphael and Bardea, Paul and Ranade, Amruta and Darnell, Ben and Gruneir, Bram and Jaffray, Justin and Zhang, Lucy and Mattis, Peter},
+title = {CockroachDB: The Resilient Geo-Distributed SQL Database},
+year = {2020},
+isbn = {9781450367356},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3318464.3386134},
+doi = {10.1145/3318464.3386134},
+abstract = {We live in an increasingly interconnected world, with many organizations operating across countries or even continents. To serve their global user base, organizations are replacing their legacy DBMSs with cloud-based systems capable of scaling OLTP workloads to millions of users. CockroachDB is a scalable SQL DBMS that was built from the ground up to support these global OLTP workloads while maintaining high availability and strong consistency. Just like its namesake, CockroachDB is resilient to disasters through replication and automatic recovery mechanisms. This paper presents the design of CockroachDB and its novel transaction model that supports consistent geo-distributed transactions on commodity hardware. We describe how CockroachDB replicates and distributes data to achieve fault tolerance and high performance, as well as how its distributed SQL layer automatically scales with the size of the database cluster while providing the standard SQL interface that users expect. Finally, we present a comprehensive performance evaluation and share a couple of case studies of CockroachDB users. We conclude by describing lessons learned while building CockroachDB over the last five years.},
+booktitle = {Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data},
+pages = {1493-1509},
+numpages = {17},
+location = {Portland, OR, USA},
+series = {SIGMOD '20}
+}
+
+@inproceedings{misha:logical-clock-mongodb,
+author = {Tyulenev, Misha and Schwerin, Andy and Kamsky, Asya and Tan, Randolph and Cabral, Alyson and Mulrow, Jack},
+title = {Implementation of Cluster-wide Logical Clock and Causal Consistency in MongoDB},
+year = {2019},
+isbn = {9781450356435},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3299869.3314049},
+doi = {10.1145/3299869.3314049},
+abstract = {MongoDB is a distributed database that supports replication and horizontal partitioning (sharding). MongoDB replica sets consist of a primary that accepts all client writes and then propagates those writes to the secondaries. Each member of the replica set contains the same set of data. For horizontal partitioning, each shard (or partition) is a replica set. This paper discusses the design and rationale behind MongoDB's implementation of a cluster-wide logical clock and causal consistency. The design leveraged ideas from across the research community to ensure that the implementation adds minimal processing overhead, tolerates possible operator errors, and gives protection against non-trusted client attacks. While the goal of the team was not to discover or test new algorithms, the practical implementation necessitated a novel combination of ideas from the research community on causal consistency, security, and minimal performance overhead at scale. This paper describes a large scale, practical implementation of causal consistency using a hybrid logical clock, adding the signing of logical time ranges to the protocol, and introducing performance optimizations necessary for systems at scale. The implementation seeks to define an event as a state change and as such must make forward progress guarantees even during periods of no state changes for a partition of data.},
+booktitle = {Proceedings of the 2019 International Conference on Management of Data},
+pages = {636-650},
+numpages = {15},
+keywords = {eventual consistency, causal consistency},
+location = {Amsterdam, Netherlands},
+series = {SIGMOD '19}
+}
+
+@misc{yugabytedb,
+    author = {{Yugabyte, Inc.}},
+    year = {2024},
+    title = {YugabyteDB},
+    url = {https://www.yugabyte.com/},
+}
+
+@article{mahesh:CORFU,
+author = {Balakrishnan, Mahesh and Malkhi, Dahlia and Davis, John D. and Prabhakaran, Vijayan and Wei, Michael and Wobber, Ted},
+title = {CORFU: A distributed shared log},
+year = {2013},
+issue_date = {December 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {31},
+number = {4},
+issn = {0734-2071},
+url = {https://doi.org/10.1145/2535930},
+doi = {10.1145/2535930},
+abstract = {CORFU is a global log which clients can append-to and read-from over a network. Internally, CORFU is distributed over a cluster of machines in such a way that there is no single I/O bottleneck to either appends or reads. Data is fully replicated for fault tolerance, and a modest cluster of about 16--32 machines with SSD drives can sustain 1 million 4-KByte operations per second.The CORFU log enabled the construction of a variety of distributed applications that require strong consistency at high speeds, such as databases, transactional key-value stores, replicated state machines, and metadata services.},
+journal = {ACM Trans. Comput. Syst.},
+month = dec,
+articleno = {10},
+numpages = {24}
+}
+
+@article{dongxu:tidb,
+author = {Huang, Dongxu and Liu, Qi and Cui, Qiu and Fang, Zhuhe and Ma, Xiaoyu and Xu, Fei and Shen, Li and Tang, Liu and Zhou, Yuxing and Huang, Menglong and Wei, Wan and Liu, Cong and Zhang, Jian and Li, Jianjun and Wu, Xuelian and Song, Lingyu and Sun, Ruoxi and Yu, Shuaipeng and Zhao, Lei and Cameron, Nicholas and Pei, Liquan and Tang, Xin},
+title = {TiDB: a Raft-based HTAP database},
+year = {2020},
+issue_date = {August 2020},
+publisher = {VLDB Endowment},
+volume = {13},
+number = {12},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3415478.3415535},
+doi = {10.14778/3415478.3415535},
+abstract = {Hybrid Transactional and Analytical Processing (HTAP) databases require processing transactional and analytical queries in isolation to remove the interference between them. To achieve this, it is necessary to maintain different replicas of data specified for the two types of queries. However, it is challenging to provide a consistent view for distributed replicas within a storage system, where analytical requests can efficiently read consistent and fresh data from transactional workloads at scale and with high availability.To meet this challenge, we propose extending replicated state machine-based consensus algorithms to provide consistent replicas for HTAP workloads. Based on this novel idea, we present a Raft-based HTAP database: TiDB. In the database, we design a multi-Raft storage system which consists of a row store and a column store. The row store is built based on the Raft algorithm. It is scalable to materialize updates from transactional requests with high availability. In particular, it asynchronously replicates Raft logs to learners which transform row format to column format for tuples, forming a real-time updatable column store. This column store allows analytical queries to efficiently read fresh and consistent data with strong isolation from transactions on the row store. Based on this storage system, we build an SQL engine to process large-scale distributed transactions and expensive analytical queries. The SQL engine optimally accesses row-format and column-format replicas of data. We also include a powerful analysis engine, TiSpark, to help TiDB connect to the Hadoop ecosystem. Comprehensive experiments show that TiDB achieves isolated high performance under CH-benCHmark, a benchmark focusing on HTAP workloads.},
+journal = {Proc. VLDB Endow.},
+month = aug,
+pages = {3072-3084},
+numpages = {13}
+}
+
+@inproceedings{daniel:percolator,
+author = {Peng, Daniel and Dabek, Frank},
+title = {Large-scale incremental processing using distributed transactions and notifications},
+year = {2010},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Updating an index of the web as documents are crawled requires continuously transforming a large repository of existing documents as new documents arrive. This task is one example of a class of data processing tasks that transform a large repository of data via small, independent mutations. These tasks lie in a gap between the capabilities of existing infrastructure. Databases do not meet the storage or throughput requirements of these tasks: Google's indexing system stores tens of petabytes of data and processes billions of updates per day on thousands of machines. MapReduce and other batch-processing systems cannot process small updates individually as they rely on creating large batches for efficiency.We have built Percolator, a system for incrementally processing updates to a large data set, and deployed it to create the Google web search index. By replacing a batch-based indexing system with an indexing system based on incremental processing using Percolator, we process the same number of documents per day, while reducing the average age of documents in Google search results by 50\%.},
+booktitle = {Proceedings of the 9th USENIX Conference on Operating Systems Design and Implementation},
+pages = {251-264},
+numpages = {14},
+location = {Vancouver, BC, Canada},
+series = {OSDI'10}
+}
+
+@article{ohad:omid,
+author = {Shacham, Ohad and Gottesman, Yonatan and Bergman, Aran and Bortnikov, Edward and Hillel, Eshcar and Keidar, Idit},
+title = {Taking omid to the clouds: fast, scalable transactions for real-time cloud analytics},
+year = {2018},
+issue_date = {August 2018},
+publisher = {VLDB Endowment},
+volume = {11},
+number = {12},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3229863.3229868},
+doi = {10.14778/3229863.3229868},
+abstract = {We describe how we evolve Omid, a transaction processing system for Apache HBase, to power Apache Phoenix, a cloud-grade real-time SQL analytics engine.Omid was originally designed for data processing pipelines at Yahoo, which are, by and large, throughput-oriented monolithic NoSQL applications. Providing a platform to support converged real-time transaction processing and analytics applications - dubbed translytics - introduces new functional and performance requirements. For example, SQL support is key for developer productivity, multi-tenancy is essential for cloud deployment, and latency is cardinal for just-in-time data ingestion and analytics insights.We discuss our efforts to adapt Omid to these new domains, as part of the process of integrating it into Phoenix as the transaction processing backend. A central piece of our work is latency reduction in Omid's protocol, which also improves scalability. Under light load, the new protocol's latency is 4x to 5x smaller than the legacy Omid's, whereas under increased loads it is an order of magnitude faster. We further describe a fast path protocol for single-key transactions, which enables processing them almost as fast as native HBase operations.},
+journal = {Proc. VLDB Endow.},
+month = aug,
+pages = {1795-1808},
+numpages = {14}
+}
+
+
+@article{zhenkun:oceanbase,
+author = {Yang, Zhenkun and Yang, Chuanhui and Han, Fusheng and Zhuang, Mingqiang and Yang, Bing and Yang, Zhifeng and Cheng, Xiaojun and Zhao, Yuzhong and Shi, Wenhui and Xi, Huafeng and Yu, Huang and Liu, Bin and Pan, Yi and Yin, Boxue and Chen, Junquan and Xu, Quanqing},
+title = {OceanBase: a 707 million tpmC distributed relational database system},
+year = {2022},
+issue_date = {August 2022},
+publisher = {VLDB Endowment},
+volume = {15},
+number = {12},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3554821.3554830},
+doi = {10.14778/3554821.3554830},
+abstract = {We have designed and developed OceanBase, a distributed relational database system from the very basics for a decade. Being a scale-out multi-tenant system, OceanBase is cross-region fault tolerant, which is based on the shared-nothing architecture. Besides sharing many similar goals with alternative distributed DBMS, such as horizontal scalability, fault-tolerance, etc., our design has been driven by the demands of typical RDBMS compatibility as well as both on-premise and off-premise deployments. OceanBase has fulfilled its design goal. It implements the salient features of certain mainstream classical RDBMS, and most applications on them can run on OceanBase, with or without a few minor modifications. Tens of thousands of OceanBase servers have been deployed in Alipay.com as well as many other commercial organizations. It has also successfully passed the TPC-C benchmark test and seized the first place with more than 707 million tpmC. This paper presents the goals, design criteria, infrastructure, and key components of OceanBase including its engines for storage and transaction processing. Further, it details how OceanBase achieves the above leading TPC-C benchmark in a distributed cluster with more than 1,500 servers from 3 zones. It also describes lessons what we have learnt in building OceanBase for more than a decade.},
+journal = {Proc. VLDB Endow.},
+month = aug,
+pages = {3385-3397},
+numpages = {13}
+}
+
+
+@inproceedings{diego:raft,
+author = {Ongaro, Diego and Ousterhout, John},
+title = {In search of an understandable consensus algorithm},
+year = {2014},
+isbn = {9781931971102},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Raft is a consensus algorithm for managing a replicated log. It produces a result equivalent to (multi-)Paxos, and it is as efficient as Paxos, but its structure is different from Paxos; this makes Raft more understandable than Paxos and also provides a better foundation for building practical systems. In order to enhance understandability, Raft separates the key elements of consensus, such as leader election, log replication, and safety, and it enforces a stronger degree of coherency to reduce the number of states that must be considered. Results from a user study demonstrate that Raft is easier for students to learn than Paxos. Raft also includes a new mechanism for changing the cluster membership, which uses overlapping majorities to guarantee safety.},
+booktitle = {Proceedings of the 2014 USENIX Conference on USENIX Annual Technical Conference},
+pages = {305–320},
+numpages = {16},
+location = {Philadelphia, PA},
+series = {USENIX ATC'14}
+}
+
+@INPROCEEDINGS{polardb,
+  author={Cao, Wei and Li, Feifei and Huang, Gui and Lou, Jianghang and Zhao, Jianwei and He, Dengcheng and Sun, Mengshi and Zhang, Yingqiang and Wang, Sheng and Wu, Xueqiang and Liao, Han and Chen, Zilin and Fang, Xiaojian and Chen, Mo and Liang, Chenghui and Luo, Yanxin and Wang, Huanming and Wang, Songlei and Ma, Zhanfeng and Yang, Xinjun and Peng, Xiang and Ruan, Yubin and Wang, Yuhui and Zhou, Jie and Wang, Jianying and Hu, Qingda and Kang, Junbin},
+  booktitle={2022 IEEE 38th International Conference on Data Engineering (ICDE)}, 
+  title={PolarDB-X: An Elastic Distributed Relational Database for Cloud-Native Applications}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={2859-2872},
+  keywords={Cloud computing;Scalability;Redundancy;Distributed databases;Relational databases;Elasticity;Market research},
+  doi={10.1109/ICDE53745.2022.00259}}
+
+@article{lamport:paxos:original,
+author = {Lamport, Leslie},
+title = {The part-time parliament},
+year = {1998},
+issue_date = {May 1998},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {16},
+number = {2},
+issn = {0734-2071},
+url = {https://doi.org/10.1145/279227.279229},
+doi = {10.1145/279227.279229},
+abstract = {Recent archaeological discoveries on the island of Paxos reveal that the parliament functioned despite the peripatetic propensity of its part-time legislators. The legislators maintained consistent copies of the parliamentary record, despite their frequent forays from the chamber and the forgetfulness of their messengers. The Paxon parliament's protocol provides a new way of implementing the state machine approach to the design of distributed systems.},
+journal = {ACM Trans. Comput. Syst.},
+month = may,
+pages = {133-169},
+numpages = {37},
+keywords = {state machines, three-phase commit, voting}
+}
+
+
+@inproceedings{pbft,
+author = {Castro, Miguel and Liskov, Barbara},
+title = {Practical Byzantine fault tolerance},
+year = {1999},
+isbn = {1880446391},
+publisher = {USENIX Association},
+address = {USA},
+booktitle = {Proceedings of the Third Symposium on Operating Systems Design and Implementation},
+pages = {173-186},
+numpages = {14},
+location = {New Orleans, Louisiana, USA},
+series = {OSDI '99},
+url = {https://www.usenix.org/conference/osdi-99/practical-byzantine-fault-tolerance},
+}
+
+@misc{hlf:health,
+    author = {The Linux Foundation},
+    title = {Case Study: Change Healthcare using Hyperledger Fabric to improve claims lifecycle throughput and transparency},
+    url = {https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/Hyperledger/Printables/Hyperledger_CaseStudy_ChangeHealthcare_Printable_6.19.pdf},
+    year = {2019},
+}
+
+@misc{bft:finance,
+    author = {State Farm Mutual Automobile Insurance Company State Farm, Bloomington, IL},
+    title = {State Farm® and USAA Working Together to Test a Blockchain Solution},
+    url = {https://newsroom.statefarm.com/blockchain-solution-test-for-subrogation/},
+    year = {2019},
+}
+
+@misc{bft:finance;diem,
+    author = {Diem},
+    title = {o build a trusted and innovative financial network that em-powers people and businesses around the world},
+    url = {https://www.diem.com/en-us/},
+    year = {2021},
+}
+
+@misc{bft:finance:ibm,
+    author = {IBM},
+    url = {https://www.ibm.com/blockchain/industries/financial-services},
+    title = {Blockchain for financial services},
+    year = {2024},
+}
+
+@misc{bft:food:ibm,
+    author = {IBM},
+    url = {https://www.ibm.com/products/supply-chain-intelligence-suite/food-trust},
+    title = {https://www.ibm.com/products/supply-chain-intelligence-suite/food-trust},
+    year = {2024},
+}
+
+@misc{bft:food:deloite,
+    author = {Deloitte},
+    url = {https://www.deloitte.com/content/dam/assets-zone2/lu/en/docs/services/consulting/2023/lu-blockchain-internet-things-supply-chain-traceability.pdf},
+    title = {Continuous interconnected supply chain Using Blockchain \& Internet-of-Things in supply chain traceability},
+    year = {2017},
+}
+
+@article{flp-impossibility,
+author = {Fischer, Michael J. and Lynch, Nancy A. and Paterson, Michael S.},
+title = {Impossibility of distributed consensus with one faulty process},
+year = {1985},
+issue_date = {April 1985},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {32},
+number = {2},
+issn = {0004-5411},
+url = {https://doi.org/10.1145/3149.214121},
+doi = {10.1145/3149.214121},
+abstract = {The consensus problem involves an asynchronous system of processes, some of which may be unreliable. The problem is for the reliable processes to agree on a binary value. In this paper, it is shown that every protocol for this problem has the possibility of nontermination, even with only one faulty process. By way of contrast, solutions are known for the synchronous case, the “Byzantine Generals” problem.},
+journal = {J. ACM},
+month = apr,
+pages = {374-382},
+numpages = {9}
+}
+
+@article{consensus-in-the-presence-of-partial-synchrony,
+author = {Dwork, Cynthia and Lynch, Nancy and Stockmeyer, Larry},
+title = {Consensus in the presence of partial synchrony},
+year = {1988},
+issue_date = {April 1988},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {35},
+number = {2},
+issn = {0004-5411},
+url = {https://doi.org/10.1145/42282.42283},
+doi = {10.1145/42282.42283},
+abstract = {The concept of partial synchrony in a distributed system is introduced. Partial synchrony lies between the cases of a synchronous system and an asynchronous system. In a synchronous system, there is a known fixed upper bound Δ on the time required for a message to be sent from one processor to another and a known fixed upper bound Φ on the relative speeds of different processors. In an asynchronous system no fixed upper bounds Δ and Φ exist. In one version of partial synchrony, fixed bounds Δ and Φ exist, but they are not known a priori. The problem is to design protocols that work correctly in the partially synchronous system regardless of the actual values of the bounds Δ and Φ. In another version of partial synchrony, the bounds are known, but are only guaranteed to hold starting at some unknown time T, and protocols must be designed to work correctly regardless of when time T occurs. Fault-tolerant consensus protocols are given for various cases of partial synchrony and various fault models. Lower bounds that show in most cases that our protocols are optimal with respect to the number of faults tolerated are also given. Our consensus protocols for partially synchronous processors use new protocols for fault-tolerant “distributed clocks” that allow partially synchronous processors to reach some approximately common notion of time.},
+journal = {J. ACM},
+month = apr,
+pages = {288-323},
+numpages = {36}
+}
+
+
+@inproceedings{two-generals-problem-first,
+author = {Akkoyunlu, E. A. and Ekanadham, K. and Huber, R. V.},
+title = {Some constraints and tradeoffs in the design of network communications},
+year = {1975},
+isbn = {9781450378635},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/800213.806523},
+doi = {10.1145/800213.806523},
+abstract = {A number of properties and features of interprocess communication systems are presented, with emphasis on those necessary or desirable in a network environment. The interactions between these features are examined, and the consequences of their inclusion in a system are explored. Of special interest are the time-out feature which forces all system table entries to “die of old age” after they have remained unused for some period of time, and the insertion property which states that it is always possible to design a process which may be invisibly inserted into the communication path between any two processes. Though not tied to any particular system, the discussion concentrates on distributed systems of sequential processes (no interrupts) with no system buffering.},
+booktitle = {Proceedings of the Fifth ACM Symposium on Operating Systems Principles},
+pages = {67-74},
+numpages = {8},
+keywords = {Computer networks, Interprocess communication, Ports},
+location = {Austin, Texas, USA},
+series = {SOSP '75}
+}
