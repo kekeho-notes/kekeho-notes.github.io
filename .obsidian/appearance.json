@@ -1,6 +1,10 @@
 {
   "theme": "moonstone",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "",
   "showViewHeader": true,
-  "accentColor": "#527ea3"
+  "accentColor": "#527ea3",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "editor"
+  ]
 }
