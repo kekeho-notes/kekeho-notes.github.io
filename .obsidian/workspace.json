@@ -154,8 +154,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -286,7 +285,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13d5c4de313b8114",
+  "active": "8340f7a728e31cb4",
   "lastOpenFiles": [
     "Partially synchronous system.md",
     "Adversary model.md",
