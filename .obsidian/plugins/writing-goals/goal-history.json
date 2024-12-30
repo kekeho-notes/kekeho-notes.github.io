@@ -6,6 +6,13 @@
       "startCount": 79,
       "endCount": 82,
       "date": "Mon Dec 30 2024 00:00:00 GMT+0900"
+    },
+    {
+      "dailyGoal": 0,
+      "goal": 300,
+      "startCount": 82,
+      "endCount": 82,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
     }
   ],
   "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md": [
@@ -24,6 +31,13 @@
       "startCount": 0,
       "endCount": 468,
       "date": "Mon Dec 30 2024 00:00:00 GMT+0900"
+    },
+    {
+      "dailyGoal": 0,
+      "goal": 500,
+      "startCount": 468,
+      "endCount": 468,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
     }
   ]
 }

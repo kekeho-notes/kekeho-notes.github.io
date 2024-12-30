@@ -89,13 +89,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/Introduction.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Obisidanでの論文執筆環境"
             }
           }
         ],
@@ -268,7 +268,7 @@
             }
           },
           {
-            "id": "09ee7bc4c5ec2566",
+            "id": "9f8486eb5573b86d",
             "type": "leaf",
             "state": {
               "type": "writing-goal",
@@ -290,7 +290,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/Introduction.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -313,12 +313,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6757381672622789,
+                  "scale": 0.7013263370057615,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Introductionのグラフ"
+              "title": "Obisidanでの論文執筆環境のグラフ"
             }
           }
         ]
@@ -343,20 +343,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8fa6771017c4fba1",
+  "active": "b45dabdc457397cb",
   "lastOpenFiles": [
+    "Partially synchronous system.md",
+    "Obisidanでの論文執筆環境.md",
+    "🔒️Private/Kairos/GP2 Thesis/Introduction.md",
     "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
     "🔒️Private/Kairos/GP2 Thesis/Abstract EN.md",
     "🔒️Private/Kairos/GP2 Thesis/Proposed.md",
     "🔒️Private/Kairos/GP2 Thesis/Abstract JA.md",
     "subquadratic.md",
-    "Partially synchronous system.md",
     "🔒️Private/Kairos/GP2 Thesis/Conclusion.md",
     "🔒️Private/Kairos/GP2 Thesis/Performance Evaluation.md",
     "🔒️Private/Kairos/GP2 Thesis/Issue.md",
     "🔒️Private/Kairos/GP2 Thesis/Background.md",
-    "🔒️Private/Kairos/GP2 Thesis/Introduction.md",
-    "Obisidanでの論文執筆環境.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
     "🔒️Private/Kairos/GP2 Thesis",
     "assets/bibliography.bib",
