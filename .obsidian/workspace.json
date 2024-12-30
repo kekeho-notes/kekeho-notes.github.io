@@ -90,7 +90,7 @@
               "type": "markdown",
               "state": {
                 "file": "Obisidanでの論文執筆環境.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -343,7 +343,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b45dabdc457397cb",
+  "active": "8fa6771017c4fba1",
   "lastOpenFiles": [
     "Partially synchronous system.md",
     "Obisidanでの論文執筆環境.md",
