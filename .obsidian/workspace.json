@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
+                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GP2 Thesis"
+              "title": "2. 背景"
             }
           },
           {
@@ -73,17 +73,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/1. 序論.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. 序論"
+              "title": "Obisidanでの論文執筆環境"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +102,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "ファイルエクスプローラ"
@@ -134,6 +134,16 @@
               "icon": "lucide-bookmark",
               "title": "ブックマーク"
             }
+          },
+          {
+            "id": "33065c65fd24d278",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
@@ -155,10 +165,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/1. 序論.md"
+                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md"
               },
               "icon": "lucide-list",
-              "title": "1. 序論のアウトライン"
+              "title": "2. 背景のアウトライン"
             }
           },
           {
@@ -172,22 +182,12 @@
             }
           },
           {
-            "id": "9f8486eb5573b86d",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
             "id": "2a2140506849819a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/Abstract JA.md",
+                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Abstract JAへのバックリンク"
+              "title": "2. 背景へのバックリンク"
             }
           },
           {
@@ -206,12 +206,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/Abstract JA.md",
+                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Abstract JAからのアウトゴーイングリンク"
+              "title": "2. 背景からのアウトゴーイングリンク"
             }
           },
           {
@@ -236,9 +236,79 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "a990409af4ea15b7",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "ecbbfe61d55a3aa1",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "bd1fd2de2718a47c",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "c260e7ee0dddbfaa",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "d9e734c0c5377d03",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "0f98a5a4bd2f93fa",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
+          },
+          {
+            "id": "d34e6659472d1a40",
+            "type": "leaf",
+            "state": {
+              "type": "writing-goal",
+              "state": {},
+              "icon": "writing-goals-radar",
+              "title": "Writing goal"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 12
       },
       {
         "id": "77f81bc6b2d7590f",
@@ -250,7 +320,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/1. 序論.md",
+                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -278,10 +348,21 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "1. 序論のグラフ"
+              "title": "2. 背景のグラフ"
+            }
+          },
+          {
+            "id": "d6edfabae0cd1397",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Mind Map of 2. 背景"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -301,24 +382,27 @@
       "publish:パブリッシュによる変更の公開": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "71c1bda3d470c73c",
+  "active": "d3b9debd114a3735",
   "lastOpenFiles": [
+    "[[2..md",
+    "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
     "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
     "🔒️Private/Kairos/GP2 Thesis/1. 序論.md",
     "🔒️Private/Kairos/GP2 Thesis/Abstract JA.md",
-    "assets/consistent-prefix.gif",
     "🔒️Private/Kairos/GP2 Thesis/Abstract EN.md",
+    "🔒️Private/Kairos/GP2 Thesis/7. Conclusion and Future work.md",
+    "🔒️Private/Kairos/GP2 Thesis/6. Performance Evaluation.md",
+    "🔒️Private/Kairos/GP2 Thesis/5. Proof.md",
+    "🔒️Private/Kairos/GP2 Thesis/4. Proposed.md",
+    "🔒️Private/Kairos/GP2 Thesis/3. Issue.md",
     "Obisidanでの論文執筆環境.md",
+    "assets/consistent-prefix.gif",
     "Partially synchronous system.md",
-    "🔒️Private/Kairos/GP2 Thesis/Proposed.md",
     "subquadratic.md",
-    "🔒️Private/Kairos/GP2 Thesis/Conclusion.md",
-    "🔒️Private/Kairos/GP2 Thesis/Performance Evaluation.md",
-    "🔒️Private/Kairos/GP2 Thesis/Issue.md",
-    "🔒️Private/Kairos/GP2 Thesis/Background.md",
     "🔒️Private/Kairos/仮定と故障モデルの整理.md",
     "🔒️Private/Kairos/GP2 Thesis",
     "assets/bibliography.bib",
@@ -335,7 +419,6 @@
     "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault tolerant consensus.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Clock/Timestamp Oracle.md",
     "🔒️Private/Kairos",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"

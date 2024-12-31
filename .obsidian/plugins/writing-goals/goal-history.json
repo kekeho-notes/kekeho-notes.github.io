@@ -11,7 +11,7 @@
       "dailyGoal": 0,
       "goal": 300,
       "startCount": 82,
-      "endCount": 82,
+      "endCount": 203,
       "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
     }
   ],
@@ -37,6 +37,69 @@
       "goal": 500,
       "startCount": 468,
       "endCount": 468,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/1. 序論.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 3000,
+      "startCount": 1436,
+      "endCount": 1462,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/3. Issue.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 3000,
+      "startCount": 0,
+      "endCount": 0,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/4. Proposed.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 10000,
+      "startCount": 0,
+      "endCount": 0,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/5. Proof.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 4000,
+      "startCount": 0,
+      "endCount": 0,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/6. Performance Evaluation.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 6000,
+      "startCount": 0,
+      "endCount": 0,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/7. Conclusion and Future work.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 2000,
+      "startCount": 0,
+      "endCount": 0,
+      "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
+    }
+  ],
+  "🔒️Private/Kairos/GP2 Thesis/2. 背景.md": [
+    {
+      "dailyGoal": 0,
+      "goal": 0,
+      "startCount": 0,
+      "endCount": 3203,
       "date": "Tue Dec 31 2024 00:00:00 GMT+0900"
     }
   ]

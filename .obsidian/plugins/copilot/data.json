@@ -28,7 +28,7 @@
   "defaultOpenArea": "view",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
-  "qaExclusions": "",
+  "qaExclusions": "*.jpg, *.png, *.excalidraw.md, 🔒️Private",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],

@@ -10,3 +10,9 @@ word-goal: 300
 - [Pandoc Reference List](https://github.com/mgmeyers/obsidian-pandoc-reference-list): Citationをレンダリング・Referencesタブに表示する: 
 ## ワードカウンタ
 - [Writing Goals](https://github.com/lynchjames/obsidian-writing-goals)
+## AI
+- [Copilot for Obsidian](https://www.obsidiancopilot.com/en): AIチャットウィンドウが生えてきたり、編集中のドキュメント全体や選択部分に対してAIがrewriteしてくれたりする
+	- Custom ModelsでOpenAI互換APIを追加できる。Perplexity APIを追加して使っている。
+		- [方法はこちら](https://www.obsidiancopilot.com/en/docs/settings#qa-settings)
+## MindMap
+- [Mind Map](https://github.com/lynchjames/obsidian-mind-map): ドキュメントの見出しからマインドマップを生成してくれる。非常に見やすい。
