@@ -14,13 +14,7 @@
   ],
   "folderGoals": [],
   "goalLeaves": [
-    "🔒️Private/Kairos/GP2 Thesis/1. 序論.md",
-    "🔒️Private/Kairos/GP2 Thesis/2. Background.md",
-    "🔒️Private/Kairos/GP2 Thesis/Issue.md",
-    "🔒️Private/Kairos/GP2 Thesis/4. Proposed.md",
-    "🔒️Private/Kairos/GP2 Thesis/5. Proof.md",
-    "🔒️Private/Kairos/GP2 Thesis/6. Performance Evaluation.md",
-    "🔒️Private/Kairos/GP2 Thesis/7. Conclusion and Future work.md"
+    null
   ],
   "customGoalFrontmatterKey": "word-goal",
   "customDailyGoalFrontmatterKey": "daily-word-goal",

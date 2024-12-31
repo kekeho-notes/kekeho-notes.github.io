@@ -18,7 +18,7 @@
   "temperature": 0.1,
   "maxTokens": 4000,
   "contextTurns": 15,
-  "userSystemPrompt": "",
+  "userSystemPrompt": "回答はすべて日本語でお願いします。",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,

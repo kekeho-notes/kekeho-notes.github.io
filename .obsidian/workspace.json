@@ -58,13 +58,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
+                "file": "Obisidanでの論文執筆環境.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 背景"
+              "title": "Obisidanでの論文執筆環境"
+            }
+          },
+          {
+            "id": "f530f174f2e09969",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode"
+              },
+              "icon": "lucide-file",
+              "title": "Markmap - Visual Studio Marketplace"
             }
           },
           {
@@ -83,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,11 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "2. 背景のアウトライン"
+              "title": "アウトライン"
             }
           },
           {
@@ -215,19 +225,6 @@
             }
           },
           {
-            "id": "afccd44ff8d70f5b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "タグ"
-            }
-          },
-          {
             "id": "71c1bda3d470c73c",
             "type": "leaf",
             "state": {
@@ -238,67 +235,7 @@
             }
           },
           {
-            "id": "a990409af4ea15b7",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "ecbbfe61d55a3aa1",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "bd1fd2de2718a47c",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "c260e7ee0dddbfaa",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "d9e734c0c5377d03",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "0f98a5a4bd2f93fa",
-            "type": "leaf",
-            "state": {
-              "type": "writing-goal",
-              "state": {},
-              "icon": "writing-goals-radar",
-              "title": "Writing goal"
-            }
-          },
-          {
-            "id": "d34e6659472d1a40",
+            "id": "2bdd6b0080daa653",
             "type": "leaf",
             "state": {
               "type": "writing-goal",
@@ -308,23 +245,22 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 1
       },
       {
         "id": "77f81bc6b2d7590f",
         "type": "tabs",
         "children": [
           {
-            "id": "4adc3e75554dd9f3",
+            "id": "5b60beb204b5c67f",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": false,
@@ -343,12 +279,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7013263370057615,
-                  "close": true
+                  "scale": 0.7947214832364363,
+                  "close": false
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "2. 背景のグラフ"
+              "title": "グラフビュー"
             }
           },
           {
@@ -358,7 +294,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of 2. 背景"
+              "title": "Mind Map of Obisidanでの論文執筆環境"
             }
           }
         ],
@@ -366,7 +302,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 800.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -383,27 +319,37 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "copilot:Open Copilot Chat": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "workspaces:ワークスペースレイアウトを管理": false
     }
   },
-  "active": "d3b9debd114a3735",
+  "active": "f530f174f2e09969",
   "lastOpenFiles": [
-    "[[2..md",
-    "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
-    "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
+    "Obisidanでの論文執筆環境.md",
+    "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Dirty read.md",
     "🔒️Private/Kairos/GP2 Thesis/1. 序論.md",
+    "🔒️Private/Kairos/GP2 Thesis/3. Issue.md",
+    "🔒️Private/Kairos/GP2 Thesis/2. 背景.md",
+    "copilot-custom-prompts/Headingsに通し番号をつける.md",
+    "copilot-custom-prompts",
+    "CockroachDB.md",
+    "Communication Complexity of Byzantine Agreement, Revisited.md",
+    "HoneyBadgerBFT.md",
+    "Basil.md",
+    "Conference.md",
+    "Consensus.md",
+    "🔒️Private/Kairos/仮定と故障モデルの整理.md",
+    "[[2..md",
+    "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md",
     "🔒️Private/Kairos/GP2 Thesis/Abstract JA.md",
     "🔒️Private/Kairos/GP2 Thesis/Abstract EN.md",
     "🔒️Private/Kairos/GP2 Thesis/7. Conclusion and Future work.md",
     "🔒️Private/Kairos/GP2 Thesis/6. Performance Evaluation.md",
     "🔒️Private/Kairos/GP2 Thesis/5. Proof.md",
     "🔒️Private/Kairos/GP2 Thesis/4. Proposed.md",
-    "🔒️Private/Kairos/GP2 Thesis/3. Issue.md",
-    "Obisidanでの論文執筆環境.md",
     "assets/consistent-prefix.gif",
     "Partially synchronous system.md",
     "subquadratic.md",
-    "🔒️Private/Kairos/仮定と故障モデルの整理.md",
     "🔒️Private/Kairos/GP2 Thesis",
     "assets/bibliography.bib",
     "🌐Distributed Systems・Concurrency・Transaction・DB/Liveness.md",
@@ -411,14 +357,6 @@
     "IMG_0540.png",
     "Excalidraw/Drawing 2024-12-29 21.46.10.excalidraw.md",
     "Excalidraw/Drawing 2024-12-29 21.46.43.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-29 21.46.26.excalidraw.md",
-    "Adversary model.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/State Machine Replication.md",
-    "HoneyBadgerBFT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine State Machine Replication.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Byzantine Fault tolerant consensus.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Consensus Algorithm/PBFT.md",
-    "🌐Distributed Systems・Concurrency・Transaction・DB/Replication/Hermes.md",
     "🔒️Private/Kairos",
     "Pasted image 20241218154748.png",
     "assets/Pasted image 20241216151935.png"

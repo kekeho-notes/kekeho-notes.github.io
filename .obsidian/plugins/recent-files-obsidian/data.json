@@ -1,16 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "2. 背景",
-      "path": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md"
+      "basename": "Obisidanでの論文執筆環境",
+      "path": "Obisidanでの論文執筆環境.md"
     },
     {
-      "basename": "GP2 Thesis",
-      "path": "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md"
+      "basename": "Dirty read",
+      "path": "🌐Distributed Systems・Concurrency・Transaction・DB/Transaction/Isolation/Dirty read.md"
     },
     {
       "basename": "1. 序論",
       "path": "🔒️Private/Kairos/GP2 Thesis/1. 序論.md"
+    },
+    {
+      "basename": "3. Issue",
+      "path": "🔒️Private/Kairos/GP2 Thesis/3. Issue.md"
+    },
+    {
+      "basename": "2. 背景",
+      "path": "🔒️Private/Kairos/GP2 Thesis/2. 背景.md"
+    },
+    {
+      "basename": "CockroachDB",
+      "path": "CockroachDB.md"
+    },
+    {
+      "basename": "Communication Complexity of Byzantine Agreement, Revisited",
+      "path": "Communication Complexity of Byzantine Agreement, Revisited.md"
+    },
+    {
+      "basename": "HoneyBadgerBFT",
+      "path": "HoneyBadgerBFT.md"
+    },
+    {
+      "basename": "Basil",
+      "path": "Basil.md"
+    },
+    {
+      "basename": "Conference",
+      "path": "Conference.md"
+    },
+    {
+      "basename": "Consensus",
+      "path": "Consensus.md"
+    },
+    {
+      "basename": "仮定と故障モデルの整理",
+      "path": "🔒️Private/Kairos/仮定と故障モデルの整理.md"
+    },
+    {
+      "basename": "GP2 Thesis",
+      "path": "🔒️Private/Kairos/GP2 Thesis/GP2 Thesis.md"
     },
     {
       "basename": "Abstract JA",
@@ -35,14 +75,6 @@
     {
       "basename": "4. Proposed",
       "path": "🔒️Private/Kairos/GP2 Thesis/4. Proposed.md"
-    },
-    {
-      "basename": "3. Issue",
-      "path": "🔒️Private/Kairos/GP2 Thesis/3. Issue.md"
-    },
-    {
-      "basename": "Obisidanでの論文執筆環境",
-      "path": "Obisidanでの論文執筆環境.md"
     }
   ],
   "omittedPaths": [],
