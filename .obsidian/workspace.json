@@ -243,6 +243,19 @@
               "icon": "writing-goals-radar",
               "title": "Writing goal"
             }
+          },
+          {
+            "id": "07a5ce9297d3864e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
           }
         ],
         "currentTab": 1
@@ -294,7 +307,7 @@
               "type": "mindmap",
               "state": {},
               "icon": "dot-network",
-              "title": "Mind Map of Obisidanでの論文執筆環境"
+              "title": "Mind Map of Surfing"
             }
           }
         ],
@@ -319,7 +332,6 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "copilot:Open Copilot Chat": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
       "workspaces:ワークスペースレイアウトを管理": false
     }
   },
