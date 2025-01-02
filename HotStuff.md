@@ -52,5 +52,9 @@
  - 常に可用性を提供するわけではなさそう: https://academic.oup.com/comjnl/article-abstract/67/8/2586/7634133?redirectedFrom=fulltext&login=false
 
 # 参考文献
+- Full paper : https://arxiv.org/pdf/1803.05069
+- [[PODC]]'19 論文: https://dl.acm.org/doi/10.1145/3293611.3331591
+- [HotStuff: Implementation and Advice](https://www.scs.stanford.edu/24sp-cs244b/projects/HotStuff_Implementation_and_Advice.pdf)
+	- StanfordチームがHotStuffを実装するときに注意するべき点・元論文ではわからない詳細などをまとめてくれている。大感謝。
 - https://cgi.di.uoa.gr/~mema/courses/m120/hotstuff.pdf
 -  ![](https://www.youtube.com/watch?v=GAGW-c4hADA)
