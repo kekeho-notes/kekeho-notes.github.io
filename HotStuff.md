@@ -49,8 +49,8 @@
 
 # メモ
  - フェーズ増えてる分、レイテンシはPBFTより高そう?
+ - 常に可用性を提供するわけではなさそう: https://academic.oup.com/comjnl/article-abstract/67/8/2586/7634133?redirectedFrom=fulltext&login=false
 
 # 参考文献
 - https://cgi.di.uoa.gr/~mema/courses/m120/hotstuff.pdf
 -  ![](https://www.youtube.com/watch?v=GAGW-c4hADA)
-- 
