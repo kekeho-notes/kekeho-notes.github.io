@@ -1,6 +1,12 @@
-[#Byzantine_Fault_Tolerant](Byzantine_Fault_Tolerant) [#Distributed_Consensus](Distributed_Consensus)
+---
+aliases:
+  - BFT Consensus
+  - BFT Consensus Algorithm
+  - Byzantine fault tolerant consensus algorithm
+---
 
-要件
+- [[Byzantine Fault Tolerant|BFT]]な[[Consensus algorithm]]
+# 要件
 - Termination: すべての非故障プロセスが出力を決定する
 	- Every non-faulty process decides an output
 - Agreement: すべての非故障プロセスは、最終的に同じ出力$\hat{y}$を決定する
