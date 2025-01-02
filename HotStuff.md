@@ -14,7 +14,25 @@
 - [[Partially synchronous system|部分同期システム]]を仮定
 	- 既知の通信時間の上限$\Delta$と、未知の[[Global Stabilization Time|GST]]が存在する。
 - 暗号ハッシュ関数、[[閾値署名]]を使う
-	- $k = 2f+1$
+	- $k = 2f+1$とする
+
+# プロトコル
+- Viewごと1リーダーがいる
+- 各レプリカにはローカルデータ構造として、保留コマンドのTreeがある
+	- Tree: 各ノードにコマンド・メタデータ・親リンクが含まれる
+	- 枝が単調に(分岐せずという意味?)伸びていく
+- Treeがコミットされる
+	- ViewのリーダーがTreeを提案する
+	- PREPARE・PRE-COMMIT・COMMITの3フェーズで、$n - f = 2f + 1 = k$レプリカから票を集める
+	- Quorum Certificate (QC)を集める。これが閾値署名
+## Prepare phase
+- (n - f)のレプリカから、New viewメッセージを受け取ることで自身がリーダーとしてスタートする
+- 
 
 # メモ
  - フェーズ増えてる分、レイテンシはPBFTより高そう?
+
+# 参考文献
+- https://cgi.di.uoa.gr/~mema/courses/m120/hotstuff.pdf
+-  ![](https://www.youtube.com/watch?v=GAGW-c4hADA)
+- 
