@@ -24,10 +24,28 @@
 - Treeがコミットされる
 	- ViewのリーダーがTreeを提案する
 	- PREPARE・PRE-COMMIT・COMMITの3フェーズで、$n - f = 2f + 1 = k$レプリカから票を集める
-	- Quorum Certificate (QC)を集める。これが閾値署名
-## Prepare phase
+	- Quorum Certificate (QC)を集める。これ閾値署名で実現している
+## データ構造
+- Message m:
+	- m.viewNumber: View number
+	- m.type: NEW-VIEW, PREPARE, PRE-COMMIT, COMMIT, DECIDE
+	- m.node: 提案された葉ノード
+	- m.justify: 必要に応じてQCが格納される
+	- m.partialSig: メッセージの部分署名
+- Quorum Certificates
+## PREPARE phase
 - (n - f)のレプリカから、New viewメッセージを受け取ることで自身がリーダーとしてスタートする
-- 
+- レプリカが受信した最も高いPrepare QC(ない場合は$\bot$)を運搬
+## PRE-COMMIT phase
+
+- リーダーが現在の提案curProposalに対する(n - f)個のPREPARE票を受信すると、それらをprepareQCに結合する
+- リーダーは、PREPAREメッセージでprepareQCをブロードキャストする
+- レプリカは、提案の署名付きダイジェストを持つPRE-COMMIT票でリーダーに応答する
+## COMMIT phase
+- リーダーは$n-f$個のPRE-COMMIT票を受信すると、それをprecommitQCに結合し、COMMITメッセージでブロードキャスト
+- レプリカは、COMMIT票で応答
+- (n - f)のCOMMIT表を受け取ったらcommitQCに結合し、DECIDEしておしまい
+- レプリカはView numberをインクリメントし、次のビューを開始する
 
 # メモ
  - フェーズ増えてる分、レイテンシはPBFTより高そう?
