@@ -14,6 +14,11 @@ aliases:
 - 書き込み時に$n - f = 2f + 1$の[[Quorum Certificate]]をもらう
 	- このうち、$f$個が書き込んでないのに嘘をついていて、さらに読み取り時に別の$f$個が故障していても、1個は正しい値を持っている
 
+## 性能
+-  [[メッセージ複雑性]]: $O(n^2)$
+	- [[View change]]: $O(n^3)$
+		- カスケード障害が起きていると$O(n^4)$まで悪化する
+- レイテンシ: 2-RTT
 # 論文
 - [[OSDI]] 99 : [https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html)
 - 翻訳: [https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html](https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html)
