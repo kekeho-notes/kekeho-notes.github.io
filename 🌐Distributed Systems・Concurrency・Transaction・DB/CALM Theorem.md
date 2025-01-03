@@ -42,7 +42,7 @@
 	- Cが、CAPは[[Linearizability]]だったが、CALMでは[[Program Consisitency]]の[[Confluence]]
 		- うーん、やっぱりCが違うから比べて良いのかな?(kekeho)
 - Monotonic Problemは、協調が必要ないだけでなく、ネットワーク[[メンバーシップ]]の知識を必要としない問題でもある
-	- 確かに、データフローは[[Gossip]]等で十分だよな(kekeho)
+	- 確かに、データフローは[[Gossip Protocol]]等で十分だよな(kekeho)
 
 ## うんちく
 - [[PODS]] 2010で予想が発表されて、amelootらが色々形式化とか証明とかをした

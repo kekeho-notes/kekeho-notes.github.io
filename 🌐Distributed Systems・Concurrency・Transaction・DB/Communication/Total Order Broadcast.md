@@ -4,7 +4,7 @@
 
 - [[Lamport Clock]]を使用すると、メッセージの順序付けをした配送が可能だが、[[Fault tolerance]]はない
 - アルゴリズムによってメッセージの[[Omission fault]], [[Timing failure]], [[Byzantine failure]]に耐える
-	- どれも[[flooding]]([[gossip]]等)ベースのBroadcastが基盤となっている
+	- どれも[[flooding]]([[Gossip Protocol]]等)ベースのBroadcastが基盤となっている
 
 Atomic Broadcast
 Input

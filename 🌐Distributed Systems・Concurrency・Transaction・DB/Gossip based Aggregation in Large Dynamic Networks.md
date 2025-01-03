@@ -1,4 +1,4 @@
-[#p2p](p2p) [#gossip](gossip) [#Overlay_Network](Overlay_Network)
+[#p2p](p2p) [#gossip](Gossip%20Protocol.md) [#Overlay_Network](Overlay_Network)
 - [https://www.cs.unibo.it/bison/publications/aggregation-tocs.pdf](https://www.cs.unibo.it/bison/publications/aggregation-tocs.pdf)
 
 - ノードの全体数がわからないようなダイナミックな[[Overlay Network]]でも、1つの変数の値について収束させることができる
