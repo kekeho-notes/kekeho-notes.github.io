@@ -27,4 +27,49 @@ aliases:
 - $s \in S$におけるDBのコピーは以下の関数を持つ
 	- $s.valueOf: K \rightarrow (v: V \times t: T)$
 	- $K$: キーの集合、$V$: 値の集合、$T$: タイムスタンプ
-	- $s.valueOf[k] = (NIL, t)$は、$k$に対応する値は時刻$t$に消去されたことを示す
+	- $s.valueOf[k] = (NIL, t)$は、$k$に対応する値は削除されたことを示す。
+	- 単一キーに絞ると、$s.\text{ValueOf} \in (v: V \times t: T)$
+- 全てのサイト間で一貫性がある状態: $\forall s, s': s.\text{ValueOf} = s'.\text{valueOf}$
+- 更新操作: $Update[v: V] \equiv s.ValueOf \leftarrow (v, Now)$
+## Direct Mail
+- 自分のサイトで更新が起きたら、以下をやる
+```
+FOR EACH s' ∈ S DO
+	PostMail[to: s', msg: ("Update", s.ValueOf)]
+	ENDLOOP
+```
+- 更新メッセージ$(\text{"Update"}, (v, t))$を受け取ったサイトは以下をやる
+```
+IF s.ValueOf.t < t THEN
+	s.ValueOf ← (v, t)
+```
+
+## Anti-entropy
+- 各サイトが以下をやる
+- [[Pull型]]、[[Push]]型、[[Push-Pull]]型がある
+```
+FOR SOME s' ∈ S DO
+	ResolveDifference[s, s']
+	ENDLOOP
+
+ResolveDifference: PROC[s, s'] = {  // PUSH
+	IF s.ValueOf.t > s'.ValueOf.t THEN
+		s'.ValueOf ← s.ValueOf
+}
+
+ResolveDifference: PROC[s, s'] = {  // PULL
+	IF s.ValueOf.t < s'.ValueOf.t THEN
+		s.ValueOf ← s'.ValueOf
+}
+
+ResolveDifference: PROC[s, s'] = {  // PUSH-PULL
+	SELECT TRUE FROM
+		IF s.ValueOf.t > s'.ValueOf.t ⇛ s'.ValueOf ← s.ValueOf
+		IF s.ValueOf.t < s'.ValueOf.t ⇛ s.ValueOf ← s'.ValueOf
+		ENDCASE => NULL
+}
+```
+
+### 全てのサイトにいきわたるまでに必要なラウンド数
+- Push: $log_2(n) + \ln(n) + O(1)$
+	- 証明: [Boris Pittel: On Spreading a Rumor](https://doi.org/10.1137/0147013)
