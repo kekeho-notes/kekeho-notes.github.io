@@ -70,6 +70,7 @@ ResolveDifference: PROC[s, s'] = {  // PUSH-PULL
 }
 ```
 
-### 全てのサイトにいきわたるまでに必要なラウンド数
-- Push: $log_2(n) + \ln(n) + O(1)$
-	- 証明: [Boris Pittel: On Spreading a Rumor](https://doi.org/10.1137/0147013)
+- Push: $log_2(n) + \ln(n) + O(1)$ラウンドでいきわたる (証明: [Boris Pittel: On Spreading a Rumor](https://doi.org/10.1137/0147013))
+	- 序盤で速いが、Unreach問題がある
+- Pull: 確率的に到達保証ができる。
+- Push-Pull: 序盤で速いし、到達保証もできる
