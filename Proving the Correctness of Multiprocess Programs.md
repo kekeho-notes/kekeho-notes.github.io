@@ -1,7 +1,12 @@
 ---
 tags:
   - 論文
-authors: "[[Leslie Lamport]]"
+authors:
+  - "[[Leslie Lamport]]"
+keywords:
+  - "[[Safety]]"
+  - "[[Liveness]]"
+  - "[[分散システム]]"
 ---
 - [[Safety]]および[[Liveness]]の初出論文 
 
