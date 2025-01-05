@@ -24,3 +24,6 @@ aliases:
 - [[Fail-stop fault]] ([[Asynchronous System]])
 - Crash-recovery fault([[Crash-recovery model]])
 - [[Byzantine fault]]
+
+# メモ
+- [Between c]

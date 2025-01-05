@@ -1,0 +1,1 @@
+- https://decentralizedthoughts.github.io/2024-08-08-vid/
