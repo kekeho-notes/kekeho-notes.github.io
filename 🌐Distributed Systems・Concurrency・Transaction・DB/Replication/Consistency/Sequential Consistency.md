@@ -19,3 +19,6 @@ aliases:
 
 - [[Multiprocessor Programming]]の文脈で、コンピュータのメモリは一般的にSequential Consistencyを提供することが多い
 - Sequential Consistencyは[[Non-blocking]]で実現できる
+
+- 単一のオブジェクトについて、Sequential Consistencyと[[Linearizability]]は見分けることができない
+	- 誰も、Real-time orderを知らないから (神の視点がないので)

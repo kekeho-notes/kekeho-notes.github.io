@@ -5,7 +5,7 @@ aliases:
   - 線形化可能性
 ---
 - [[Consistency]]のレベルの一つ
-- あるオブジェクトに対する並行操作は、何らかの逐次的な順序で実行されたものとみなせる + 操作の開始から完了までの何処かの一瞬で実行されたとみなせる
+- あるオブジェクトに対する並行操作は、何らかの逐次的な順序([[Real-time Order]])で実行されたものとみなせる + 操作の開始から完了までの何処かの一瞬で実行されたとみなせる
 	- その瞬間のことを、[[Linearization point]]という
 		- [[Lock]]ベースの実装の場合、クリティカルセクションがLinearization point
 		- Lockを使わない実装の場合、メソッド呼び出しの結果が他から見えるようになる時点がLinearization point
@@ -15,6 +15,10 @@ aliases:
 	- [[SMR]], [[Total Order Broadcast]]はLinearizableだと思われ? (kekeho)
 - [[Composability]]を満たす
 - [[Real-time Order]]を満たす
+
+- 単一のオブジェクトについて、[[Sequential Consistency]]と[[Linearizability]]は見分けることができない
+	- こうした理由から、[[External Consistency]]と呼ばれることも
+
 参考
 - [https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html](https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html)
 - [nikezono/Linearizability](https://scrapbox.io/nikezono/Linearizability)
