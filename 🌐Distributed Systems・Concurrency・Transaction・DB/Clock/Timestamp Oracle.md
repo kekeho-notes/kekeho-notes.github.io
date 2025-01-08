@@ -9,7 +9,7 @@ aliases:
 	- 何らかの[[Consensus algorithm]]でクロック値をレプリケーションする方法が主流
 		- [[TiDB]]では[[Timestamp Oracle]] を[[Raft]]でレプリケーションしている
 		- [[PolarDB-X]]では、[[Paxos]]を使ってレプリケーションしている
-	- [[Timestamp as a Service]]ではコンセンサスレスなレプリケーションを実現している
+	- [[Timestamp as a Service]]ではコンセンサスプロトコルを使わない。リーダーレスなアプローチが提案されている。
 - [[Percolator]] Transaction Modelでよく使われる
 
 ## Correctness
