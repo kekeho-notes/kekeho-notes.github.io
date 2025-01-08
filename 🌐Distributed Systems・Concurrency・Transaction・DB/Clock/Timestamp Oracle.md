@@ -12,8 +12,13 @@ aliases:
 	- [[Timestamp as a Service]]ではコンセンサスレスなレプリケーションを実現している
 - [[Percolator]] Transaction Modelでよく使われる
 
+## Correctness
+- TSOは以下のCorrectnessを提供する (セッション$\sigma$は、時刻$Q_\sigma$に開始し、$A_\sigma$に終了する)
+$$ \forall{\sigma, \tau \in \text{Sessions}}: A_{\sigma} \prec Q_{\tau} \Longrightarrow T(\sigma) < T(\tau) $$
+
 ## うれしさ
 - 一般的な[[Logical Clock|論理クロック]]では、プロセス間でメッセージを伝播することで因果関係を伝えていかないといけないが…TSOであれば、クロックサーバーと通信するだけで一貫したクロック値を得られる。例えばプロセス数が数百個とか数千個だと、ありがたそう
+- [[Real-time Order]]があると言えそう
 
 参考
 - [https://tikv.org/deep-dive/distributed-transaction/timestamp-oracle/](https://tikv.org/deep-dive/distributed-transaction/timestamp-oracle/)
