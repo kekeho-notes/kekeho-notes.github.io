@@ -9,6 +9,7 @@ URL: https://doi.org/10.1109/TDSC.2004.2
 ---
 - [[Dependability]]の定義を紹介している論文
 - 著者の[[Jean-Claude Laprie]]は、その前に[[Dependable computing and fault-tolerance]]を書いている
+	- 
 
 # 書誌情報
 - **タイトル**: Basic concepts and taxonomy of dependable and secure computing
