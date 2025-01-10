@@ -26,4 +26,4 @@ aliases:
 - [[Byzantine fault]]
 
 # メモ
-- [Between c]
+- 
