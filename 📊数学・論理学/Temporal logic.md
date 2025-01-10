@@ -82,4 +82,4 @@ $\Diamond$: now or sometime in the future (最終的に、Eventually)
 
 # 参考
 - https://www.cs.tsukuba.ac.jp/~mizutani/under_grad/programtheory/2014/2014-09.pdf
-- https://lamport.azurewebsites.net/pubs/liveness.pdf
+- [[Proving the Correctness of Multiprocess Programs]]
