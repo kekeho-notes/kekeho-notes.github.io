@@ -16,10 +16,11 @@ aliases:
 - [[Composability]]を満たす
 - [[Real-time Order]]を満たす
 
-- 単一のオブジェクトについて、[[Sequential Consistency]]と[[Linearizability]]は見分けることができない
+- 単一のオブジェクトについて、[[Sequential Consistency]]と[[Linearizability]]は外部から見分けることができない
 	- こうした理由から、[[External Consistency]]と呼ばれることも
 
 参考
 - [https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html](https://muratbuffalo.blogspot.com/2024/08/linearizability-correctness-condition.html)
 - [nikezono/Linearizability](https://scrapbox.io/nikezono/Linearizability)
 - http://www.bailis.org/blog/linearizability-versus-serializability/
+- [[Linearizability a correctness condition for concurrent objects]]
