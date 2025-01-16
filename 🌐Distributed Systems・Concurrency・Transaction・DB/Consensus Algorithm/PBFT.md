@@ -24,3 +24,8 @@ aliases:
 - 翻訳: [https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html](https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html)
 # 実装
 - [[Hyperledger Fablic]]のPBFT実装: https://github.com/hyperledger-archives/fabric/tree/master/consensus/pbft
+- [[Rust]]による実装: https://github.com/Szymongib/pbft-rust
+	- 記事
+		- [[Implementing Practical Byzantine Fault Tolerance - Part 1](https://sgibala.com/02-01-implementing-pbft/)](https://sgibala.com/02-01-implementing-pbft/)
+		- [Implementing Practical Byzantine Fault Tolerance - Part 2](https://sgibala.com/02-02-implementing-pbft/)
+		- [Implementing Practical Byzantine Fault Tolerance - Part 3](https://sgibala.com/02-03-implementing-pbft/)
