@@ -22,6 +22,7 @@ aliases:
 # 論文
 - [[OSDI]] 99 : [https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html](https://www.usenix.org/legacy/publications/library/proceedings/osdi99/full_papers/castro/castro_html/castro.html)
 - 翻訳: [https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html](https://hazm.at/mox/distributed-system/algorithm/transaction/pbft/practical-byzantine-fault-tolerance.html)
+- [A Correctness Proof for a Practical Byzantine-fault-tolerant Replication Algorithm](https://pmg.csail.mit.edu/~castro/tm590.pdf)
 # 実装
 - [[Hyperledger Fablic]]のPBFT実装: https://github.com/hyperledger-archives/fabric/tree/master/consensus/pbft
 - [[Rust]]による実装: https://github.com/Szymongib/pbft-rust
