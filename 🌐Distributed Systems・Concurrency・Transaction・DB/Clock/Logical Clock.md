@@ -74,6 +74,6 @@ aliases:
 - [https://dl.acm.org/doi/abs/10.1145/3335772.3335934](https://dl.acm.org/doi/abs/10.1145/3335772.3335934)
 - [https://www.hpcs.cs.tsukuba.ac.jp/~msato/lecture-note/dsys-2012/lecture-dist-clock.pdf](https://www.hpcs.cs.tsukuba.ac.jp/~msato/lecture-note/dsys-2012/lecture-dist-clock.pdf)
 - ![](https://www.youtube.com/watch?v=BRvj8PykSc4&feature=youtu.be)
-
+- [Use of time in distributed databases](https://muratbuffalo.blogspot.com/2024/12/use-of-time-in-distributed-databases.html)
 
 [#p2p](p2p) [#分散システム](分散システム.md)
