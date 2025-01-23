@@ -19,6 +19,7 @@ $$ \forall{\sigma, \tau \in \text{Sessions}}: A_{\sigma} \prec Q_{\tau} \Longrig
 ## うれしさ
 - 一般的な[[Logical Clock|論理クロック]]では、プロセス間でメッセージを伝播することで因果関係を伝えていかないといけないが…TSOであれば、クロックサーバーと通信するだけで一貫したクロック値を得られる。例えばプロセス数が数百個とか数千個だと、ありがたそう
 - [[Real-time Order]]があると言えそう
+	- [参考?](https://pingcap.co.jp/blog/async-commit-the-accelerator-for-transaction-commit-in-tidb-5-0/)
 
 参考
 - [https://tikv.org/deep-dive/distributed-transaction/timestamp-oracle/](https://tikv.org/deep-dive/distributed-transaction/timestamp-oracle/)
