@@ -2,7 +2,7 @@
 - 初学者がつまりがちポイント: [https://zenn.dev/hirotosuzuki/articles/8b3ef08e2d67be](https://zenn.dev/hirotosuzuki/articles/8b3ef08e2d67be)
 - Future(async/await)周り: [https://blog.tiqwab.com/2022/03/26/rust-future.html](https://blog.tiqwab.com/2022/03/26/rust-future.html)
 - 問題集: [https://github.com/rust-lang/rustlings](https://github.com/rust-lang/rustlings)
-
+- 裏本: https://doc.rust-jp.rs/rust-nomicon-ja/index.html
 
 - [[Box]], [[Arc]], [[Rc]]の違い
 	- Boxはclone時に値がコピーされる
