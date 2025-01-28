@@ -10,6 +10,7 @@
 ## 参考
 - https://manuel.bernhardt.io/posts/2023-11-16-core-pinning/
 - Kernel boot parameterの書き換え方: https://wiki.ubuntu.com/Kernel/KernelBootParameters
+- https://hana-shin.hatenablog.com/entry/2021/12/23/205413
 
 # macOS
 - うーん、できなさそう?
