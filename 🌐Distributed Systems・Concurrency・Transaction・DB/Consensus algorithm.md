@@ -12,3 +12,4 @@ aliases:
 
 # 関連
 - [[ブロックチェーンのコンセンサスアルゴリズム]]
+- [Distributed Consensus Reading List](https://github.com/heidihoward/distributed-consensus-reading-list)
