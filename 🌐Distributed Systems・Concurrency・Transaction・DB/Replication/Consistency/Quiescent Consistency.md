@@ -1,4 +1,7 @@
-- [[静止一貫性]]とも
+---
+aliases:
+  - 静止一貫性
+---
 - 静止状態(Quiescent State)をまたぐリオーダが起きない[[Consistency]]
 	- [[Quiescent State]]: どのスレッドからの操作も行われていない瞬間
 - [[Real-time Order]]がある
