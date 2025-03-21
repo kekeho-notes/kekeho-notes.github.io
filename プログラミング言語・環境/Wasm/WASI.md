@@ -1,4 +1,4 @@
-WebAssembly System Interface
+*WebAssembly* System Interface
 
 - Documents: [https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-documents.md](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-documents.md)
 	- Introduction: [https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-intro.md)
