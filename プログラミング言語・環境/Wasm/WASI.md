@@ -6,3 +6,5 @@
 	- API: [https://github.com/WebAssembly/WASI/blob/main/legacy/preview1/docs.md](https://github.com/WebAssembly/WASI/blob/main/legacy/preview1/docs.md)
 
 - WASIは、WASMのImport Functionとして提供されるという認識でおk? (kekeho)
+
+- wasi-threads: https://github.com/WebAssembly/wasi-threads
