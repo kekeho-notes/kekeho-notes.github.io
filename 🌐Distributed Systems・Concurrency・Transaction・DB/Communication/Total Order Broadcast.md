@@ -6,7 +6,7 @@
 - アルゴリズムによってメッセージの[[Omission fault]], [[Timing failure]], [[Byzantine failure]]に耐える
 	- どれも[[flooding]]([[Gossip Protocol]]等)ベースのBroadcastが基盤となっている
 
-Atomic Broadcast
+# Atomic Broadcast
 Input
 - $n$個のプロセッサが同時にブロードキャストするメッセージのストリーム
 Output
@@ -19,7 +19,7 @@ Output
 - [[Termination]]: 正しいプロセッサが、そのクロックが指す時刻$T$でブロードキャストを開始したUpdateは、すべての正しいプロセッサに、それらのクロックが指す時刻$T + \Delta$で配信される
 	- 一定の時間内に配信が終わる、ということなのでしょう(kekeho)
 
-Total Order Broadcast
+# Total Order Broadcast
 - Atomic Broadcastは物理時間に基づく話をしているけど、[[Logical Clock]]に置き換えたバージョンが一般的。これはTotal Order Broadcastと呼ばれる問題である。
 
 Input
