@@ -8,7 +8,7 @@ aliases:
 
 
 # 論文
-- https://dl.acm.org/doi/10.1145/3149.214121 ([[JACM]]'85)
+- [ ] https://dl.acm.org/doi/10.1145/3149.214121 ([[JACM]]'85)
 
 ## 2. Consensus Protocols
 - Consensus Protocol $P$の定義: $N \geq 2$個のプロセスからなる[[Asynchronous System]]
