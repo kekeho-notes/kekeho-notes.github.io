@@ -1,5 +1,5 @@
 - [[Byzantine Atomic Broadcast]]によって実現される
 - [[Blockchain]]も、Byzantine State Machine Replicationを実現する手法の一つ、という整理ができると思う(kekeho)
 - [[DAG]]系
-	- [[DAG Rider]]とか[[Bullshark]]とか[[Swirlds Hashgraph]]も一つの手法
+	- [[DAG Rider]]とか[[Narwhal and Bullshark]]とか[[Swirlds Hashgraph]]も一つの手法
 	- [https://blog.chain.link/bft-on-a-dag/](https://blog.chain.link/bft-on-a-dag/)
