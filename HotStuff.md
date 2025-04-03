@@ -1,5 +1,6 @@
 # 概要
 - [[Byzantine fault tolerant consensus|Byzantine fault tolerant consensus algorithm]]
+	- リーダーベース
 - [[Partially synchronous system|部分同期システム]]を仮定
 - $N \ge 3f + 1$
 - [[PBFT]]の2 phase ([[Quorum Certificate]]もらうフェーズと、[[View change]]フェーズ)ではなく、3フェーズアプローチ
@@ -50,6 +51,7 @@
 # メモ
  - フェーズ増えてる分、レイテンシはPBFTより高そう?
  - 常に可用性を提供するわけではなさそう: https://academic.oup.com/comjnl/article-abstract/67/8/2586/7634133?redirectedFrom=fulltext&login=false
+ - このあと[[Narwhal and Tusk]]などが提案されている
 
 # 参考文献
 - Full paper : https://arxiv.org/pdf/1803.05069

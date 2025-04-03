@@ -3,6 +3,7 @@ aliases:
   - コンセンサスアルゴリズム
   - コンセンサス
   - Consensus
+  - Consensus Protocol
 ---
 
 # Consensus algorithmのcorrectness
