@@ -1,0 +1,3 @@
+- [[Issuer]], [[Holder]], [[Verifier]]からなるクレデンシャルのモデル
+- [[Verifiable Credential]]などで活用されている
+- [[Issuer]], [[Holder]], [[Verifier]]に加え、[[Trust Anchor]]を追加した[[Four-Party Model]]も議論されている
