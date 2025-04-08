@@ -1,3 +1,9 @@
+---
+aliases:
+  - VC
+  - Verifiable Credential
+---
+
 - 全体像:
 	- ![[assets/VCWG_specifications.svg]]
 

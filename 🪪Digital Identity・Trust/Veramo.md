@@ -1,4 +1,4 @@
-- [[DID]], [[Verifiable Credential]]のためのライブラリ・フレームワーク・API
+- [[DID]], [[Verifiable Credentials]]のためのライブラリ・フレームワーク・API
 - [[Typescript]]で書かれている
 	- いろんなプラットフォームで使うことを考えると、WASMとかにうまい具合にできないんだろうか。。。(kekeho)
 - Modularな感じ,、プラグインが組み合わさってできている→拡張が簡単そう(kekeho)
