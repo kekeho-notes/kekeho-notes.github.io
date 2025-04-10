@@ -1,0 +1,3 @@
+- [[SD-JWT]]と[[VC-DM]]のいいとこ取り?
+- https://github.com/danielfett/sd-jwt-vc-dm
+- https://sd-jwt-vcdm.net/
