@@ -1,0 +1,1 @@
+- 関連: [[Asynchronous System|非同期システム]]
