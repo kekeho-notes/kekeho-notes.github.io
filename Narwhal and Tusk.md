@@ -35,7 +35,25 @@
 #### System Model, goals and assumption
 - $n$人のパーティ
 - $f < n/3$（$3f < n$）の場合耐える
-- Honestな参加者間での[[eventually reliable]] communication linkを仮定
+- Honestな参加者間でのeventually reliable communication linkを仮定
+	- メッセージの遅延に上限はない。有限（ただし不明）のメッセージがロストする
 	- [[Reliable link]]かつ[[Eventual Delivery]]ということかな?
+- [[Narwhal]] Mempoolの定義
+	- データ構造
+		- ブロック$b$は、トランザクションセットと前のブロックのダイジェスト$d$を持つ
+			- ダイジェストによって[[happend-before]]関係が示される（[[推移律]]も成り立つ）
+	- Mempoolに対する操作
+		- $write(d, b)$: ダイジェスト$d$を持つブロック$b$を格納する
+		- $c(d)$: ダイジェスト$d$上の可用性証明書（certificate of availability）を返す。$c(d)$が形成されたときに書き込みが成功したとみなされる。
+		- $valid(d, c(d))$: 証明書が有効な場合True、それ以外はFalseを返す
+		- $read(d)$: $write(d, b)$が成功している場合に、ブロック$b$を返す
+		- $read\_causal(d)$: ブロック集合$B$を返す。$B$の中身は、$\forall b' \in B: b' \rightarrow ... \rightarrow read(d)$。つまり、$d$に対応する$b$またはそれより前におきた（happend-before関係がつながっている）ブロックたち
+	- 満たす特性
+		- [[Integrity]]: Honestなパーティーによる2回の$read(d)$は、値が返ってくるものについては同じ値を返す
+		- [[Block-Availability]]: $write(d, b)$がHonestなパーティーにより成功したあとに、$read(d)$したら、最終的に呼び出しが完了して$b$が返される
+		- [[Containment]]（束縛?）: $read\_causal(d)$によって返される$B$のうち、$\forall b' \in B: read\_causal(d') \subseteq B$
+		- 2/3-[[Causality]]: 成功した$read\_causal(d)$が返す$B$は、$write(d, b)$される前に成功した書き込み操作によって生成されたブロックの少なくとも2/3を含む
+			- 1/3は、まだ含まれていないかもしれない
+		- 1/2-[[Chain Quality]]: 成功した$read\_causal(d)$の返す$B$のうち、少なくとも1/2がHonestパーティーによって書き込まれたものである
 # 解説
 ![https://www.youtube.com/watch?v=K5ph4-7vvHk&list=WL&index=90](https://www.youtube.com/watch?v=K5ph4-7vvHk&list=WL&index=90)
