@@ -55,5 +55,12 @@
 		- 2/3-[[Causality]]: 成功した$read\_causal(d)$が返す$B$は、$write(d, b)$される前に成功した書き込み操作によって生成されたブロックの少なくとも2/3を含む
 			- 1/3は、まだ含まれていないかもしれない
 		- 1/2-[[Chain Quality]]: 成功した$read\_causal(d)$の返す$B$のうち、少なくとも1/2がHonestパーティーによって書き込まれたものである
+### 3. Narwhal Core Design
+#### 3.1 The Narwhal Mempool
+- [[Threshold Logical Clock]]のアイデアに基づくペースメーカーを用いる
+- 各Validatorは、現在のローカルラウンド$r \ge 0$を保持する
+- 各Validatorは、クライアントから継続的にトランザクションを受取、トランザクションリストに蓄積する
+- 各Validatorは、ブロックに対する可用性証明書を受け取り
+
 # 解説
 ![https://www.youtube.com/watch?v=K5ph4-7vvHk&list=WL&index=90](https://www.youtube.com/watch?v=K5ph4-7vvHk&list=WL&index=90)
