@@ -1,0 +1,2 @@
+- [[para]]
+- https://en.wikipedia.org/wiki/Systolic_array
