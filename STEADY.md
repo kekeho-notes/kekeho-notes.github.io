@@ -1,0 +1,1 @@
+- システムを、Simple・Timely・Efficient・Adaptable・Dependable・Yummyに設計するべし

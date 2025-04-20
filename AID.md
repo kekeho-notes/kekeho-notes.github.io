@@ -1,0 +1,1 @@
+- [[STEADY]]を達成するうえで使えるテクニック: Approximate, Incremental, Divide & Conquer
