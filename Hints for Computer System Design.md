@@ -24,7 +24,7 @@
 |                    |        良いアイデアを再利用する (Use a good idea again)        |           総当たり攻撃を使う (Use brute force)           |                                                                       |
 |                    |            分割統治する (Divide and conquer)             |      バックグラウンドで計算する (Compute in background)      |                                                                       |
 |                    |                                                    |            バッチ処理 (Batch processing)             |                                                                       |
-# Functionality
+# 2. Functionality
 - システムから適切な機能を得るには?
 - インターフェースの選択が肝
 - 満たすべき条件: 単純であること・完全であること・十分に小さく高速な実装を可能にすること
@@ -67,6 +67,26 @@
 	- たいてい、この2つの要件は全く異なる
 		- 正常な場合は、高速でなければならない
 		- 最悪の場合は、何らかの進捗がなければならない
+
+# 3. Speed
+- 資源を共有するのではなく、分ける
+	- 通常、専用のリソースを割り当てたほうが速い。挙動も予測しやすい
+	- 必要な総リソースは大きくなるかもしれないが、通常余分なリソースのコストは小さいか、オーバーヘッドがフラグメンテーションよりも大きいか、その両方
+	- ドメインスペシフィックなコプロセッサを置くのもよい
+- 静的解析をする（Use static analysis if you can）
+	- 静的解析: プログラムのソースコード等を解析してパフォーマンスなどを計算する
+	- プログラムの特性を発見し、パフォーマンスを向上させる
+	- 難しければ動的解析をする（プログラムを動かして挙動を観測する）
+- 動的翻訳 (Dynamic translation)
+	- これなに?
+- 複雑な計算の答えをキャッシュしておく（Cache answers to expensive computation）
+- ヒントを使う（Use hints to speed up normal execution.）
+	- キャッシュエントリと異なり、間違っているかもしれないし、当たったらいいなくらいのノリ?
+- 疑いがあれば、ブルートフォースしろ（When in doubt, use brute force）
+- オーダーとして速くても、定数項が大きければ、結局遅いということもありうる
+- 可能なときにバックグラウンドで計算しろ（Compute in the background when possible.）
+- 可能ならバッジで実行しろ（Use batch processing if possible）
+- 
 # 論文
 - https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acrobat-17.pdf
 - https://arxiv.org/abs/2011.02455 (2020年改訂版、107ページ!)
