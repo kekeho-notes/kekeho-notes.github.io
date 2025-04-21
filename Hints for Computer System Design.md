@@ -78,7 +78,7 @@
 	- プログラムの特性を発見し、パフォーマンスを向上させる
 	- 難しければ動的解析をする（プログラムを動かして挙動を観測する）
 - 動的翻訳 (Dynamic translation)
-	- これなに?
+	- これなに? コード動かす時間のほうが長くない?
 - 複雑な計算の答えをキャッシュしておく（Cache answers to expensive computation）
 - ヒントを使う（Use hints to speed up normal execution.）
 	- キャッシュエントリと異なり、間違っているかもしれないし、当たったらいいなくらいのノリ?
