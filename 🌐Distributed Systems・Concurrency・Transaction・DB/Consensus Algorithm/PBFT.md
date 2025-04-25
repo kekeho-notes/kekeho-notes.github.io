@@ -5,6 +5,8 @@ aliases:
 # 概要
 - [[Byzantine fault tolerant consensus|Byzantine fault tolerant consensus algorithm]]
 - [[Nakamoto Consensus]]等と異なり、ノード数Nが頻繁に変動する環境では使えないことに注意
+- 仮定のもとで、以下の[[Safety]]を保証
+	- 非故障レプリカが、リクエストの全順序に合意する
 # 仮定
 - メッセージの送信者は識別可能(署名等により達成される)
 - $N \ge 3f+1$のノードがあるときに、$f$台以上のサーバーが[[ビザンチン故障]]しない限り、安全([[Safety]])
@@ -16,7 +18,17 @@ aliases:
 ### 前提
 - レプリカ集合$R$は、$\{ 0, ..., |R|-1 \}$のIdentifierを持つ
 	- $|R| = 3f + 1$
-- 
+- 1つのview($v$)ごと、1つのプライマリレプリカ$p = v \mod |R|$がいる
+	- primaryが死ぬと、view change
+### The Client
+- クライアント$c$は操作$o$の実行リクエスト$\langle \mathrm{REQUEST}, o, t, c \rangle_{\sigma_c}$をプライマリに送る
+	- $t$: exactly-onceを保証するために使う。単調増加する値。クライアントのローカルクロック等でOK。
+	- $\sigma_c$: cの署名
+- レプリカは、$\langle \mathrm{REPLY}, v, t, c, i, r \rangle$を返す。クライアントは$f+1$の
+	- $v$: view number
+	- $t$: タイムスタンプ
+	- $i$: レプリカ番号
+	- $r$: 操作の適用結果
 ## 性能
 -  [[メッセージ複雑性]]: $O(n^2)$
 	- [[View change]]: $O(n^3)$
