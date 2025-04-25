@@ -60,7 +60,11 @@ aliases:
 	- $\langle \mathrm{COMMIT}, v, n, D(m), i \rangle_{\sigma_i}$
 	- 各レプリカは、署名を検証し、メッセージ内のビュー番号が現在のビューと一致し、シーケンス番号がhからHの間であればCommitメッセージを受け入れてログに追加する
 - $committed\_local(m, v, n, i)$がtrueになったら、レプリカ$i$は操作$o$を実行し、クライアントにリプライを返す
-	- 
+	- $committed(m, v, n)$ is true iff prepared(m, v, n, i) is true for all $i$ in some set of f+1 non-faulty replicas
+	- $committed\_local(m, v, n, i)$ is true iff $prepared(m, v, n, i)$ is true, and $i$ has accepted 2f+1 **commits** from different replicas that match the pre-prepare for m
+	- 最後の応答のりタイムスタンプが小さいやつはもう全てステートに反映されていることを保証する
+		- 最後の応答より小さなタイムスタンプを持つリクエストは破棄
+### Garbage collection
 ## 性能
 -  [[メッセージ複雑性]]: $O(n^2)$
 	- [[View change]]: $O(n^3)$
