@@ -21,14 +21,27 @@ aliases:
 - 1つのview($v$)ごと、1つのプライマリレプリカ$p = v \mod |R|$がいる
 	- primaryが死ぬと、view change
 ### The Client
-- クライアント$c$は操作$o$の実行リクエスト$\langle \mathrm{REQUEST}, o, t, c \rangle_{\sigma_c}$をプライマリに送る
+- クライアント$c$は操作$o$の実行リクエスト$m = \langle \mathrm{REQUEST}, o, t, c \rangle_{\sigma_c}$をプライマリに送る
 	- $t$: exactly-onceを保証するために使う。単調増加する値。クライアントのローカルクロック等でOK。
 	- $\sigma_c$: cの署名
-- レプリカは、$\langle \mathrm{REPLY}, v, t, c, i, r \rangle$を返す。クライアントは$f+1$の
+	- プライマリから十分な時間以内に返信がなさそうだったら、レプリカたちにブロードキャスト
+- レプリカは、$\langle \mathrm{REPLY}, v, t, c, i, r \rangle$を返す。クライアントは$f+1$の異なるレプリカからの & 署名が有効 & tとrがそれぞれおなじになるリプライを集める。
 	- $v$: view number
 	- $t$: タイムスタンプ
 	- $i$: レプリカ番号
 	- $r$: 操作の適用結果
+### Normal-Case Operation
+- プライマリはリクエストをmessage logにバッファリングする
+	- バッファリングしたリクエストは、あとでまとめてグループとしてマルチキャストされる
+- 3フェーズプロトコル: Pre-prepare, Prepare, Commit
+	- Pre-prepareとPrepareは、プライマリ（リクエストの順序を提案する）が故障したときでも、同一のビューで送信されたリクエストを完全に順序付けるために使用される
+	- PrepareとCommitは、コミットされたリクエストがビュー間で完全に順序付けられていることを確認するために使用される
+- プライマリはリクエストにシーケンス番号$n$を割り当てて、$m$を載せたpre-prepareをすべてのバックアップにマルチキャストし、自身のログにメッセージを追加する
+	- Pre-prepare: $\langle \langle \mathrm{PRE-PREPARE}, v, n, d \rangle_{\sigma_p} , m \rangle$
+		- $v$: メセージが送信されたview
+		- $n$: sequence number. プライマリがアサインする。
+		- $d$: mのダイジェスト
+		- ビュー変更時に、ビューvのリクエストにシーケンス番号nが割り当てられたことを証明するために使用される
 ## 性能
 -  [[メッセージ複雑性]]: $O(n^2)$
 	- [[View change]]: $O(n^3)$
