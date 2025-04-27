@@ -40,7 +40,17 @@ authors:
 	> あるイベントAがイベントBを引き起こす（cause）場合、実時間でBが始まる前にAが完了するようにスケジューリングされないといけない
 	- イベントAがイベントBよりもVirtual timeが早いにもかかわらず、AからBへの因果関係（の連鎖）がない場合はBよりAを先に実行する必要性がないことに注意
 - [[Lamport Clock]]との違い
-	- Lamport clockは分散システムの特定の実行から開始し、その実行に対してかんぜんにじゅんじょづけ
+	- Lamport clockは分散システムの特定の実行から開始し、その実行に対して完全に順序付けられたクロック値の割当をする
+	- Virtual TimeではLamport clockの逆で、全てのイベント（メッセージ含む）にはLamport clockの条件を満たすタイムスタンプがラベルとしてあらかじめ貼られることを保証する
+	- 楽観的に実行し、問題があればあとから事後的に修正
+# Time Warp
+- 通信路は[[Reliable link]]であると仮定（順序保証はなし）
+- Local Control mechanism, Global control mechanismに分けられる
+## Local Control mechanism
+- 各プロセスは独自のlocal virtual clock値を持つ
+	- イベント中には変化せず、イベントとイベントの間に変化する
+	- 入力キューの次のメッセージの受信タイムスタンプの値にのみ変化する
+	- 各プロセスは、自身のlocal virtual clockしか読めない
 # 論文
 - [https://doi.org/10.1145/3916.3988](https://doi.org/10.1145/3916.3988)
 - [[TOPLAS]]'1985
