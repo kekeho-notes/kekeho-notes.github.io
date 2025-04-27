@@ -22,8 +22,9 @@ authors:
 - 分散システム上の各プロセスは、virtual space上の点として表現される
 - すべてのプリミティブなaction（値の変更、メッセージの送信）はvirtual time座標とvirtual space座標の両方を持つ
 	- 同じvirtual place `x`と同じvirtual time `t`で行われるすべてのactionの集合を`(x, t)`におけるeventと呼ぶ
-- すべてのメッセージはsender name / virtual send time / name of receivber / virtual receive timeの4つのスタンプを持つ
+- すべてのメッセージはsender name / virtual send time / name of receiver / virtual receive timeの4つのスタンプを持つ
 	- つまり、メッセージというのは送信イベントと受信イベントの2点（送信者の場所・送信時間）, （受信者の場所, 受信時間）でスタンプされているといえる
+	- 受信時刻は、送信者が受信されるべき時刻を決める
 
 - Virtual time systemは2つの基本的なルールに従う（[[Lamport Clock]]と同じ）
 	- ルール1: 各メッセージのvirtual send timeは、virtual receive timeよりも小さくないといけない
@@ -51,6 +52,22 @@ authors:
 	- イベント中には変化せず、イベントとイベントの間に変化する
 	- 入力キューの次のメッセージの受信タイムスタンプの値にのみ変化する
 	- 各プロセスは、自身のlocal virtual clockしか読めない
+- とりあえずどんどん実行していくが、古い受信時刻を持つメッセージが来たらロールバックする
+- look-ahead（先読み）実行をしているということ
+## Anti-messages and the Rollback Mechanism
+- ロールバックの仕組み
+- プロセスの実行時表現は以下で構成される
+	1. process name (virtual space座標)はシステム中でユニーク
+	2. local virtual clock (virtual time座標)時にメッセージが受理されている
+		- 図1では162となっている
+	3. Stateは、実行スタック・ローカル変数、プログラムカウンタなどを含む
+	4. State Queue: プロセスの最近のStateのコピーを保存しているキュー。
+	5. Input Queue: ロールバックするかもしれないので、入力メッセージを消さずに取っておく。Signが+。
+		- 同じメッセージの+と-が両方入ってきたら打ち消し合う。[[Strong Convergence]]を満たすということかな?
+	6. Output Queue: 最近送信したメッセージを取っておく。Unsend（取り消しメッセージ）を実現するため。Signが-なのは、Unsendという意味。
+
+![[Pasted image 20250427222030.png]]
+
 # 論文
 - [https://doi.org/10.1145/3916.3988](https://doi.org/10.1145/3916.3988)
 - [[TOPLAS]]'1985
