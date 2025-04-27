@@ -51,7 +51,7 @@ authors:
 - 各プロセスは独自のlocal virtual clock値を持つ
 	- イベント中には変化せず、イベントとイベントの間に変化する
 	- 入力キューの次のメッセージの受信タイムスタンプの値にのみ変化する
-	- 各プロセスは、自身のlocal virtual clockしか読めない
+	- 各プロセスは、自身のlocal virtual clock（Local Virtual Time: LVT）しか読めない
 - とりあえずどんどん実行していくが、古い受信時刻を持つメッセージが来たらロールバックする
 - look-ahead（先読み）実行をしているということ
 ## Anti-messages and the Rollback Mechanism
@@ -67,6 +67,17 @@ authors:
 	6. Output Queue: 最近送信したメッセージを取っておく。Unsend（取り消しメッセージ）を実現するため。Signが-なのは、Unsendという意味。
 
 ![[Pasted image 20250427222030.png]]
+
+## Global Control Mechanism
+- Global Virtual Time (GVT) は、実時間rにおけるシステムのグローバルスナップショットで、以下に定義される
+	>  実時間rにおけるGVTは、（1）実時間rにおけるすべての仮想時間（LVT?）と（2）実時間rにおいて送信されたがまだ処理されていないすべてのメッセージのvirtual send timeの最小値
+	- Virtual receive timeではなくsend timeで定義されることに注意
+- 個々のLVTは頻繁にロールバックするにも関わらず、GVTは増加し続けることはメッセージ通信actionの数に対する帰納として簡単に示される（これなに?）
+- GVTは、どんなプロセスもロールバックすることのできるvirtual timeのfloorとして機能する
+	- GVTより前のやつは、キューから捨てていい
+- GVTがどのような値か瞬時に知ることはできないが、estimationはできる
+	- スナップショット内のすべてのvirtual clock内のvirtual time, まだ応答を得ていないvirtual send time、入力Queueのメッセージのvirtual send timeの最小値以下であることはわかる
+	- よくわからないけどいくつかアルゴリズムがあるらしい
 
 # 論文
 - [https://doi.org/10.1145/3916.3988](https://doi.org/10.1145/3916.3988)
