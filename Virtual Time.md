@@ -10,7 +10,7 @@ authors:
 ---
 - [[分散システム]]における独自の下層時間を定義
 - [[TimeWarp]]メカニズム: virtual timeを実装
-	- [[Lockahead-rollback]]という基礎的な同期メカニズムに依存している
+	- [[Lookahead-rollback]]という基礎的な同期メカニズムに依存している
 
 # Virtual Time
 - Virtual Time Systemは、Virtual timeを進めるVirtual clockと協調する分散システムである
@@ -82,3 +82,4 @@ authors:
 # 論文
 - [https://doi.org/10.1145/3916.3988](https://doi.org/10.1145/3916.3988)
 - [[TOPLAS]]'1985
+- スケーラビリティ評価: https://dl.acm.org/doi/abs/10.1145/2486092.2486134
