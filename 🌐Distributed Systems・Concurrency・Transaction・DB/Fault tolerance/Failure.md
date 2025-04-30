@@ -3,7 +3,7 @@ aliases:
   - 故障
   - 故障モデル
 ---
-- いろいろな[[Fault]]がある
+- いろいろな[[Failure]]がある
 # ネットワークのFailure
 [[Transient failure]]([[一時障害]])
 		- [[Omission failure](脱落)

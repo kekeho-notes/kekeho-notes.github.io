@@ -10,3 +10,4 @@
 - [https://www.ibm.com/jp-ja/topics/cap-theorem](https://www.ibm.com/jp-ja/topics/cap-theorem)
 - [amutake/CAP](https://scrapbox.io/amutake/CAP)
 - [https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=96124&file_id=1&file_no=1](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=96124&file_id=1&file_no=1)
+- [[Martin Kleppmann]]によるCAP定理への批判: https://arxiv.org/pdf/1509.05393

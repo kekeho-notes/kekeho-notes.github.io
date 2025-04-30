@@ -3,6 +3,7 @@ aliases:
   - 障害
   - 障害モデル
 ---
+
 - [[Error]]の原因
 
 # Faultの種類
