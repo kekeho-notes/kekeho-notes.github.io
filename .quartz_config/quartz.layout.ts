@@ -27,9 +27,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.RecentNotes({
-      limit: 10,
-    })),
+    Component.DesktopOnly(
+      Component.Explorer({
+        title: "Explorer",
+      }),
+    ),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
