@@ -10,6 +10,7 @@
 # クエリの満たすべき性質
 - [[Safety]]: Queries should be sequentially consistent, regardless of the replica at which they are evaluated
 	- これって別に、[[Sequential Consistency]]とは関係ない…? [[monotonic reads]]みたいな話?(kekeho)
+		- 一度読んだ結果が変わってはこまるということすか? (kekeho)
 - Efficiency: Queries should be evaluated locally without coordination whenever possible
 	- whenever possible...(kekeho)
 - Simplicity: The query model should be easy for developers to reason about.

@@ -1,5 +1,11 @@
+---
+aliases:
+  - CALM
+  - Consistency As Logical Monotonicity
+---
+
 - [https://cacm.acm.org/research/keeping-calm/](https://cacm.acm.org/research/keeping-calm/)
-- [[CALM]]: [[Consistency As Logical Monotonicity]]
+- CALM: Consistency As Logical Monotonicity
 # 概要
 - [[Program Consisitency]]: [[Consistency]]の定義を、操作の順序づけから決定論的なプログラムの結果にシフトする考え方？
 	- 既存の[[Consistency]]の議論([[Linearizability]]など)では、メモリアクセスの順序を制約することで一貫性を担保していた
