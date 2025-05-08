@@ -24,5 +24,5 @@
 		- CRDTの状態が進むにつれて、クエリの結果は偽から真になることはあっても、真から偽に変わることはない(kekeho)
 	- Safety, Efficiency, Simplicityを満たす
 	- monotone queryの合成もまた、monotoneである([[CALM Theorem]]での[[Composability]]の議論)
-
+- [[Stable Property]]の話となんだかにている気がする ( kekeho )
 - CRDTsでは、Non-MonotonicなQueryのみを順序付けてやればよい
