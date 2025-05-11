@@ -56,6 +56,12 @@ aliases:
 （論文には2つほど例が載っている）
 
 # アルゴリズム
+- Global-state Recording Algorithmを提案
+- このアルゴリズムは、基礎となる計算を妨害しない
+## 例: Single token conservation system
+- プロセス$p$と$q$および、$p \rightarrow q$のチャネル$c$と$q \rightarrow p$のチャネル$c'$を考える
+- 最初、トークンは$p$にあるとする（Global State: `in-p`。そして、トークンは$c$に移動する（Global State: `in-c`）
+- このとき、
 
 
 # 解説
