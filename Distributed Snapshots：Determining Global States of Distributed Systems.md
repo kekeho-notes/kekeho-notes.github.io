@@ -51,7 +51,7 @@ aliases:
 		2. $e$（原文ママ。おそらく$c$?）が$p$に向けられたチャネルである場合、$next(S, e)$における$c$の状態は、メッセージ$M$が先頭から削除された$S$における$c$の状態である
 		3. $c$が$p$から外向きのチャネルであれば、$next(S, e)$における$c$の状態は、$S$における末尾に$M$が追加されたcの状態とおなじになる
 - $seq = (e_i: i \leq i \leq n)$を、システムにおけるプロセス内のイベントシーケンスとする
-	- イベント$e_i$がGlobal State $S_i, 0 \leq i \leq n$において起こり得る時に限り（iff）、$seq$を*omputation of the system*といい、$S_{i+1} = next(S_i, e_i) \ \textrm{for} \ 0 \leq i \leq n$という
+	- イベント$e_i$がGlobal State $S_i, 0 \leq i \leq n$において起こり得る時に限り（iff）、$seq$を*Computation of the system*といい、$S_{i+1} = next(S_i, e_i) \ \textrm{for} \ 0 \leq i \leq n$という
 
 （論文には2つほど例が載っている）
 
