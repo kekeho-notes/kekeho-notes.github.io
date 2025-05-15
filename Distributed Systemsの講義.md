@@ -1,3 +1,6 @@
 - Distributed Systems: https://www.cl.cam.ac.uk/teaching/2122/ConcDisSys/dist-sys-handout.pdf
 	- [[Martin Kleppmann]], [[Cambridge]]
 	- Lecture notes: https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/dist-sys-notes.pdf
+- 416: Distributed Systems
+	- [[Ivan Beschastnikh]], [[UBC]]
+	- https://www.cs.ubc.ca/~bestchai/teaching/cs416_2021w2/index.html
