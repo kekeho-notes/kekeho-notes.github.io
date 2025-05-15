@@ -9,7 +9,7 @@ keywords:
   - Quorum
 URL: https://doi.org/10.1145/258533.258650
 ---
-
+ぱ
 # 書誌情報
 - **タイトル**: Byzantine Quorum Systems
 - **著者**: [[Dahlia Malkhi]], [[Michael Reiter]]
