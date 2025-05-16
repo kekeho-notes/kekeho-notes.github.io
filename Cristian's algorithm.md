@@ -1,4 +1,4 @@
-- [[NTP]]の動作原理
+- [[Network Time Protocol|NTP]]の動作原理
 
 # 参考
 - https://en.wikipedia.org/wiki/Cristian%27s_algorithm
